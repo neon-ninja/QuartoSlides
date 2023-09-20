@@ -1,3 +1,9 @@
+# This workflow will detect pushes to the main branch, and build qmd files to HTML
+# The built HTML files are published to the gh-pages branch
+# The gh-pages branch can then be published to GitHub Pages by a different action
+
+# This action is based on https://github.com/quarto-dev/quarto-actions/blob/main/examples/quarto-publish-example.yml
+
 on:
   push:
     branches: main
@@ -18,18 +24,18 @@ jobs:
           tinytex: true 
           # uncomment below and fill to pin a version
           # version: SPECIFIC-QUARTO-VERSION-HERE
-      - name: Req
-        - uses: actions/setup-python@v4
-          with:
-            python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-            cache: 'pip'
-        - run: pip install jupyter # (if jupyter is not part of your requirements.txt)
-        - run: pip install -r requirements.txt  
-        
+
+      # From https://github.com/actions/setup-python
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
-    
