@@ -363,15 +363,14 @@ fig.show()
 
 
 
-
 # test 2
 
 another test
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.26.0/plotly.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/21.0.0/tween.umd.js"></script>
-<div id="plot"></div>
 
+<script  async=false defer=false src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.26.0/plotly.min.js"></script>
+<script  async=false defer=false src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/21.0.0/tween.umd.js"></script>
+<div id="plot"></div>
 <script>
   var data = [{
     values: [19, 26, 55],
