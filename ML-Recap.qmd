@@ -1,10 +1,10 @@
 ---
-title: "ML Carp Recap and Outlook"
+title: "ML-Carp Recap and Outlook"
 subtitle: "What's next?"
 author: "Dr. Jens Brinkmann"
 institute: "The University of Auckland"
-date: today
-date-format: full
+# date: today
+# date-format: 
 # bibliography: refs.bib
 from: markdown+emoji
 # embed-resources: false
@@ -60,25 +60,11 @@ editor:
 
 
 
-
-
-
-# Lesson Overview
-
-We had two big topics: ML and DL
-
-| Lesson Title                                       | Status                                                                                       | Run #1   | Run #2                    |   |
-|----------------------------------------------------|----------------------------------------------------------------------------------------------|----------|---------------------------|---|
-| ~~Programming with Python~~                            | [Released](https://swcarpentry.github.io/python-novice-inflammation/)                        | Mon, Tue |             -             |   |
-| Introduction to Machine Learning with Scikit Learn | [Alpha](https://mike-ivs.github.io/machine-learning-novice-sklearn/02-regression/index.html) | Wed, Thu |  **Mon, Tue** *(+optimisation)* |   |
-| Introduction to Deep Learning                      | [Beta](https://carpentries-incubator.github.io/deep-learning-intro/aio.html)                 |    Fri   |  **Wed, Thu** *(+optimisation)* |   |
-
-*Each session took place on an afternoon for 4-5.*
-
 ## Introduction to Machine Learning with Scikit Learn
 - Nelis introduced us to the topic 
 - Mike built on that 
 - Regression and Classification
+- Ensemble methods, Clustering, Dimension reduction
 
 
 ::: {.r-stack}
@@ -95,16 +81,16 @@ We had two big topics: ML and DL
 ## Introduction to Deep Learning
 - Nidhi switched from generic ML to Deep Learning (DL)
 - Some aspects (there are more:)   
-  - ML: stoachstic; similar if not the same result
+  - ML: is non-stoachstic; similar if not the same result
   - DL: non-convex and complex
-  - DL: only estimated
-  - DL: uses neural networks
+  - DL: only estimated/non-deterministic results/*every run can differ a bit*
+  - DL: of uses neural networks, but also DBN, VAEs, etc.
   - DL: tends to use way more resources (CPU/GPU)
   - ML: Can still solve a lot of real-world issues using limilted resources
 
 
 
-## How we deviated from 'The Carpentries' and why
+## Workflows for heavier computation
 - Google Colab vs. ~~locally installed Jupyter Notebooks~~ or ~~Plain Vanilla Python~~
   - Do all use Colab 'in the real world' all the time? No!
   	- [VSCode](https://code.visualstudio.com/)
@@ -115,11 +101,13 @@ We had two big topics: ML and DL
 
 # Recommended next steps
 - This was a lot of content!
-- Try to integrate it/go through the examples in the near future
-  - schedule it!
+- Go through the examples in the near future / try to practice these techniques in your own research context
+  - Set yourself a deadline
   - not: *I will do that one day*; that day never comes!
-- Please fill out our [Survey](https://auckland.au1.qualtrics.com/jfe/form/SV_7QKm5JodbHrRaWW), now!
-- join [Hacky Hour](https://research-hub.auckland.ac.nz/digital-research-skills/hacky-hour)
+- Please fill out the [Survey](https://auckland.au1.qualtrics.com/jfe/form/SV_7QKm5JodbHrRaWW) before leaving this session
+- Join the [Hacky Hour](https://research-hub.auckland.ac.nz/digital-research-skills/hacky-hour) channel
+  - Hacky Hour - Tuesdays 3-4pm [on Zoom]([link](https://auckland.zoom.us/my/hackyhour))
+  - Our instructors/helpers will be on hand for the next 4 Hacky Hour sessions to help you apply what we’ve covered this week.
 
 # Kaggle
 [Kaggle](https://www.kaggle.com/) is an AI community aimed at getting a better understanding/practice.
@@ -136,8 +124,6 @@ There are competitions that we can recommend:
 
 # Good luck
 
-- Stay in touch with us on your ML/DL/AI journey [CeR](https://eresearch.auckland.ac.nz/)
-- the time is now!
-- While we can't predict what is going to happen in the AI space, we can tell you from experience that we get more researchers making ML-requests almmost daily 
-
-
+- Stay in touch with us on your ML/DL/AI journey
+- Use it or lose it.
+- ML/DL tools are valuable to your research now and your research or other career path.

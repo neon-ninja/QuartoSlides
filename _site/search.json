@@ -205,16 +205,16 @@
   {
     "objectID": "ML-Recap.html#introduction-to-machine-learning-with-scikit-learn",
     "href": "ML-Recap.html#introduction-to-machine-learning-with-scikit-learn",
-    "title": "ML Carp Recap and Outlook",
+    "title": "ML-Carp Recap and Outlook",
     "section": "Introduction to Machine Learning with Scikit Learn",
-    "text": "Introduction to Machine Learning with Scikit Learn\n\nNelis introduced us to the topic\nMike built on that\nRegression and Classification"
+    "text": "Introduction to Machine Learning with Scikit Learn\n\nNelis introduced us to the topic\nMike built on that\nRegression and Classification\nEnsemble methods, Clustering, Dimension reduction"
   },
   {
     "objectID": "ML-Recap.html#introduction-to-deep-learning",
     "href": "ML-Recap.html#introduction-to-deep-learning",
-    "title": "ML Carp Recap and Outlook",
+    "title": "ML-Carp Recap and Outlook",
     "section": "Introduction to Deep Learning",
-    "text": "Introduction to Deep Learning\n\nNidhi switched from generic ML to Deep Learning (DL)\nSome aspects (there are more:)\n\nML: stoachstic; similar if not the same result\nDL: non-convex and complex\nDL: only estimated\nDL: uses neural networks\nDL: tends to use way more resources (CPU/GPU)\nML: Can still solve a lot of real-world issues using limilted resources"
+    "text": "Introduction to Deep Learning\n\nNidhi switched from generic ML to Deep Learning (DL)\nSome aspects (there are more:)\n\nML: is non-stoachstic; similar if not the same result\nDL: non-convex and complex\nDL: only estimated/non-deterministic results/every run can differ a bit\nDL: of uses neural networks, but also DBN, VAEs, etc.\nDL: tends to use way more resources (CPU/GPU)\nML: Can still solve a lot of real-world issues using limilted resources"
   },
   {
     "objectID": "ML-Recap.html#how-we-deviated-from-the-carpentries-and-why",
@@ -222,5 +222,12 @@
     "title": "ML Carp Recap and Outlook",
     "section": "How we deviated from ‘The Carpentries’ and why",
     "text": "How we deviated from ‘The Carpentries’ and why\n\nGoogle Colab vs. locally installed Jupyter Notebooks or Plain Vanilla Python\n\nDo all use Colab ‘in the real world’ all the time? No!\n\nVSCode\nPython locally installed\n\nVirtual Environment\npip install\n\nusing GPU/Nectar/…"
+  },
+  {
+    "objectID": "ML-Recap.html#workflows-for-heavier-computation",
+    "href": "ML-Recap.html#workflows-for-heavier-computation",
+    "title": "ML-Carp Recap and Outlook",
+    "section": "Workflows for heavier computation",
+    "text": "Workflows for heavier computation\n\nGoogle Colab vs. locally installed Jupyter Notebooks or Plain Vanilla Python\n\nDo all use Colab ‘in the real world’ all the time? No!\n\nVSCode\nPython locally installed\n\nVirtual Environment\npip install\n\nusing GPU/Nectar/…"
   }
 ]
