@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "ML-Recap.html#introduction-to-machine-learning-with-scikit-learn",
+    "href": "ML-Recap.html#introduction-to-machine-learning-with-scikit-learn",
+    "title": "ML Carp Recap and Outlook",
+    "section": "Introduction to Machine Learning with Scikit Learn",
+    "text": "Introduction to Machine Learning with Scikit Learn\n\nNelis introduced us to the topic\nMike built on that\nRegression and Classification"
+  },
+  {
+    "objectID": "ML-Recap.html#introduction-to-deep-learning",
+    "href": "ML-Recap.html#introduction-to-deep-learning",
+    "title": "ML Carp Recap and Outlook",
+    "section": "Introduction to Deep Learning",
+    "text": "Introduction to Deep Learning\n\nNidhi switched from generic ML to Deep Learning (DL)\nSome aspects (there are more:)\n\nML: stoachstic; similar if not the same result\nDL: non-convex and complex\nDL: only estimated\nDL: uses neural networks\nDL: tends to use way more resources (CPU/GPU)\nML: Can still solve a lot of real-world issues using limilted resources"
+  },
+  {
+    "objectID": "ML-Recap.html#how-we-deviated-from-the-carpentries-and-why",
+    "href": "ML-Recap.html#how-we-deviated-from-the-carpentries-and-why",
+    "title": "ML Carp Recap and Outlook",
+    "section": "How we deviated from ‘The Carpentries’ and why",
+    "text": "How we deviated from ‘The Carpentries’ and why\n\nGoogle Colab vs. locally installed Jupyter Notebooks or Plain Vanilla Python\n\nDo all use Colab ‘in the real world’ all the time? No!\n\nVSCode\nPython locally installed\n\nVirtual Environment\npip install\n\nusing GPU/Nectar/…"
+  },
+  {
+    "objectID": "ResBazPlanning.html#r",
+    "href": "ResBazPlanning.html#r",
+    "title": "ResBaz 2023 - Scheduling Assistance",
+    "section": "R",
+    "text": "R\n\nLet’s start with R.\nIt is very commonly used\nand it originated from research needs to undertake statistical analysis and to create graphics.\nNowadays, there are heaps of things that you can do with R and these are presented in the session\n“Introduction to R and R Studio”\n\nWhat you learned there will be expanded on in “Using R for statistical analysis” and even more in “Hands-on statistical analysis with R”"
+  },
+  {
+    "objectID": "ResBazPlanning.html#python",
+    "href": "ResBazPlanning.html#python",
+    "title": "ResBaz 2023 - Scheduling Assistance",
+    "section": "Python",
+    "text": "Python\n\nAnother popular programming language in the research Community is Python.\nPython is commonly employed for all kinds of research-tasks.\nTo get an overview, we reommend attending the taster session: “How Can Python Help Your Research?”.\n\nIf you have or already had developed a taste for Python, “Introduction to the Python Programming Language” gets you started with hands-on coding in Python\n\nIf you face challenges with handling/changing/manipulating not one but hundreds or more of files, “Python for Image Manipulation and Repeatable Research Pipelines” helps you in making Python do the work so you can free up some time to focus on research"
+  },
+  {
+    "objectID": "ResBazPlanning.html#cli",
+    "href": "ResBazPlanning.html#cli",
+    "title": "ResBaz 2023 - Scheduling Assistance",
+    "section": "CLI",
+    "text": "CLI\n\nEven though you can run many aspects of R and Python in a graphical user interface or gui, so independent of a command-line interface or CLI, many other software packages do have a cli version\nSome also refer to these as the terminal version.\n\nSometimes this might have even more functionality or\nyou can automate tedious tasks\nor its use contributes to a repeatable and hence reproduicble resareach workflow.\nThese things become more and more important."
+  },
+  {
+    "objectID": "ResBazPlanning.html#cli2",
+    "href": "ResBazPlanning.html#cli2",
+    "title": "ResBaz 2023 - Scheduling Assistance",
+    "section": "CLI2",
+    "text": "CLI2\n\nIn the session “introduction to command line” you will be familiarized with important commands but also the related mindset\nand syntax.\n\nA fancy way os daying how you have to type things out.\nOften upper or lower case, dashes and the sequence matter.\n\nAs a next step, you can apply these skills in the session “using the command line to find replace and manipulate data”\n\nThat session title gives a lot away\nand might save you hours of work"
+  },
+  {
     "objectID": "LaTeX101.html#visualisations-in-tikz",
     "href": "LaTeX101.html#visualisations-in-tikz",
     "title": "LaTeX 101 - Don’t be scared",
@@ -173,54 +222,5 @@
     "title": "Developing a Carpentries-style Machine Learning workshop",
     "section": "What 1 thing you do think we could do better?",
     "text": "What 1 thing you do think we could do better?\n\ntoo fast\nseparate Python\nadhering to break schedule\nComparing Run #1 and #2: What metrics and people say\n\nwhat the numbers say\n\nmore people signed up (word of mouth/positive experince being shared?)\nmore of this and that\n\nwhat the pepole say\n\ninstrcutors/organisers (for the sake of bervity no full quotes)\n\nbetter balance of topics (only ML, DL vs. having to cope with Python)\n\nparticipants\n\n…"
-  },
-  {
-    "objectID": "ResBazPlanning.html#r",
-    "href": "ResBazPlanning.html#r",
-    "title": "ResBaz 2023 - Scheduling Assistance",
-    "section": "R",
-    "text": "R\n\nLet’s start with R.\nIt is very commonly used\nand it originated from research needs to undertake statistical analysis and to create graphics.\nNowadays, there are heaps of things that you can do with R and these are presented in the session\n“Introduction to R and R Studio”\n\nWhat you learned there will be expanded on in “Using R for statistical analysis” and even more in “Hands-on statistical analysis with R”"
-  },
-  {
-    "objectID": "ResBazPlanning.html#python",
-    "href": "ResBazPlanning.html#python",
-    "title": "ResBaz 2023 - Scheduling Assistance",
-    "section": "Python",
-    "text": "Python\n\nAnother popular programming language in the research Community is Python.\nPython is commonly employed for all kinds of research-tasks.\nTo get an overview, we reommend attending the taster session: “How Can Python Help Your Research?”.\n\nIf you have or already had developed a taste for Python, “Introduction to the Python Programming Language” gets you started with hands-on coding in Python\n\nIf you face challenges with handling/changing/manipulating not one but hundreds or more of files, “Python for Image Manipulation and Repeatable Research Pipelines” helps you in making Python do the work so you can free up some time to focus on research"
-  },
-  {
-    "objectID": "ResBazPlanning.html#cli",
-    "href": "ResBazPlanning.html#cli",
-    "title": "ResBaz 2023 - Scheduling Assistance",
-    "section": "CLI",
-    "text": "CLI\n\nEven though you can run many aspects of R and Python in a graphical user interface or gui, so independent of a command-line interface or CLI, many other software packages do have a cli version\nSome also refer to these as the terminal version.\n\nSometimes this might have even more functionality or\nyou can automate tedious tasks\nor its use contributes to a repeatable and hence reproduicble resareach workflow.\nThese things become more and more important."
-  },
-  {
-    "objectID": "ResBazPlanning.html#cli2",
-    "href": "ResBazPlanning.html#cli2",
-    "title": "ResBaz 2023 - Scheduling Assistance",
-    "section": "CLI2",
-    "text": "CLI2\n\nIn the session “introduction to command line” you will be familiarized with important commands but also the related mindset\nand syntax.\n\nA fancy way os daying how you have to type things out.\nOften upper or lower case, dashes and the sequence matter.\n\nAs a next step, you can apply these skills in the session “using the command line to find replace and manipulate data”\n\nThat session title gives a lot away\nand might save you hours of work"
-  },
-  {
-    "objectID": "ML-Recap.html#introduction-to-machine-learning-with-scikit-learn",
-    "href": "ML-Recap.html#introduction-to-machine-learning-with-scikit-learn",
-    "title": "ML Carp Recap and Outlook",
-    "section": "Introduction to Machine Learning with Scikit Learn",
-    "text": "Introduction to Machine Learning with Scikit Learn\n\nNelis introduced us to the topic\nMike built on that\nRegression and Classification"
-  },
-  {
-    "objectID": "ML-Recap.html#introduction-to-deep-learning",
-    "href": "ML-Recap.html#introduction-to-deep-learning",
-    "title": "ML Carp Recap and Outlook",
-    "section": "Introduction to Deep Learning",
-    "text": "Introduction to Deep Learning\n\nNidhi switched from generic ML to Deep Learning (DL)\nSome aspects (there are more:)\n\nML: stoachstic; similar if not the same result\nDL: non-convex and complex\nDL: only estimated\nDL: uses neural networks\nDL: tends to use way more resources (CPU/GPU)\nML: Can still solve a lot of real-world issues using limilted resources"
-  },
-  {
-    "objectID": "ML-Recap.html#how-we-deviated-from-the-carpentries-and-why",
-    "href": "ML-Recap.html#how-we-deviated-from-the-carpentries-and-why",
-    "title": "ML Carp Recap and Outlook",
-    "section": "How we deviated from ‘The Carpentries’ and why",
-    "text": "How we deviated from ‘The Carpentries’ and why\n\nGoogle Colab vs. locally installed Jupyter Notebooks or Plain Vanilla Python\n\nDo all use Colab ‘in the real world’ all the time? No!\n\nVSCode\nPython locally installed\n\nVirtual Environment\npip install\n\nusing GPU/Nectar/…"
   }
 ]
