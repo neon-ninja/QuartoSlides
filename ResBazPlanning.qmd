@@ -1,0 +1,205 @@
+---
+title: "ResBaz 2023 - Scheduling Assistance"
+subtitle: "A guide to learning Pathways"
+author: "Jens Brinkmann"
+institute: "The University of Auckland"
+# logo-container: "ResBaz_transparent_Logo_cropped.svg"
+date: today
+date-format: full
+# bibliography: refs.bib
+from: markdown+emoji
+# embed-resources: false
+format:
+  revealjs:
+    # number-sections: true
+    theme: UoAtemplate.scss
+    # css: ./logo.css
+    # disableLayout: true
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    transition: convex
+    width: 1600
+    height: 900
+    margin: 0.2
+    # background-image: ./ResBaz_transparent_Logo_cropped.svg
+    # background-opacity: 0.5
+    # background-position: bottom 10px right 20px
+    # background-size: contain
+    # data-background-repeat: no-repeat
+    # background-size: 80px
+    # background-repeat: no-repeat
+    # background-position: 0% 100%
+    # logo: ResBaz_transparent_cropped.svg
+    # self_contained: false
+    reveal_plugins: ["menu"]
+    reveal_options:
+      menu:
+        numbers: true
+    header: ResBaz 2023 | Scheduling Assistance
+    header-logo: ResBaz_transparent_cropped.svg
+    hide-from-titleSlide: all
+    filters:
+      - reveal-header
+      - line-highlight
+--- 
+
+# Intro
+
+- Kia ora, welcome
+- In this video we will try to help you with selecting and sequencing some ResBaz sessions 
+  - and that should all be based on your needs.
+
+# Website
+- Our schedule can be found on the resbaz.auckland.ac.nz website and after explaining some core aspects we will have a look at it together.
+
+# Taster and Practical sessions
+- First of all, sessions can be categorized as either taster or practical sessions. 
+  - A taster session should provide you with an introduction to the topic and that shall enable you to get a basic understanding of the tool or the process or the skill that the session is about.
+    - This shall also help you in the decision if that topic is something that you want to invest more time in.
+    - These taster sessions are typically about an hour long and many of them have a title starting with "introduction to..." 
+  - Practical sessions are for everybody from beginners through to those with Advanced skills. 
+    - Some are an hour, but they are typically two to three hours long. 
+    - In such paractical sessions, you will gain some exposure to the doing the thing the session is about. 
+    - Because the focus is on "you doing things" you may be asked to pre-install some software and we urge you to double check such requirements.
+
+# Requirements
+- Most sessions do not require you to know things in-depth or to have experience
+- some do expect you you to have a fundamental understanding
+- such information can be found in the description of each session
+
+- But please be aware that several sessions --- especially the practical ones --- have requirements in the sense of software to be preinstalled, data to be downloaded, etc.
+ - On the website we have a category dedicated to pre-install requirements.
+ - Those who have not done the setup before the session starts may have to simply observe.
+
+# Scheduling
+- OK, back to scheduling...
+- because we ant to provide you with some guidance we have thought about three **Learning Pathways** to reflect different *types of research* or we could also say the different *areas of interest*.
+- There are lots of these sessions that we have categorised here that have an overlap with other learning pathways. Or they might even cut across all three pathways
+- and there are many equally interesting sessions that we aren't able to cover in this video.
+
+# Goal 
+- Nevertheless the goal of this video is to support you in your ResBaz planning. 
+- So we will use the following headlines or 'Learning Pathways' and link sessions to them.
+- The first one is "Research Computing", the second one is D"Publications, Engagement & Impact" and the third one is "Data Collection & Cleaning".
+  - Firstly, let me explain the concept behind each of these three, then we will have a look at relevant sessions:
+    - Okay, so let's start with Research Computing. This often involves topics that are related to data science but that doesn't mean that you have to be a data scientist. 
+      - At first, let's explore WHAT we can do. This is mostly about different programming lanugages such as Python, R and Julia, as well as the commandline interface. 
+      - Next, we talk about HOW TO APPLY this or WHAT RESOURCES TO USE. Many researchers simply need more computational power than your standard laptop or desktop can provide. Therefore you will learn some skills to access more power and to use other research compute options.
+
+# Screenflow
+Okay so if you want to follow along and have a look at the schedule as I mentioned earlier please go to the resbaz.auckland.ac.nz website and in this top navigation click on schedule.
+Here you can filter sessions by the mentioned topics, let's go for 'Research Computing'
+
+# Pathway 1: Research Computing
+- So, in Research Computing, the first half is dedicated to **WHAT** can be done **with** Research Computing. 
+  - Sessions introducing you to programming languages such as  Python, R, or Julia reflect **WHAT** can be done **with** Research Computing. 
+
+## R   
+- Let's start with R. 
+- It is very commonly used 
+- and it originated from research needs to undertake statistical analysis and to create graphics. 
+- Nowadays, there are heaps of things that you can do with R and these are presented in the session 
+- **"Introduction to R and R Studio"**
+  - What you learned there will be expanded on in **"Using R for statistical analysis"** and even more in **"Hands-on statistical analysis with R"**
+
+## Python
+- Another popular programming language in the research Community is Python. 
+- Python is commonly employed for all kinds of research-tasks. 
+- To get an overview, we reommend attending the taster session: **"How Can Python Help Your Research?"**. 
+  - If you have or already had developed a taste for Python, **"Introduction to the Python Programming Language"** gets you started with hands-on coding in Python
+- If you face challenges with handling/changing/manipulating *not one but hundreds or more* of files, **"Python for Image Manipulation and Repeatable Research Pipelines"** helps you in making Python do the work so you can free up some time to focus on research
+
+## CLI
+- Even though you can run many aspects of R and Python in a graphical user interface or gui, so independent of a *command-line interface* or *CLI*, many other software packages do have a cli version
+- Some also refer to these as the *terminal version*. 
+  - Sometimes this might have even **more functionality** or
+  - you can automate tedious tasks
+  - or its use contributes to a **repeatable** and hence **reproduicble** resareach workflow. 
+  - These things become more and more important. 
+
+## CLI2
+- In the session **"introduction to command line"** you will be *familiarized* with **important commands** but also the related **mindset** 
+- and **syntax**. 
+  - A fancy way os daying how you have to type things out. 
+  - Often upper or lower case, dashes and the sequence matter. 
+
+- As a next step, you can *apply* these skills in the session **"using the command line to find replace and manipulate data"** 
+  - That session title gives a lot away
+  - and might save you hours of work 
+
+# AI
+- Another aspect of research with Computing that is trending right now is what some refer to as AI or artificial intelligence and others as machine learning or ml. 
+  - The relatively new language Julia aims to unite the need for controlling *what is going on under the hood* while also being *user friendly*. 
+  - Therefore, we have three sessions that are dedicated to Julia and build upon one another in the following way:
+    - Firstly there's the session **"what is the Julia programming language and is it right for me"**
+    - Then, in the session **"getting started with the Julia programming language"**  you will see more details 
+    - and ultimately in the session **"introduction to using Julia for machine learning"** you will get hands-on experience with Julia and ML
+
+
+# Computing power
+- So, we just talked about programming lanugages and ML and have looked at **WHAT** can be done **with** Research Computing. 
+- Let's shift the focus to **HOW TO APPLY** what we just talked about or in other words **WHAT RESOURCES TO USE**.
+- ML and many other tasks supported by programming activities requiring heaps of processing power
+  - Power that your laptop or desktop isn't able to provide. 
+  - You might need something more 'beefy'. 
+- In particular for our participants from the University of Auckland can get an overview by attending **"research compute an overview of options at the University of Auckland"** 
+- And then there are two sessions for the New Zealand eScience Infrastructure - NeSI - who offer high performance Computing or some of you might already know this as HPC. 
+  - The first session has the telling name **"what is NeSI New Zealand's national high performance computers"** 
+  - This knowledge is put into action in the session **"Introduction to High Performance Computing with NeSI"**.
+
+# Pathway 2: Data Collection & Cleaning
+- let's have a look at the second Learning Pathway that we termed "Data Collection and Cleaning". 
+- Most research invovles data. 
+  - You create it
+  - Someone else created it
+  - or a mix of these 
+  - several sessions are dedicated to collecting data efficiently.
+
+
+ # Qualitative
+- maybe you want to create new empirical insights as part of your research 
+- maybe you want to be running experiments or various kinds of studies there are few established software packages available to perform qualitative research efficiently 
+- in this year's ResBaz we offer two sessions around Nvivo
+  - the session and **Nvivo showcase** is right for you 
+    - if you have either never heard of it 
+    - or you might have opened it or even if you have already used it for a particular topic 
+    - but now you want to see what else is possible 
+  - the second NVivo session **"NVivo for literature reviews"** is all about what the title says:
+    -  and it shows you efficient processes of integrating Empirical research with the literature
+- Another important piece of software for data collection is Qualtrics
+  - Qualtrics is an often employed product with a strong focus on surveys and customer experience
+  - an overview will be provided in the session **introduction to qualtrics for research surveys** 
+    - Qualtrics will also be used in the session **collecting sensitive research data** 
+      - remember, there are several ways in which research data can be sensitive 
+      - for example if it involves human participants 
+      - while you might want to maximize their anonymity research interests or ethics might require you to keep track of some aspects of your participants or their responses 
+      - how to achieve that is the core of this session
+
+
+# Tidy Data
+- moving on, we now have gotten to know sessions that support you with data collection. 
+- Even with good intentions or ingesting data from trusted sources, that data might need to be *modified*
+- that's especially true if you want to leverage computers to help you with that data's use
+- More often than not this *modification* that I just mentioned is Data Cleaning or Wrangling
+- To share a secret, not many peoples' love such tasks
+- but these are often very necessary
+- So, if you attend some of these sessions we will talk about soon, you might get these tedious tasks out of the way more efficently
+
+- the session **Keeping your spreadsheets tidy** is a good introduction to the overall topic and makes this a bit more tangible
+- Building up on that, you will be introduced to free and very neat tool called open refine  in the session **introduction to cleaning and transforming data with open refine** 
+  - and for the case that you are already an R user we have the session **tidyverse and Beyond key tips for existing R users** on offer 
+
+
+# Pathway 3: Publications, Engagement & Impact
+- Our thrid and final Learning Pathway is  **Publications, Engagement & Impact** 
+- let's talk about what some consider the *currency of research*: *publishing*
+- but before we publish and even after we have to consider several aspects 
+- let's talk about these in the sequence how you might encounter them when you are performing your research
+- a famous saying goes *an image says more than a thousand words* so you might want to tie in a neat visualization to improve your publication's narrative 
+  - and on a side note we have several ResBaz sessions about visualization on offer
+  - one great way of seamlessly integrating visuals into your publication is presented to you in the session **Digital Storytelling with KnightLab** 
+  - so for your research you might have spent ages on refining it and our output which is in many cases just the PDF file should reflect that it should look awesome one set of tools for this purpose has been around for decades some fear its name: LaTeX, Ley-tech and want to stick with Micosoft Word etc.
+  - But, we have three sessions on offer that hopefully will convince you to become a LaTeX user.
+    whichw tool trying to rule them all quarter and she will be introduced to it in the session authoring collaborative research projects in quarto some aspects of quarto such as Automation and reproducibility at the heart of the topics that we'll talk about next so let's assume we have nailed our paper writing we have those beautiful documents but we need to get them out there firstly you have to decide what is a good Journal help for that and to get an overview how the publishing process usually unfolds is provided in the session strategic publishing deciding where to publish and understanding the process one flavor of publishing that is becoming more and more important is open access in the session Open Access how to make your Publications open you will be familiarized with the basics but getting our work out there by publishing alone isn't enough we want to maximize impact and we want to promote our work the focus of the sessions using researcher profiles and social media to promote your research is helping you with online identities and established Outlets or you don't want to exclusively rely on such external commercial media outlets in the session build a research portfolio website using GitHub you will get hands-on experience with creating your own website to Showcase your work foreign [Music]
+

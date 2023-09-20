@@ -1,0 +1,428 @@
+---
+title: "Developing a Carpentries-style Machine Learning workshop"
+subtitle: "Lighning talk ⚡️"
+author: "Dr. Jens Brinkmann"
+institute: "The University of Auckland"
+# logo-container: "ResBaz_transparent_Logo_cropped.svg"
+date: 10/17/2023
+date-format: full
+
+# bibliography: refs.bib
+from: markdown+emoji
+# embed-resources: false
+format:
+  revealjs:
+    # tbl-cap-location: bottom
+    # number-sections: true
+    theme: UoAtemplate.scss
+    # css: ./logo.css
+    # disableLayout: true
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    transition: convex
+    width: 1600
+    height: 900
+    margin: 0.2
+    # logo: "./UoALogoDarkBlueRGBLandscape.png"
+    title-slide-attributes:
+        data-background-image: UoALogoDarkBlueRGBLandscape.png
+        data-background-size: 20%
+        # data-background-postion: right
+        data-background-position: 95% 76%
+        # data-background-position: bottom 10px right 20px
+    # background-image: ./ResBaz_transparent_Logo_cropped.svg
+    # background-opacity: 0.5
+    # background-position: bottom 10px right 20px
+    # background-size: contain
+    # data-background-repeat: no-repeat
+    # background-size: 80px
+    # background-repeat: no-repeat
+    # background-position: 0% 100%
+    # logo: ResBaz_transparent_cropped.svg
+    # self_contained: false
+    reveal_plugins: ["menu"]
+    reveal_options:
+      menu:
+        numbers: true
+    header: Developing a Carpentries-style Machine Learning workshop 
+    header-logo: UoALogoDarkBlueRGBLandscape.png
+    hide-from-titleSlide: all
+    filters:
+      - reveal-header
+      - line-highlight
+    
+editor:
+  render-on-save: true
+  # execute:
+  #   echo: false
+
+--- 
+
+
+# to do
+- think about more visualisations
+- AI generated!
+- some more video snippets?
+- put a UoA banner and title on each slide (that was the plan of my GitHub Fork)
+
+
+
+# Intro
+
+- ML/AI are without a doubt a big topic
+- Empowering reserachers to use relevant approaches in their work is very rewarding, but also challenging
+- [The Carpentries](https://carpentries.org/)  offer a proven teaching style also supporting participants with limited IT experience
+  - ![The Carpentries](TheCarpentries.svg){ width=20% }
+  - core aspects are live-coding, a positive attitude not anticipating prerequirments and participant invovlement
+- The [CeR (Centre for eResearch)](http://eresearch.auckland.ac.nz/) at the University of Auckland acquired funding to further develop and run a series of workshops, referred to as *ML-Carp*
+- [Goolge Colab](https://colab.research.google.com/) ![Colab](./Google_Colaboratory_SVG_Logo.svg){ width=10% } was used over local Python installs to focus attention on content
+
+# Lesson Overview
+
+
+| Lesson Title                                       | Status                                                                                       | Run #1   | Run #2                    |   |
+|----------------------------------------------------|----------------------------------------------------------------------------------------------|----------|---------------------------|---|
+| Programming with Python                            | [Released](https://swcarpentry.github.io/python-novice-inflammation/)                        | Mon, Tue |             -             |   |
+| Introduction to Machine Learning with Scikit Learn | [Alpha](https://mike-ivs.github.io/machine-learning-novice-sklearn/02-regression/index.html) | Wed, Thu |  Mon, Tue *(+optimisation)* |   |
+| Introduction to Deep Learning                      | [Beta](https://carpentries-incubator.github.io/deep-learning-intro/aio.html)                 |    Fri   |  Wed, Thu *(+optimisation)* |   |
+
+*Each session took place on an afternoon for 4-5.*
+
+
+# Run #1 (from day x to y)
+-  Mainly statistics here (40 people, pie chart what faculty, ...)
+-  takeaway message: various, most without background
+-  some quotes
+   -  very good
+   -  limited breaks
+   -  ...
+-  observation: Even at the very end of the sessions, questions, participantion and interest didn't cease
+
+## Metrics
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<!-- {{< embed ./Plots.ipynb#two >}} -->
+```{python}
+import plotly.express as px
+import pandas as pd
+import plotly.io as pio
+import numpy as np
+import plotly.graph_objects as go
+
+# Define your custom color palette as a list of HEX color codes or named colors
+custom_colors = ['#00467F', '#009AC7', '#8D9091', '#A71930', '#7D0063', '#D2492A', '#55A51C', '#4F2D7F', '#005B82', '#00877C', '#0039A6', '#BA4482', '#006990']
+
+
+# Read data from the CSV file
+df = pd.read_csv('./InputData.csv')
+df2 = df.drop([0, 1])
+# df2
+```
+
+```{python}
+option_counts = df2['Q1'].value_counts()
+# Create a DataFrame from the value_counts() result
+option_counts_df = pd.DataFrame({'Option': option_counts.index, 'Count': option_counts.values})
+
+# Display the result as a DataFrame
+# print(option_counts_df)
+
+fig = px.pie(option_counts_df, values='Count', names='Option', color_discrete_sequence=custom_colors)
+fig.update_layout(
+    title="Pariticpants' Background",
+#     # xaxis_title="X Axis Title",
+#     # yaxis_title="Y Axis Title",
+#     # legend_title="Legend Title",
+    font=dict(
+        family="Verdana",
+        size=18,
+        # color="RebeccaPurple"
+    )
+)
+fig.show()
+
+
+```
+
+
+
+:::
+
+::: {.column width="50%"}
+<!-- Pariticpants' Operating Systems -->
+```{python}
+option_counts = df2['Q2'].value_counts()
+# Create a DataFrame from the value_counts() result
+option_counts_df2 = pd.DataFrame({'Option': option_counts.index, 'Count': option_counts.values})
+
+# Display the result as a DataFrame
+# print(option_counts_df)
+
+fig = px.pie(option_counts_df2, values='Count', names='Option', color_discrete_sequence=custom_colors)
+fig.update_layout(
+    title="Pariticpants' Operating System",
+#     # xaxis_title="X Axis Title",
+#     # yaxis_title="Y Axis Title",
+#     # legend_title="Legend Title",
+    font=dict(
+        family="Verdana",
+        size=18,
+        # color="RebeccaPurple"
+    )
+)
+
+fig.show()
+```
+
+:::
+
+::::
+
+
+
+## Plot 2
+```{python}
+
+# List of column names you want to plot
+columns_to_plot = ['Q3_1', 'Q3_2', 'Q3_3', 'Q3_4', 'Q3_5', 'Q3_6']
+
+# String to be stripped from each element
+string_to_strip = "Please rate your level of agreement with the following statements (0 = complete disagreement, 100 = complete agreement). - "
+
+
+
+for column in columns_to_plot:
+    df[column] = df[column].str.replace(string_to_strip, '', case=False)  # case=False makes it case-insensitive
+
+
+# Convert the columns to float (if needed)
+for column in columns_to_plot:
+    df2[column] = df2[column].astype(float)
+
+
+
+it_number = 0
+
+# Create a subplot for each column
+subplots = []
+for column in columns_to_plot:
+    median_value = df2[column].median()
+    subplot = go.Box(y=df2[column],
+                     boxpoints='all',   # can also be 'outliers', 'suspectedoutliers', or False
+                     jitter=0.3,        # add some jitter for better separation between points
+                     pointpos=-1.8,     # relative position of points with respect to the box
+                     line=dict(color=custom_colors[it_number]),  # Custom color for the box outline
+                     marker=dict(color=custom_colors[it_number]),
+                     name=df.loc[0,column]
+                     )       # set the name for the legend
+    subplots.append(subplot)
+    it_number += 1
+
+
+
+# Create a figure with subplots
+fig = go.Figure(data=subplots)
+
+# Force Scale to 0-100
+fig.update_layout(yaxis_range=[0, 100])
+
+
+# Initialize a counter variable
+iteration_number = 0
+
+
+for column in columns_to_plot:
+    median_value = df2[column].median()
+    fig.add_annotation(
+        x=iteration_number,
+        y=median_value,
+        text=f'Median: {median_value:.2f}',
+        font=dict(size=14, color="black"),
+        showarrow=True,
+        arrowhead=7,
+        ax=0,
+        ay=-20)
+    # Increment the counter
+    iteration_number += 1
+
+# Customize the layout
+fig.update_layout(
+    title="Agreement with statements: 0 = complete disagreement, 100 = complete agreement",
+    # xaxis_title="Columns",
+    # yaxis_title="Values",
+    font=dict(
+        family="Verdana",
+        size=18,
+    )
+)
+
+fig.update_traces()
+# fig.update_layout(showlegend=False)
+# Remove x-axis labels and ticks
+fig.update_xaxes(
+    showticklabels=False,  # Hide tick labels
+    showline=False,        # Hide x-axis line
+    zeroline=False         # Hide zero line
+)
+
+# Position the legend under the boxplot
+fig.update_layout(
+    legend=dict(
+        x=0.5,             # Set the x-position to the center
+        y=-0.2,            # Set the y-position below the boxplot
+        xanchor='center',  # Center the legend horizontally
+        yanchor='top',     # Anchor the legend to the bottom of the plot
+        font=dict(
+            size=18         # Set the legend text size to 18
+        )
+    )
+)
+
+
+# Add a horizontal line to the boxplot
+average_values = df2[columns_to_plot].mean()
+overall_avg = average_values.mean()
+# print(overall_avg)
+
+fig.add_shape(
+    go.layout.Shape(
+        type="line",
+        x0=-1,
+        x1=len(columns_to_plot),
+        y0=overall_avg,
+        y1=overall_avg,
+        line=dict(color="red", width=2),
+    )
+)
+fig.add_annotation(
+    x=len(columns_to_plot),
+    y=overall_avg,
+    text=f'Overall avg: {overall_avg:.2f}',
+    font=dict(size=14, color="red"),
+    # showarrow=True,
+    # arrowhead=7,
+    ax=0,
+    ay=20
+    )
+
+
+# Show the box plots
+fig.show()
+```
+
+# Reflection on Run #1 and adaption
+- The learning curve appeared too steep. From no coding to refined DL approaches in a few days appeared too challenging
+  - (some) Python knowledge was made a prerequisite for the Run #2. That hasn't lead to a decline in registrations
+  - Two (half) days of Python being removed from this run's curriculum freed up time to allow for more breaks, an even slower pace and answering more specific questions
+- End of the run shouldn't imply ceasing communication with (most) participants
+  - while some researchs continue to stay in touch with CeR after Run #1, to keep up the momentum of more participants, after the end of the workshop should be less of a cut and more 'faded out'
+    - A curated set of links for self-study was deemed too generic with an anticipated low continued interst in fully self-motivated  
+    - Slack sub channel with targeted support
+    - Kaggle?
+    - VSC and local Python/GPU/Nectar/... 
+    - ![Comparison](ComparisonRevRun1And2.jpg) TODO: make this appear and disappear
+
+# What participants of Run #1 said
+## What 1 thing did you like and would want to see in future workshops?
+- *"apply these ML techniques on the different field"*
+  - hard to achieve, focus on underlying theory
+- *"slower pace"*
+  - removed Python from curriculum 
+- *"some research paper example?"*
+  - hard
+- *"add some quick group exercise session or quiz"*
+  - more links/examples after the run
+- *"many people were online to help the students"*
+  - continued with many helpers
+
+## What 1 thing you do think we could do better?
+- too fast
+- separate Python 
+- adhering to break schedule
+
+  # Comparing Run #1 and #2: What metrics and people say
+  - what the numbers say 
+    - more people signed up (word of mouth/positive experince being shared?)
+    - more of this and that
+  - what the pepole say
+    - instrcutors/organisers (for the sake of bervity no full quotes)
+      - better balance of topics (only ML, DL vs. having to cope with Python)
+    - participants
+      - ...
+
+# Outlook
+- while specific funding (for lesson preparation and delivery) has ended, the importance of the topic continues to increase
+- more sessions are planned
+- current Slack seems promising
+- the decision to teach Python at SW Carp was deemed good
+
+
+
+
+
+
+# test 2
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.26.0/plotly.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/21.0.0/tween.umd.js"></script>
+<div id="plot"></div>
+
+<script>
+  var data = [{
+    values: [19, 26, 55],
+    labels: ['Residential', 'Non-Residential', 'Utility'],
+    pull: [0, 0, 0],
+    type: 'pie',
+    automargin: true
+  }];
+
+  var layout = {
+    height: "100%",
+    width: "100%"
+  };
+
+  var plot = document.getElementById('plot')
+  Plotly.newPlot(plot, data, layout);
+
+  window.tween = null;
+
+  function tween_function(d, from=0, to=0.5) {
+    var tweenValue = {pull: from}
+    window.tween = new TWEEN.Tween(tweenValue, false)
+    .to({pull: to}, 300)
+    .easing(TWEEN.Easing.Quadratic.InOut)
+    .onUpdate(() => {
+      var pull = [0,0,0]
+      pull[d.pointNumber] = tweenValue.pull
+      d.data.pull = pull
+      Plotly.restyle(plot, {
+        marker: {
+          pull: pull
+        }
+      });
+    }).start()
+  }
+
+  function animate(time) {
+    if (window.tween) {
+      window.tween.update(time)
+    }
+    requestAnimationFrame(animate)
+  }
+  animate()
+
+  plot.on('plotly_hover', function(data){
+    //if (tween && tween.isPlaying()) return
+    var d = data.points[0]
+    tween_function(d)
+  });
+
+  plot.on('plotly_unhover', function(data) {
+    if (tween && tween.isPlaying()) return
+    var d = data.points[0]
+    tween_function(d, 0.5, 0)
+  })
+</script>

@@ -1,0 +1,5 @@
+*.html
+/.luarc.json
+
+
+/.quarto/

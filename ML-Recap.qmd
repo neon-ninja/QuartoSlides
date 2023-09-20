@@ -1,0 +1,143 @@
+---
+title: "ML Carp Recap and Outlook"
+subtitle: "What's next?"
+author: "Dr. Jens Brinkmann"
+institute: "The University of Auckland"
+date: today
+date-format: full
+# bibliography: refs.bib
+from: markdown+emoji
+# embed-resources: false
+format:
+  revealjs:
+    # tbl-cap-location: bottom
+    # number-sections: true
+    theme: UoAtemplate.scss
+    # css: ./logo.css
+    # disableLayout: true
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    transition: convex
+    width: 1600
+    height: 900
+    margin: 0.2
+    # logo: "./UoALogoDarkBlueRGBLandscape.png"
+    title-slide-attributes:
+        data-background-image: UoALogoDarkBlueRGBLandscape.png
+        data-background-size: 20%
+        # data-background-postion: right
+        data-background-position: 95% 76%
+        # data-background-position: bottom 10px right 20px
+    # background-image: ./ResBaz_transparent_Logo_cropped.svg
+    # background-opacity: 0.5
+    # background-position: bottom 10px right 20px
+    # background-size: contain
+    # data-background-repeat: no-repeat
+    # background-size: 80px
+    # background-repeat: no-repeat
+    # background-position: 0% 100%
+    # logo: ResBaz_transparent_cropped.svg
+    # self_contained: false
+    reveal_plugins: ["menu"]
+    reveal_options:
+      menu:
+        numbers: true
+    header: ML Carp Recap and Outlook
+    header-logo: UoALogoDarkBlueRGBLandscape.png
+    hide-from-titleSlide: all
+    filters:
+      - reveal-header
+      - line-highlight
+    
+editor:
+  render-on-save: true
+  # execute:
+  #   echo: false
+
+--- 
+
+
+
+
+
+
+
+# Lesson Overview
+
+We had two big topics: ML and DL
+
+| Lesson Title                                       | Status                                                                                       | Run #1   | Run #2                    |   |
+|----------------------------------------------------|----------------------------------------------------------------------------------------------|----------|---------------------------|---|
+| ~~Programming with Python~~                            | [Released](https://swcarpentry.github.io/python-novice-inflammation/)                        | Mon, Tue |             -             |   |
+| Introduction to Machine Learning with Scikit Learn | [Alpha](https://mike-ivs.github.io/machine-learning-novice-sklearn/02-regression/index.html) | Wed, Thu |  **Mon, Tue** *(+optimisation)* |   |
+| Introduction to Deep Learning                      | [Beta](https://carpentries-incubator.github.io/deep-learning-intro/aio.html)                 |    Fri   |  **Wed, Thu** *(+optimisation)* |   |
+
+*Each session took place on an afternoon for 4-5.*
+
+## Introduction to Machine Learning with Scikit Learn
+- Nelis introduced us to the topic 
+- Mike built on that 
+- Regression and Classification
+
+
+::: {.r-stack}
+![](regression_example.png){.fragment width=80% .fade-in-then-out}
+
+![](e3_dt_space_2.png){.fragment width=100% .fade-in-then-out}
+
+:::
+
+
+
+
+
+## Introduction to Deep Learning
+- Nidhi switched from generic ML to Deep Learning (DL)
+- Some aspects (there are more:)   
+  - ML: stoachstic; similar if not the same result
+  - DL: non-convex and complex
+  - DL: only estimated
+  - DL: uses neural networks
+  - DL: tends to use way more resources (CPU/GPU)
+  - ML: Can still solve a lot of real-world issues using limilted resources
+
+
+
+## How we deviated from 'The Carpentries' and why
+- Google Colab vs. ~~locally installed Jupyter Notebooks~~ or ~~Plain Vanilla Python~~
+  - Do all use Colab 'in the real world' all the time? No!
+  	- [VSCode](https://code.visualstudio.com/)
+  	- Python locally installed
+    	- Virtual Environment
+    	- `pip install`
+  	- using GPU/[Nectar](https://research-hub.auckland.ac.nz/research-software-and-computing/advanced-compute/nectar-research-cloud)/...
+
+# Recommended next steps
+- This was a lot of content!
+- Try to integrate it/go through the examples in the near future
+  - schedule it!
+  - not: *I will do that one day*; that day never comes!
+- Please fill out our [Survey](https://auckland.au1.qualtrics.com/jfe/form/SV_7QKm5JodbHrRaWW), now!
+- join [Hacky Hour](https://research-hub.auckland.ac.nz/digital-research-skills/hacky-hour)
+
+# Kaggle
+[Kaggle](https://www.kaggle.com/) is an AI community aimed at getting a better understanding/practice.
+There are competitions that we can recommend:
+
+- Regression:
+  - [House Prices](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) :house:
+- Classification:
+  - [Titanic](https://www.kaggle.com/competitions/spaceship-titanic/data) :ship:
+  - [Spaceship Titanic](https://www.kaggle.com/competitions/spaceship-titanic/data) 🛰️ :ship:
+  - [mnist digit recognition](https://www.kaggle.com/competitions/digit-recognizer/data) :pen: (probably quite a bit harder just because of the data input/processing)
+  
+(Alternative to Kaggle: [Scikit Toy Datasets](https://scikit-learn.org/stable/datasets/toy_dataset.html))
+
+# Good luck
+
+- Stay in touch with us on your ML/DL/AI journey [CeR](https://eresearch.auckland.ac.nz/)
+- the time is now!
+- While we can't predict what is going to happen in the AI space, we can tell you from experience that we get more researchers making ML-requests almmost daily 
+
+
