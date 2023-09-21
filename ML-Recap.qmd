@@ -122,8 +122,17 @@ There are competitions that we can recommend:
   
 (Alternative to Kaggle: [Scikit Toy Datasets](https://scikit-learn.org/stable/datasets/toy_dataset.html))
 
+# Links to Teaching Material and Slides
+
+- [ML content](https://mike-ivs.github.io/machine-learning-novice-sklearn/)
+- [DL content](https://carpentries-incubator.github.io/deep-learning-intro/)
+- [DL slide deck](https://drive.google.com/file/d/10cgZIeasB-yhU9DX87AaxPHlueuDym8u/view?usp=sharing)
+- [This Deck of Slides](https://jensbri.github.io/QuartoSlides/ML-Recap#/title-slide)
+
+
 # Good luck
 
 - Stay in touch with us on your ML/DL/AI journey
-- Use it or lose it.
-- ML/DL tools are valuable to your research now and your research or other career path.
+- Use it or lose it
+- ML/DL tools are valuable to your research now and your research or other career path
+
