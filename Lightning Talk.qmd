@@ -61,10 +61,10 @@ editor:
 
 
 # to do
+- backup of slide deck as PDF (just in case )
 - think about more visualisations
 - AI generated!
 - some more video snippets?
-- put a UoA banner and title on each slide (that was the plan of my GitHub Fork)
 
 
 
@@ -76,7 +76,7 @@ editor:
   - ![The Carpentries](TheCarpentries.svg){ width=20% }
   - core aspects are live-coding, a positive attitude not anticipating prerequirments and participant invovlement
 - The [CeR (Centre for eResearch)](http://eresearch.auckland.ac.nz/) at the University of Auckland acquired funding to further develop and run a series of workshops, referred to as *ML-Carp*
-- [Goolge Colab](https://colab.research.google.com/) ![Colab](./Google_Colaboratory_SVG_Logo.svg){ width=10% } was used over local Python installs to focus attention on content
+- [Goolge Colab](https://colab.research.google.com/) ![Colab](./Google_Colaboratory_SVG_Logo.svg){ width=3% } was used over local Python installs to focus attention on content
 
 # Lesson Overview
 
@@ -312,6 +312,13 @@ fig.add_annotation(
 # Show the box plots
 fig.show()
 ```
+
+::: {.fragment .fade-in}
+:::{.callout-note}
+All statements are positively phrased; overall the results confirm a poasitive appreciation.
+:::
+:::
+
 
 # Reflection on Run #1 and adaption
 - The learning curve appeared too steep. From no coding to refined DL approaches in a few days appeared too challenging
