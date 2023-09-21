@@ -1,7 +1,20 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;" width="977"  height="602" ><g>
-      <path d="M4.54,9.46,2.19,7.1a6.93,6.93,0,0,0,0,9.79l2.36-2.36A3.59,3.59,0,0,1,4.54,9.46Z" style="" fill="#E8710A"></path>
-      <path d="M2.19,7.1,4.54,9.46a3.59,3.59,0,0,1,5.08,0l1.71-2.93h0l-.1-.08h0A6.93,6.93,0,0,0,2.19,7.1Z" style="" fill="#F9AB00"></path>
-      <path d="M11.34,17.46h0L9.62,14.54a3.59,3.59,0,0,1-5.08,0L2.19,16.9a6.93,6.93,0,0,0,9,.65l.11-.09" style="" fill="#F9AB00"></path>
-      <path d="M12,7.1a6.93,6.93,0,0,0,0,9.79l2.36-2.36a3.59,3.59,0,1,1,5.08-5.08L21.81,7.1A6.93,6.93,0,0,0,12,7.1Z" style="" fill="#F9AB00"></path>
-      <path d="M21.81,7.1,19.46,9.46a3.59,3.59,0,0,1-5.08,5.08L12,16.9A6.93,6.93,0,0,0,21.81,7.1Z" style="" fill="#E8710A"></path>
-    </g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 593.8 347.8" style="enable-background:new 0 0 593.8 347.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E8710A;}
+	.st1{fill:#F9AB00;}
+</style>
+<g>
+	<path class="st0" d="M109.7,110.2L50.8,51c-67.7,67.9-67.7,177.7,0,245.6l59.2-59.2C74.9,202.3,74.7,145.4,109.7,110.2z"/>
+	<path class="st1" d="M50.8,51l58.9,59.2c35.1-35.2,92.2-35.2,127.3-0.1c0,0,0,0,0.1,0.1L280,36.7l0,0l-2.5-2l0,0
+		C208.4-16.9,111.8-9.9,50.8,51z"/>
+	<path class="st1" d="M280.3,310.9L280.3,310.9l-43.1-73.2c-35.1,35.2-92.2,35.2-127.3,0.1c0,0,0,0-0.1-0.1l-58.9,59.2
+		c60.9,60.4,156.8,67.3,225.8,16.3l2.8-2.3"/>
+	<path class="st1" d="M296.8,51c-67.7,67.9-67.7,177.7,0,245.6l59.2-59.2c-35.2-35.2-35.2-92.2,0-127.4s92.2-35.2,127.4,0L542.9,51
+		C475.1-16.9,365-17,297.1,50.8C297,50.9,296.9,51,296.8,51z"/>
+	<path class="st0" d="M542.9,51L484,110.2c35.2,35.2,35.2,92.2,0,127.4s-92.2,35.2-127.4,0l0,0l-59.7,59.2
+		c67.9,67.9,178,68,245.9,0.1S610.8,119,542.9,51L542.9,51z"/>
+</g>
+</svg>
