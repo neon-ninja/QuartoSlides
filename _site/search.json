@@ -229,5 +229,40 @@
     "title": "ML-Carp Recap and Outlook",
     "section": "Workflows for heavier computation",
     "text": "Workflows for heavier computation\n\nGoogle Colab vs. locally installed Jupyter Notebooks or Plain Vanilla Python\n\nDo all use Colab ‘in the real world’ all the time? No!\n\nVSCode\nPython locally installed\n\nVirtual Environment\npip install\n\nusing GPU/Nectar/…"
+  },
+  {
+    "objectID": "Lightning Talk.html#embed",
+    "href": "Lightning Talk.html#embed",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Embed",
+    "text": "Embed\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "Lightning Talk.html#plotly",
+    "href": "Lightning Talk.html#plotly",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Plotly",
+    "text": "Plotly"
+  },
+  {
+    "objectID": "test.html#slide-1",
+    "href": "test.html#slide-1",
+    "title": "",
+    "section": "Slide 1",
+    "text": "Slide 1"
+  },
+  {
+    "objectID": "test.html#embed",
+    "href": "test.html#embed",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Embed",
+    "text": "Embed\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "test.html#plotly",
+    "href": "test.html#plotly",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Plotly",
+    "text": "Plotly\n\n\n\n\n                                                \n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\nDeveloping a Carpentries-style Machine Learning workshop"
   }
 ]

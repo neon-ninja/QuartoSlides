@@ -1,2 +1,8 @@
 project:
   type: website
+
+knitr: 
+    opts_knit: 
+      always_allow_html: yes
+    opts_chunk: 
+        screenshot.force: true
