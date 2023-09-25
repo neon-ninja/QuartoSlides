@@ -141,7 +141,7 @@ dfR2 = pd.read_csv('./InputDataR2.csv')
 df2 = df.drop([0, 1])
 dfR22 = dfR2.drop([0, 1])
 # df2.Q1
-dfR22.Q1
+# dfR22.Q1
 ```
 
 ```{python}
@@ -153,39 +153,35 @@ option_countsR2 = dfR22['Q1'].value_counts()
 option_counts_df = pd.DataFrame({'Option': option_counts.index, 'Count': option_counts.values})
 option_counts_dfR2 = pd.DataFrame({'Option': option_countsR2.index, 'Count': option_countsR2.values})
 
-fig = make_subplots(rows=1, cols=2, subplot_titles=("Run #1", "Run #2"))
+# fig = make_subplots(rows=1, cols=2, subplot_titles=("Run #1", "Run #2"))
 
-fig.add_trace(
-    go.Pie(option_counts_df, values='Count', names='Option', color_discrete_sequence=custom_colors),
-    row=1, col=1
-)
-fig.add_trace(
-    go.Pie(option_counts_dfR2, values='Count', names='Option', color_discrete_sequence=custom_colors),
-    row=1, col=2
-)
+# fig.add_trace(
+#     go.Pie(option_counts_df, values='Count', names='Option', color_discrete_sequence=custom_colors),
+#     row=1, col=1
+# )
+# fig.add_trace(
+#     go.Pie(option_counts_dfR2, values='Count', names='Option', color_discrete_sequence=custom_colors),
+#     row=1, col=2
+# )
 
-fig.update_layout(
-    height=500, width=700,
-    # title_text="Multiple Subplots with Titles"
-    # title="Pariticpants' Background",
-#     # xaxis_title="X Axis Title",
-#     # yaxis_title="Y Axis Title",
-#     # legend_title="Legend Title",
-    font=dict(
-        family="Verdana",
-        size=18,
-        # color="RebeccaPurple"
-    )
-)
+# fig.update_layout(
+#     height=500, width=700,
+#     # title_text="Multiple Subplots with Titles"
+#     # title="Pariticpants' Background",
+# #     # xaxis_title="X Axis Title",
+# #     # yaxis_title="Y Axis Title",
+# #     # legend_title="Legend Title",
+#     font=dict(
+#         family="Verdana",
+#         size=18,
+#         # color="RebeccaPurple"
+#     )
+# )
 
-fig.show()
-
-```
-
-```{python}
-option_counts_df.head
+# fig.show()
 
 ```
+
 ```{python}
 from plotly import tools
 import plotly.offline as py
