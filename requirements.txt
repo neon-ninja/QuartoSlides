@@ -2,3 +2,4 @@ jupyter
 plotly
 pandas
 numpy
+matplotlib
