@@ -4,7 +4,7 @@ subtitle: "Lighning talk ⚡️"
 author: "Dr. Jens Brinkmann"
 institute: "The University of Auckland"
 # logo-container: "ResBaz_transparent_Logo_cropped.svg"
-date: 10/17/2023
+date: 2023-10-17
 date-format: full
 
 # bibliography: refs.bib
@@ -59,17 +59,20 @@ editor:
 
 --- 
 
-# test
+<!-- # test
 
 
-## Embed
+## Embed -->
 
-{{< embed Plots.ipynb#fig-polar >}}
+<!-- {{< embed Plots.ipynb#fig-polar >}} -->
 
-## Plotly
 
-{{< embed Plots.ipynb#fig-plotly >}}
+<!-- ## Plotly -->
 
+<!-- {{< embed Plots.ipynb#fig-plotly >}} -->
+
+<!-- ## three -->
+<!-- {{< embed Plots.ipynb#participants-background >}} -->
 
 
 
@@ -117,13 +120,16 @@ editor:
 :::: {.columns}
 
 ::: {.column width="50%"}
-<!-- {{< embed ./Plots.ipynb#two >}} -->
+
 ```{python}
 import plotly.express as px
 import pandas as pd
 import plotly.io as pio
 import numpy as np
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+
 
 # Define your custom color palette as a list of HEX color codes or named colors
 custom_colors = ['#00467F', '#009AC7', '#8D9091', '#A71930', '#7D0063', '#D2492A', '#55A51C', '#4F2D7F', '#005B82', '#00877C', '#0039A6', '#BA4482', '#006990']
@@ -131,21 +137,37 @@ custom_colors = ['#00467F', '#009AC7', '#8D9091', '#A71930', '#7D0063', '#D2492A
 
 # Read data from the CSV file
 df = pd.read_csv('./InputData.csv')
+dfR2 = pd.read_csv('./InputDataR2.csv')
 df2 = df.drop([0, 1])
-# df2
+dfR22 = dfR2.drop([0, 1])
+# df2.Q1
+dfR22.Q1
 ```
 
 ```{python}
+
 option_counts = df2['Q1'].value_counts()
+option_countsR2 = dfR22['Q1'].value_counts()
 # Create a DataFrame from the value_counts() result
+
 option_counts_df = pd.DataFrame({'Option': option_counts.index, 'Count': option_counts.values})
+option_counts_dfR2 = pd.DataFrame({'Option': option_countsR2.index, 'Count': option_countsR2.values})
 
-# Display the result as a DataFrame
-# print(option_counts_df)
+fig = make_subplots(rows=1, cols=2, subplot_titles=("Run #1", "Run #2"))
 
-fig = px.pie(option_counts_df, values='Count', names='Option', color_discrete_sequence=custom_colors)
+fig.add_trace(
+    go.Pie(option_counts_df, values='Count', names='Option', color_discrete_sequence=custom_colors),
+    row=1, col=1
+)
+fig.add_trace(
+    go.Pie(option_counts_dfR2, values='Count', names='Option', color_discrete_sequence=custom_colors),
+    row=1, col=2
+)
+
 fig.update_layout(
-    title="Pariticpants' Background",
+    height=500, width=700,
+    # title_text="Multiple Subplots with Titles"
+    # title="Pariticpants' Background",
 #     # xaxis_title="X Axis Title",
 #     # yaxis_title="Y Axis Title",
 #     # legend_title="Legend Title",
@@ -155,7 +177,61 @@ fig.update_layout(
         # color="RebeccaPurple"
     )
 )
+
 fig.show()
+
+```
+
+```{python}
+option_counts_df.head
+
+```
+```{python}
+from plotly import tools
+import plotly.offline as py
+import plotly.graph_objs as go
+import matplotlib.cm as cm
+
+# Custom colors
+custom_colors = ['#00467F', '#009AC7', '#8D9091', '#A71930', '#7D0063', '#D2492A', '#55A51C',
+                 '#4F2D7F', '#005B82', '#00877C', '#0039A6', '#BA4482', '#006990']
+
+# Create a colormap from custom colors
+cmap = cm.colors.ListedColormap(custom_colors)
+
+# Generate colors from the colormap
+ccolors = [cmap(i) for i in range(len(option_counts))]
+
+
+trace1 = go.Pie(
+     values=option_counts_df.Count, 
+     labels=option_counts_df.Option,
+     domain=dict(x=[0, 0.5]),
+     name="Run #1",
+     hole=0.4,
+     hoverinfo="label+percent+name",
+     marker=dict(colors=ccolors),
+     title="Run#1",
+)
+
+
+
+trace2 = go.Pie(
+     values=option_counts_dfR2.Count, 
+     labels=option_counts_dfR2.Option,
+     domain=dict(x=[0.5, 1.0]),
+     name="Run #2",
+     hole=0.4,
+     hoverinfo="label+percent+name",
+     marker=dict(colors=ccolors),
+     title="Run#2",
+)
+
+layout = go.Layout(title="Participants' Background")
+data = [trace1, trace2]
+fig = go.Figure(data=data, layout=layout)
+fig.show()
+
 
 
 ```

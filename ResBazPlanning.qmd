@@ -4,8 +4,9 @@ subtitle: "A guide to learning Pathways"
 author: "Jens Brinkmann"
 institute: "The University of Auckland"
 # logo-container: "ResBaz_transparent_Logo_cropped.svg"
-date: today
-date-format: full
+date: 2023-05-15
+# date-format: full
+date-format: "MMMM, YYYY"
 # bibliography: refs.bib
 from: markdown+emoji
 # embed-resources: false

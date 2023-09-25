@@ -4,7 +4,7 @@ subtitle: "Research Bazar (ResBaz) 2023"
 author: "Nelis Drost, (Jens Brinkmann)"
 institute: "The University of Auckland"
 # logo-container: "ResBaz_transparent_Logo_cropped.svg"
-date: today
+date: 2023-06-26
 date-format: full
 # bibliography: refs.bib
 from: markdown+emoji

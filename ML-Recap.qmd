@@ -3,8 +3,8 @@ title: "ML-Carp Recap and Outlook"
 subtitle: "What's next?"
 author: "Dr. Jens Brinkmann"
 institute: "The University of Auckland"
-# date: today
-# date-format: 
+date: 2023-09-21
+date-format: "MMMM, YYYY"
 # bibliography: refs.bib
 from: markdown+emoji
 # embed-resources: false
