@@ -2,8 +2,6 @@
 
 import os
 import re
-import markdown
-import datetime
 import yaml
 
 # Define a function to extract the date and title from the YAML header of a .qmd file
