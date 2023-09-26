@@ -26,7 +26,13 @@ jobs:
         run: |
           python generate_README.py > README.md
 
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --exit-code || echo "No changes to commit"
+
       - name: Commit changes
+        if: steps.check_changes.outputs.return-code == '1'
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "GitHub Actions"
