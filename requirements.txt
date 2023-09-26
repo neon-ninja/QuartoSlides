@@ -2,3 +2,5 @@ jupyter
 plotly
 pandas
 numpy
+matplotlib
+statsmodels
