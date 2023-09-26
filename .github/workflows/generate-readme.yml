@@ -31,5 +31,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git config user.name "GitHub Actions"
           git add README.md
-          git commit -m "Update README"
-          git push origin main || echo "No changes to commit"
+          git commit -m "Update README" || echo "No changes to commit"
+          git push origin main
