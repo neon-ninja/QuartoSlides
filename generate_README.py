@@ -36,8 +36,17 @@ for file_name in os.listdir('.'):
 # Sort the list by date in descending order
 markdown_links.sort(key=lambda x: x[0], reverse=True)
 
-# Generate the Markdown output
-markdown_output = f"# QuartoSlideDecks\nRepo to host several presentations (in anti-chronological order)  \nTODO: add table\n"
+# # Generate the Markdown output
+# markdown_output = f"# QuartoSlideDecks\nRepo to host several presentations (in anti-chronological order"
+# markdown_output += '\n'.join(link for _, _, link in markdown_links)
+
+# # Print the Markdown output
+# print(markdown_output)
+
+
+# Generate the Markdown output as a table
+markdown_output = f"# QuartoSlideDecks\nRepo to host several presentations (in anti-chronological order)\n\n"
+markdown_output += "| Title | Date |\n| --- | --- |\n"
 markdown_output += '\n'.join(link for _, _, link in markdown_links)
 
 # Print the Markdown output
