@@ -58,22 +58,20 @@ editor:
   #   echo: false
 
 --- 
+# Metrics 
+abc
 
-# test
+## Participants' Background
 
-
-## Embed
-
-{{< embed Plots.ipynb#fig-polar >}}
-
-
-## Plotly2
-
-{{< embed Plots.ipynb#fig-plotly >}}
-
-## three
 {{< embed Plots.ipynb#participants-background >}}
 
+## Participants' OS
+
+{{< embed Plots.ipynb#participants-os >}}
+
+## Participants' Feelings about
+
+{{< embed Plots.ipynb#participants-agreement >}}
 
 
 # to do
@@ -81,7 +79,7 @@ editor:
 - think about more visualisations
 - AI generated!
 - some more video snippets?
-
+- get the ipynb published [link](https://quarto.org/docs/authoring/notebook-embed.html#fig-539a35d47e664c97a50115a146a7f1bd-7)
 
 
 # Intro
@@ -120,240 +118,26 @@ editor:
 :::: {.columns}
 
 ::: {.column width="50%"}
+abc
 
-```{python}
-import plotly.express as px
-import pandas as pd
-import plotly.io as pio
-import numpy as np
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-import matplotlib.cm as cm
-```
-
-```{python}
-# Read data from the CSV file
-df = pd.read_csv('./InputData.csv')
-dfR2 = pd.read_csv('./InputDataR2.csv')
-df2 = df.drop([0, 1])
-dfR22 = dfR2.drop([0, 1])
-
-option_counts = df2['Q1'].value_counts()
-option_countsR2 = dfR22['Q1'].value_counts()
-# Create a DataFrame from the value_counts() result
-
-option_counts_df = pd.DataFrame({'Option': option_counts.index, 'R1': option_counts.values})
-option_counts_dfR2 = pd.DataFrame({'Option': option_countsR2.index, 'R2': option_countsR2.values})
-option_counts_df = option_counts_df.merge(option_counts_dfR2, on="Option", how="outer")
-
-# Custom colors
-custom_colors = ['#00467F', '#009AC7', '#8D9091', '#A71930', '#7D0063', '#D2492A', '#55A51C',
-                 '#4F2D7F', '#005B82', '#00877C', '#0039A6', '#BA4482', '#006990']
-
-
-trace1 = go.Pie(
-     values=option_counts_df.R1, 
-     labels=option_counts_df.Option,
-     domain=dict(x=[0, 0.5]),
-     name="Run #1",
-     hole=0.4,
-     hoverinfo="label+percent+name",
-     title="Run#1",
-     marker_colors=custom_colors
-)
-
-
-
-trace2 = go.Pie(
-     values=option_counts_df.R2, 
-     labels=option_counts_df.Option,
-     domain=dict(x=[0.5, 1.0]),
-     name="Run #2",
-     hole=0.4,
-     hoverinfo="label+percent+name",
-     title="Run#2",
-     marker_colors=custom_colors
-)
-
-layout = go.Layout(title="Participants' Background")
-data = [trace1, trace2]
-fig = go.Figure(data=data, layout=layout)
-fig.show()
-
-
-
-```
 
 
 
 :::
 
 ::: {.column width="50%"}
-<!-- Pariticpants' Operating Systems -->
-```{python}
-option_counts = df2['Q2'].value_counts()
-# Create a DataFrame from the value_counts() result
-option_counts_df2 = pd.DataFrame({'Option': option_counts.index, 'Count': option_counts.values})
-
-# Display the result as a DataFrame
-# print(option_counts_df)
-
-fig = px.pie(option_counts_df2, values='Count', names='Option', color_discrete_sequence=custom_colors)
-fig.update_layout(
-    title="Pariticpants' Operating System",
-#     # xaxis_title="X Axis Title",
-#     # yaxis_title="Y Axis Title",
-#     # legend_title="Legend Title",
-    font=dict(
-        family="Verdana",
-        size=18,
-        # color="RebeccaPurple"
-    )
-)
-
-fig.show()
-```
-
+def
 :::
 
 ::::
 
 
 
-## Plot 2
-```{python}
 
-# List of column names you want to plot
-columns_to_plot = ['Q3_1', 'Q3_2', 'Q3_3', 'Q3_4', 'Q3_5', 'Q3_6']
-
-# String to be stripped from each element
-string_to_strip = "Please rate your level of agreement with the following statements (0 = complete disagreement, 100 = complete agreement). - "
-
-
-
-for column in columns_to_plot:
-    df[column] = df[column].str.replace(string_to_strip, '', case=False)  # case=False makes it case-insensitive
-
-
-# Convert the columns to float (if needed)
-for column in columns_to_plot:
-    df2[column] = df2[column].astype(float)
-
-
-
-it_number = 0
-
-# Create a subplot for each column
-subplots = []
-for column in columns_to_plot:
-    median_value = df2[column].median()
-    subplot = go.Box(y=df2[column],
-                     boxpoints='all',   # can also be 'outliers', 'suspectedoutliers', or False
-                     jitter=0.3,        # add some jitter for better separation between points
-                     pointpos=-1.8,     # relative position of points with respect to the box
-                     line=dict(color=custom_colors[it_number]),  # Custom color for the box outline
-                     marker=dict(color=custom_colors[it_number]),
-                     name=df.loc[0,column]
-                     )       # set the name for the legend
-    subplots.append(subplot)
-    it_number += 1
-
-
-
-# Create a figure with subplots
-fig = go.Figure(data=subplots)
-
-# Force Scale to 0-100
-fig.update_layout(yaxis_range=[0, 100])
-
-
-# Initialize a counter variable
-iteration_number = 0
-
-
-for column in columns_to_plot:
-    median_value = df2[column].median()
-    fig.add_annotation(
-        x=iteration_number,
-        y=median_value,
-        text=f'Median: {median_value:.2f}',
-        font=dict(size=14, color="black"),
-        showarrow=True,
-        arrowhead=7,
-        ax=0,
-        ay=-20)
-    # Increment the counter
-    iteration_number += 1
-
-# Customize the layout
-fig.update_layout(
-    title="Agreement with statements: 0 = complete disagreement, 100 = complete agreement",
-    # xaxis_title="Columns",
-    # yaxis_title="Values",
-    font=dict(
-        family="Verdana",
-        size=18,
-    )
-)
-
-fig.update_traces()
-# fig.update_layout(showlegend=False)
-# Remove x-axis labels and ticks
-fig.update_xaxes(
-    showticklabels=False,  # Hide tick labels
-    showline=False,        # Hide x-axis line
-    zeroline=False         # Hide zero line
-)
-
-# Position the legend under the boxplot
-fig.update_layout(
-    legend=dict(
-        x=0.5,             # Set the x-position to the center
-        y=-0.2,            # Set the y-position below the boxplot
-        xanchor='center',  # Center the legend horizontally
-        yanchor='top',     # Anchor the legend to the bottom of the plot
-        font=dict(
-            size=18         # Set the legend text size to 18
-        )
-    )
-)
-
-
-# Add a horizontal line to the boxplot
-average_values = df2[columns_to_plot].mean()
-overall_avg = average_values.mean()
-# print(overall_avg)
-
-fig.add_shape(
-    go.layout.Shape(
-        type="line",
-        x0=-1,
-        x1=len(columns_to_plot),
-        y0=overall_avg,
-        y1=overall_avg,
-        line=dict(color="red", width=2),
-    )
-)
-fig.add_annotation(
-    x=len(columns_to_plot),
-    y=overall_avg,
-    text=f'Overall avg: {overall_avg:.2f}',
-    font=dict(size=14, color="red"),
-    # showarrow=True,
-    # arrowhead=7,
-    ax=0,
-    ay=20
-    )
-
-
-# Show the box plots
-fig.show()
-```
 
 ::: {.fragment .fade-in}
 :::{.callout-note}
 All statements are positively phrased; overall the results confirm a poasitive appreciation.
-:::
 :::
 
 

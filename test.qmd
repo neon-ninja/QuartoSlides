@@ -1,0 +1,64 @@
+---
+title: "Developing a Carpentries-style Machine Learning workshop"
+subtitle: "Lighning talk ⚡️"
+author: "Dr. Jens Brinkmann"
+institute: "The University of Auckland"
+# logo-container: "ResBaz_transparent_Logo_cropped.svg"
+date: 2023-10-17
+date-format: full
+
+# bibliography: refs.bib
+from: markdown+emoji
+# embed-resources: false
+format:
+  revealjs:
+    # tbl-cap-location: bottom
+    # number-sections: true
+    theme: UoAtemplate.scss
+    # css: ./logo.css
+    # disableLayout: true
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    transition: convex
+    width: 1600
+    height: 900
+    margin: 0.2
+    # logo: "./UoALogoDarkBlueRGBLandscape.png"
+    title-slide-attributes:
+        data-background-image: UoALogoDarkBlueRGBLandscape.png
+        data-background-size: 20%
+        # data-background-postion: right
+        data-background-position: 95% 76%
+        # data-background-position: bottom 10px right 20px
+    # background-image: ./ResBaz_transparent_Logo_cropped.svg
+    # background-opacity: 0.5
+    # background-position: bottom 10px right 20px
+    # background-size: contain
+    # data-background-repeat: no-repeat
+    # background-size: 80px
+    # background-repeat: no-repeat
+    # background-position: 0% 100%
+    # logo: ResBaz_transparent_cropped.svg
+    # self_contained: false
+    reveal_plugins: ["menu"]
+    reveal_options:
+      menu:
+        numbers: true
+    header: Developing a Carpentries-style Machine Learning workshop 
+    header-logo: UoALogoDarkBlueRGBLandscape.png
+    hide-from-titleSlide: all
+    filters:
+      - reveal-header
+      - line-highlight
+    
+editor:
+  render-on-save: true
+  # execute:
+  #   echo: false
+
+--- 
+
+#test slide 
+
+{{< embed Plots.ipynb#backgd12 >}}
