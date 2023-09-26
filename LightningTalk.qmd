@@ -59,20 +59,20 @@ editor:
 
 --- 
 
-<!-- # test
+# test
 
 
-## Embed -->
+## Embed
 
-<!-- {{< embed Plots.ipynb#fig-polar >}} -->
+{{< embed Plots.ipynb#fig-polar >}}
 
 
-<!-- ## Plotly -->
+## Plotly2
 
-<!-- {{< embed Plots.ipynb#fig-plotly >}} -->
+{{< embed Plots.ipynb#fig-plotly >}}
 
-<!-- ## three -->
-<!-- {{< embed Plots.ipynb#participants-background >}} -->
+## three
+{{< embed Plots.ipynb#participants-background >}}
 
 
 
