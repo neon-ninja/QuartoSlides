@@ -155,7 +155,8 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.6em; }
+  font-size: 2.6em;
+  color: #00467F; }
 
 .reveal h2 {
   font-size: 2.2em; }
@@ -367,7 +368,7 @@ body {
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
   color: #009AC7;
-  height: 1%;
+  height: 2%;
 }
 
 .reveal .progress span {
@@ -380,5 +381,5 @@ body {
   color: #009AC7; }
 
 .reveal .slide-menu-button {
-  bottom: 2% !important;
+  bottom: 3% !important;
 }

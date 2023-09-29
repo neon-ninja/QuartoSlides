@@ -54,8 +54,8 @@ format:
     
 editor:
   render-on-save: true
-  # execute:
-  #   echo: false
+execute: 
+  enabled: true
 
 --- 
 # Metrics 
