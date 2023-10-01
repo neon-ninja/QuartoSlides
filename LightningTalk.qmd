@@ -15,6 +15,7 @@ format:
     # tbl-cap-location: bottom
     # number-sections: true
     theme: UoAtemplate.scss
+    multiplex: true
     # css: ./logo.css
     # disableLayout: true
     navigation-mode: vertical
