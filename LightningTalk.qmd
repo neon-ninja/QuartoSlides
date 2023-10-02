@@ -4,7 +4,8 @@ subtitle: "Lighning talk ⚡️"
 author: "Dr. Jens Brinkmann"
 institute: "The University of Auckland"
 # logo-container: "ResBaz_transparent_Logo_cropped.svg"
-date: 2023-10-17
+# date: 2023-10-17
+date: today
 date-format: full
 
 # bibliography: refs.bib
@@ -25,7 +26,7 @@ format:
     transition: convex
     width: 1600
     height: 900
-    margin: 0.2
+    margin: 0.1
     # logo: "./UoALogoDarkBlueRGBLandscape.png"
     title-slide-attributes:
         data-background-image: UoALogoDarkBlueRGBLandscape.png
@@ -61,55 +62,64 @@ execute:
 
 --- 
 
-to do
-- table needs to contain dates (Monday, 5th of something through to bla)
-- put a plot for Zoom attendance
-- put plot for likelihood of recommendation
-- shuffle plots (maybe put likelyhood of recommd. as first, then feed with details?)
 
-# The Core
-- This talk shall answer *What's that ML-Carp Workshop*
-  - what was done
-  - who pariticpanted and how they liked it
-  - what was changed
-- This feeds in to upcoming sessions
+# Overview
+::: {.incremental}
+- To answer the main question **"ML-Carp Workshop, what is that?"** let's answer three sub-questions:
+  - Q1: What was done?
+  - Q2: Who participated? And feelings about it.
+  - Q3: ML-Carp's future?
+- This talk links to upcoming sessions
   - *Upskilling researchers in Machine Learning*
   - BoF Session: *AI Skill Training Pathway: Bridging Gaps and Fostering Inclusivity*
-  - painpoints, differences between NeSI and CeR, etc
-
+:::
 
 # What was done
 ## Background
 
-- Machine Learning (ML) or Artificial Intelligence (AI) are without a doubt hot topics
-- Empowering reserachers to **understand and use** ML seems rewarding, but also challenging
-- [The Carpentries](https://carpentries.org/)  offer a proven teaching style also supporting participants with limited IT experience
-  - ![The Carpentries](TheCarpentries.svg){ width=20% }
-  - (core aspects are live-coding, a positive attitude not anticipating prerequirments and participant invovlement)
-- The [CeR (Centre for eResearch)](http://eresearch.auckland.ac.nz/) at the University of Auckland acquired funding to further develop and run a series of workshops, referred to as *ML-Carp*
-- Two iterations (referred to as *Run #1* and *Run#2*) took place
+::: {.incremental}
+- Machine Learning (ML) or Artificial Intelligence (AI) are without a doubt **hot topics**
+- Empowering reserachers to **understand and use** ML seems **rewarding**, but also **challenging**
+- [The Carpentries](https://carpentries.org/) ![The Carpentries](TheCarpentries.svg){ width=10% } offer a proven teaching-style accounting for participants with limited IT experience
+  - Core aspects 
+    - live-coding
+    - positive attitude towards mistakes
+    - minimal prereuisites
+    - **maximising participant invovlement**
+- The [CeR (Centre for eResearch)](http://eresearch.auckland.ac.nz/) at the University of Auckland acquired funding to further develop and run a series of workshops (also referred to as *ML-Carp*)
+- Two iterations (referred to as *Run #1* and *Run#2*) took place so far. In March and September 2023.
 
+:::
 
 ## Lesson Overview
 
 
+::: {.fragment .fade-in}
 | Lesson Title                                       | Status                                                                                       | Run #1   | Run #2                    |   |
 |----------------------------------------------------|----------------------------------------------------------------------------------------------|----------|---------------------------|---|
 | Programming with Python                            | [Released](https://swcarpentry.github.io/python-novice-inflammation/)                        | Mon, Tue |             -             |   |
-| Introduction to Machine Learning with Scikit Learn | [Alpha](https://mike-ivs.github.io/machine-learning-novice-sklearn/02-regression/index.html) | Wed, Thu |  Mon, Tue *(+optimisation)* |   |
-| Introduction to Deep Learning                      | [Beta](https://carpentries-incubator.github.io/deep-learning-intro/aio.html)                 |    Fri   |  Wed, Thu *(+optimisation)* |   |
+| Introduction to Machine Learning with Scikit Learn | [Alpha](https://mike-ivs.github.io/machine-learning-novice-sklearn/02-regression/index.html) | Wed, Thu |  Mon, Tue |   |
+| Introduction to Deep Learning                      | [Beta](https://carpentries-incubator.github.io/deep-learning-intro/aio.html)                 |    Fri   |  Wed, Thu |   |
+:::
 
-*Each session took place on an afternoon for 4 hours over Zoom*
-
-- Depending on Maturity, sessions were run with a few changes or in big parts (re)developed.
+::: {.fragment .fade-in}
+- Four hour sessions over four consecutive afternoon
+:::
+::: {.fragment .fade-in}
+- Depending on Maturity, sessions were run with a **small changes** or **substantially (re)developed**.
+:::
+::: {.fragment .fade-in}
 - One major change was [Goolge Colab](https://colab.research.google.com/) ![Colab](./Google_Colaboratory_SVG_Logo.svg){ width=3% } being used instead of local Python installs.
+:::
 
 # Who Pariticpanted And How They Liked It
 
-Large sign-up numbers meant mandatory *expression of interest* and filtering
-
-  
-{{< embed Plots.ipynb#zoom-participance >}}
+::: {.incremental}
+- Large sign-up numbers meant mandatory *expression of interest* and filtering
+- Analysis from two perspectives follows:
+  - Metrics
+  - Statements
+::: 
 
 ## Participants' Background
 
@@ -123,46 +133,38 @@ Large sign-up numbers meant mandatory *expression of interest* and filtering
 
 {{< embed Plots.ipynb#participants-agreement >}}
 
-## Participants' Feelings - Statements
+## Zoom attendance
 
-- various, most without background
-- strong Zoom attendance
+{{< embed Plots.ipynb#zoom-participance >}}
+
+## Participants' Feelings - Statements and Adjustments
+
+<!-- - various, most without background -->
+<!-- - strong Zoom attendance -->
 - observation: Even at the very end of the sessions, questions, participantion and interest didn't cease
 
-- common feedback: Python was too much
+
+::: {.incremental}
+- "*Python was too much*"
   - Run #2: Python was removed from the curriculum
-- common feedback: More breaks
-  - Run #2: better schedule
-- common feedback: only one interface (not VSC and Colab)
+- "*we need more breaks*"
+  - Run #2: better adherence to schedule
+- "*stick to one interface*"
   - Run #2: only Colab, VSC etc. was linked to for post-workshop engagement
-
-
-
-<!-- :::: {.columns}
-
-::: {.column width="50%"}
-abc
-
-
-
-
 :::
 
-::: {.column width="50%"}
-def
-:::
-
-:::: -->
 
 
 
 
 
 ::: {.fragment .fade-in}
+
 :::{.callout-note}
 All statements are positively phrased; overall the results confirm a poasitive appreciation.
 :::
 
+:::
 
 <!-- # Reflection on Run #1 and adaption
 - The learning curve appeared too steep. From no coding to refined DL approaches in a few days appeared too challenging
@@ -204,11 +206,11 @@ All statements are positively phrased; overall the results confirm a poasitive a
     - participants
       - ... -->
 
-# Outlook
+# ML Carp's Future
 - while specific funding (for lesson preparation and delivery) has ended, the importance of the topic continues to increase
 - more sessions are planned
-- current Slack seems promising
-- the decision to teach Python at SW Carp was deemed good
+- maintaining momentum using dedicated [Slack sessions](https://research-hub.auckland.ac.nz/digital-research-skills/hacky-hour) seems promising
+- Feedback about separating the Python lesson is positive
 
 
 
