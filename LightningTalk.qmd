@@ -137,6 +137,11 @@ execute:
 
 {{< embed Plots.ipynb#zoom-participance >}}
 
+
+## Participants Promotion/Demotion
+
+{{< embed Plots.ipynb#participants-recommendation >}}
+
 ## Participants' Feelings - Statements and Adjustments
 
 <!-- - various, most without background -->
