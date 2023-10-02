@@ -24,6 +24,7 @@ format:
     controls-layout: bottom-right
     controls-tutorial: true
     transition: convex
+    view-distance: 10
     width: 1600
     height: 900
     margin: 0.1
@@ -150,11 +151,11 @@ execute:
 
 
 ::: {.incremental}
-- "*Python was too much*"
+- "*Python lesson might be separated*"
   - Run #2: Python was removed from the curriculum
-- "*we need more breaks*"
+- "*more breaks*"
   - Run #2: better adherence to schedule
-- "*stick to one interface*"
+- "*stick to one coding interface*"
   - Run #2: only Colab, VSC etc. was linked to for post-workshop engagement
 :::
 
