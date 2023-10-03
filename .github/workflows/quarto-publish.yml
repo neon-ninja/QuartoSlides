@@ -17,7 +17,18 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
-        
+      
+      - name: Set Up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      
+      - name: Install Dependencies
+        run: npm install
+  
+      - name: Compile SCSS
+        run: npx node-sass src/scss -o dist/css
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:

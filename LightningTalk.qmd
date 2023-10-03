@@ -17,7 +17,9 @@ format:
     # tbl-cap-location: bottom
     # number-sections: true
     theme: UoAtemplate.scss
-    multiplex: true
+    multiplex:
+      id: 'a140d30bbdb06469'
+      secret: '16962778612049606149'
     # css: ./logo.css
     # disableLayout: true
     navigation-mode: vertical
