@@ -1,11 +1,11 @@
 ---
 title: "Developing a Carpentries-style Machine Learning workshop"
-subtitle: "Lighning talk ⚡️"
+subtitle: "Lightning talk ⚡️"
 author: "Dr. Jens Brinkmann"
 institute: "The University of Auckland"
 # logo-container: "ResBaz_transparent_Logo_cropped.svg"
-# date: 2023-10-17
-date: today
+date: 2023-10-17
+# date: today
 date-format: full
 
 # bibliography: refs.bib
@@ -115,6 +115,24 @@ execute:
 - One major change was [Goolge Colab](https://colab.research.google.com/) ![Colab](./Google_Colaboratory_SVG_Logo.svg){ width=3% } being used instead of local Python installs.
 :::
 
+## Lesson Details
+
+| [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)  | [Introduction to Machine Learning with Scikit Learn and Python](https://github.com/mike-ivs/machine-learning-novice-sklearn) | [Introduction to deep learning](https://carpentries-incubator.github.io/deep-learning-intro/1-introduction.html) |
+| ----------------------- | ----------------------------------------------------------- | ---------------------------- |
+| [Python Fundamentals](https://swcarpentry.github.io/python-novice-inflammation/instructor/01-intro.html) | [Introduction](https://mike-ivs.github.io/machine-learning-novice-sklearn/01-introduction/index.html) | [Introduction](https://carpentries-incubator.github.io/deep-learning-intro/1-introduction.html) |
+| [Analyzing Patient Data](https://swcarpentry.github.io/python-novice-inflammation/instructor/02-numpy.html) | [Supervised methods - Regression](https://mike-ivs.github.io/machine-learning-novice-sklearn/02-regression/index.html) | [Classification by a neural network using Keras](https://carpentries-incubator.github.io/deep-learning-intro/2-keras.html) |
+| [Visualizing Tabular Data](https://swcarpentry.github.io/python-novice-inflammation/instructor/03-matplotlib.html) | [Supervised methods - Classification](https://mike-ivs.github.io/machine-learning-novice-sklearn/03-classification/index.html) | [Monitor the training process](https://carpentries-incubator.github.io/deep-learning-intro/3-monitor-the-model.html) |
+| [Storing Multiple Values in Lists](https://swcarpentry.github.io/python-novice-inflammation/instructor/04-lists.html) | [Ensemble methods](https://mike-ivs.github.io/machine-learning-novice-sklearn/04-ensemble-methods/index.html) | [Advanced layer types](https://carpentries-incubator.github.io/deep-learning-intro/4-advanced-layer-types.html) |
+| [Repeating Actions with Loops](https://swcarpentry.github.io/python-novice-inflammation/instructor/05-loop.html) | [Unsupervised methods - Clustering](https://mike-ivs.github.io/machine-learning-novice-sklearn/05-clustering/index.html) | [Outlook](https://carpentries-incubator.github.io/deep-learning-intro/5-outlook.html) |
+| [Analyzing Data from Multiple Files](https://swcarpentry.github.io/python-novice-inflammation/instructor/06-files.html) | [Unsupervised methods - Dimensionality reduction](https://mike-ivs.github.io/machine-learning-novice-sklearn/06-dimensionality-reduction/index.html) | |
+| [Making Choices](https://swcarpentry.github.io/python-novice-inflammation/instructor/07-cond.html) | [Neural Networks](https://mike-ivs.github.io/machine-learning-novice-sklearn/07-neural-networks/index.html) | |
+| [Creating Functions](https://swcarpentry.github.io/python-novice-inflammation/instructor/08-func.html) | [Ethics and the Implications of Machine Learning](https://mike-ivs.github.io/machine-learning-novice-sklearn/08-ethics/index.html) | |
+| [Errors and Exceptions](https://swcarpentry.github.io/python-novice-inflammation/instructor/09-errors.html) | [Find out more](https://mike-ivs.github.io/machine-learning-novice-sklearn/09-learn-more/index.html) | |
+| [Defensive Programming](https://swcarpentry.github.io/python-novice-inflammation/instructor/10-defensive.html) | | |
+| [Debugging](https://swcarpentry.github.io/python-novice-inflammation/instructor/11-debugging.html) | | |
+| [Command-Line Programs](https://swcarpentry.github.io/python-novice-inflammation/instructor/12-cmdline.html) | | |
+
+
 # Who Pariticpanted And How They Liked It
 
 ::: {.incremental}
@@ -221,5 +239,7 @@ All statements are positively phrased; overall the results confirm a poasitive a
 - Feedback about separating the Python lesson is positive
 
 
+# Thank you and Contact details
 
-
+- Centre for eResearch Website
+- HackyHour
