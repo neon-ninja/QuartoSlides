@@ -47,7 +47,7 @@ markdown_links.sort(key=lambda x: x[0], reverse=True)
 # Generate the Markdown output as a table with separate cells
 markdown_output = f"# QuartoSlideDecks\nRepo to host several presentations (in anti-chronological order)\n\n"
 markdown_output += "| Title | Date |\n| --- | --- |\n"
-markdown_output += '\n'.join(f"| {title} | {date} |" for date, title, _ in markdown_links)
+markdown_output += '\n'.join(f"| {markdown_links} | {date} |" for date, title, _ in markdown_links)
 
 # Print the Markdown output
 print(markdown_output)

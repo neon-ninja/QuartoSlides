@@ -243,3 +243,5 @@ All statements are positively phrased; overall the results confirm a poasitive a
 
 - Centre for eResearch Website
 - HackyHour
+- email address
+- QR code in blue in python generated
