@@ -23,12 +23,6 @@ jobs:
         with:
           node-version: 14
       
-      - name: Install Dependencies
-        run: npm install
-  
-      - name: Compile SCSS
-        run: npx node-sass src/scss -o dist/css
-
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
@@ -44,6 +38,12 @@ jobs:
           python-version: '3.x'
           cache: 'pip'
       - run: pip install -r requirements.txt
+
+      - name: Install Dependencies
+        run: npm install
+  
+      - name: Compile SCSS
+        run: npx node-sass src/scss -o dist/css
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2

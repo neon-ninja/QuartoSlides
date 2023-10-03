@@ -30,24 +30,20 @@ for file_name in os.listdir('.'):
         # Extract the date and title from the YAML header
         date, title = extract_info_from_yaml_header(file_name)
         # Create a markdown link with the base URL
-        markdown_link = f"- [{title}]({base_url}{file_name[:-4]}#/title-slide) [{date}]"
+        markdown_link = f"[{title}]({base_url}{file_name[:-4]}#/title-slide)]"
         markdown_links.append((date, title, markdown_link))
 
 # Sort the list by date in descending order
 markdown_links.sort(key=lambda x: x[0], reverse=True)
 
-# # Generate the Markdown output
-# markdown_output = f"# QuartoSlideDecks\nRepo to host several presentations (in anti-chronological order"
-# markdown_output += '\n'.join(link for _, _, link in markdown_links)
-
-# # Print the Markdown output
-# print(markdown_output)
-
 
 # Generate the Markdown output as a table with separate cells
+
 markdown_output = f"# QuartoSlideDecks\nRepo to host several presentations (in anti-chronological order)\n\n"
 markdown_output += "| Title | Date |\n| --- | --- |\n"
-markdown_output += '\n'.join(f"| {markdown_links} | {date} |" for date, title, _ in markdown_links)
+
+for date, title, markdown_link in markdown_links:
+    markdown_output += f"| {markdown_link} | {date} |\n"
 
 # Print the Markdown output
 print(markdown_output)
