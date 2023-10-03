@@ -30,7 +30,7 @@ for file_name in os.listdir('.'):
         # Extract the date and title from the YAML header
         date, title = extract_info_from_yaml_header(file_name)
         # Create a markdown link with the base URL
-        markdown_link = f"[{title}]({base_url}{file_name[:-4]}#/title-slide)]"
+        markdown_link = f"[{title}]({base_url}{file_name[:-4]}#/title-slide)"
         markdown_links.append((date, title, markdown_link))
 
 # Sort the list by date in descending order
