@@ -39,11 +39,11 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
 
-      - name: Install Dependencies
-        run: npm install
+      # - name: Install Dependencies
+      #   run: npm install
   
-      - name: Compile SCSS
-        run: npx node-sass src/scss -o dist/css
+      # - name: Compile SCSS
+      #   run: npx node-sass src/scss -o dist/css
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
