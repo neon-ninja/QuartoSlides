@@ -12,7 +12,7 @@ from: markdown+emoji
 format:
   revealjs:
     # number-sections: true
-    theme: ResBaz.scss
+    theme: UoAtemplate.scss
     # css: ./logo.css
     # disableLayout: true
     navigation-mode: vertical
