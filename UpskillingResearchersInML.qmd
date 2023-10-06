@@ -1,0 +1,124 @@
+---
+title: "Upskilling researchers in Machine Learning"
+subtitle: "Lightning talk ⚡️"
+author: "Maxime Rio, Jens Brinkmann"
+institute: "New Zealand eResearch Infrastructure (NeSI), The University of Auckland (UoA)"
+# logo-container: "ResBaz_transparent_Logo_cropped.svg"
+date: 2023-10-17
+# date: today
+date-format: full
+
+# bibliography: refs.bib
+from: markdown+emoji
+# embed-resources: false
+format:
+  revealjs:
+    self_contained: true
+    # tbl-cap-location: bottom
+    # number-sections: true
+    theme: UoAtemplate.scss
+    multiplex:
+      id: 'a140d30bbdb06469'
+      secret: '16962778612049606149'
+    # css: ./logo.css
+    # disableLayout: true
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    transition: convex
+    view-distance: 10
+    width: 1600
+    height: 900
+    margin: 0.1
+    # logo: "./UoALogoDarkBlueRGBLandscape.png"
+    title-slide-attributes:
+        data-background-image: NeSIAndUoA.jpg
+        data-background-size: 20%
+        # data-background-postion: right
+        data-background-position: 95% 76%
+        # data-background-position: bottom 10px right 20px
+    # background-image: ./ResBaz_transparent_Logo_cropped.svg
+    # background-opacity: 0.5
+    # background-position: bottom 10px right 20px
+    # background-size: contain
+    # data-background-repeat: no-repeat
+    # background-size: 80px
+    # background-repeat: no-repeat
+    # background-position: 0% 100%
+    # logo: ResBaz_transparent_cropped.svg
+    # self_contained: false
+    reveal_plugins: ["menu"]
+    reveal_options:
+      menu:
+        numbers: true
+    header: Upskilling researchers in Machine Learning
+    header-logo: NeSIAndUoA.jpg
+    hide-from-titleSlide: all
+    filters:
+      - reveal-header
+      - line-highlight
+    
+editor:
+  render-on-save: true
+execute: 
+  enabled: true
+
+--- 
+
+# todo
+- put links for lightning talk and BoF
+- put links to NeSI and CeR
+
+# Overview
+::: {.incremental}
+some intro
+:::
+
+## This talk's focus
+
+- Lightning Talk earlier today was mainly about answering 'what' we did and metrics
+- This talk is focused on the delivery
+  - two perspectives: CeR and NeSI 
+- BoF (right after this talk) will be a broader discussion of a similar topic 
+
+
+## This talk's Goal
+
+- share our experience
+  - lessons learned
+  - what went well, what didn't, how we would do it differently
+- emphasising on some best-pracitices
+- encourage others to do similar things
+  - because *the time is now*
+  - you need less resources than you might expect
+
+## This talk's Structure
+
+- we (CeR and NeSI) won't talk about these topics one after the other
+- we picked some perspectives and will share them in parallel
+
+## How the ML sessions were executed
+
+- CeR and NeSI independently made the decision to base the workshops on existing material (The Carpentries) and ([Scikit-learn Tutorial(https://github.com/jakevdp/sklearn_tutorial) by 
+[Jake Vanderplas]](https://github.com/jakevdp))
+- The underlying idea was to start with foundational ML aspects and to build up
+- different session times
+  - Column left: show details of ML101 and ML201
+  - Column right: show details of Carp Sessions
+- Maybe a comparison of content covered
+
+
+## Resoures used
+- Colab
+- JupyterHub?
+
+
+# Recommendations
+
+- use existing material
+- don't be afraid to use Colab, etc. you don't need fancy GPUs, even though you can have some
+- decision if Python is prerequisite or not?!
+
+# How to get in touch
+
+- email abc
