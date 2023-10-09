@@ -1,6 +1,6 @@
 ---
 title: "Upskilling researchers in Machine Learning"
-subtitle: "Lightning talk ⚡️"
+# subtitle: "Lightning talk ⚡️"
 author: "Maxime Rio, Jens Brinkmann"
 institute: "New Zealand eResearch Infrastructure (NeSI), The University of Auckland (UoA)"
 date: 2023-10-17
@@ -67,7 +67,7 @@ execute:
 - put links for lightning talk and BoF
 - put links to NeSI and CeR
 
-# Overview
+# Outline
 
 ::: {.incremental}
 some intro
@@ -85,7 +85,7 @@ some intro
 - share our experience
   - lessons learned
   - what went well, what didn't, how we would do it differently
-- emphasising on some best-pracitices
+- emphasising on some best-practices
 - encourage others to do similar things
   - because *the time is now*
   - you need less resources than you might expect
@@ -110,6 +110,181 @@ some intro
 - Colab
 - JupyterHub?
 
+# Who are we?
+
+:::: {.columns}
+::: {.column}
+
+**Maxime Rio**
+
+![](./UpskillingResearchersInML_Assets/flying_max.png){width=40% fig-align="center"}
+
+<!-- TODO upload better image, reduce margins  -->
+
+- Data Science Engineer @ NeSI
+- Data Scientist @ NIWA
+- Help researchers optimise and scale-up <br> their code,
+- Develop ML pipelines and models,
+- Organise ML and data science **training**
+
+:::
+
+::: {.column}
+
+**Jens Brinkmann**
+
+- TODO funny picture
+- TODO little bio :)
+
+:::
+::::
+
+# One goal -- 2 approaches
+
+:::: {.columns}
+::: {.column}
+
+- Introduce researchers to Machine Learning <br> and Deep Learning
+- Teaching by doing, i.e. hands-on interactive workshops
+- Not a full course, more an *ice-breaker*
+- Yet provide practical knowledge to get started
+
+:::
+
+::: {.column}
+
+TODO add here a nice image :)
+
+:::
+::::
+
+Let's dissect some key aspects of the 2 approaches!
+
+# Some numbers
+
+<!-- goal: give some credibility to our recommendations -->
+
+:::: {.columns}
+::: {.column}
+
+**UoA workshops**
+
+- TODO describe modules
+- TODO add link to Lightning talk
+
+:::
+::: {.column}
+
+**NeSI workshops**
+
+<!-- TODO double check all the numbers -->
+- audience: Aotearoa -- NZ researchers
+- ML 101
+  - intro to Machine Learning
+  - started in 2021
+  - 7 workshops (in person, online, hybrid)
+  - TODO attendees in total
+- ML 102
+  - intro to Deep Learning (CNNs)
+  - started in 2022
+  - 2 workshops (online)
+  - TODO attendees in total
+
+:::
+::::
+
+# Format
+
+:::: {.columns}
+::: {.column}
+
+**UoA workshops**
+
+TODO content
+
+:::
+::: {.column}
+
+**NeSI workshops**
+
+- ML 101: 6 hours
+  - at first in one day
+  - now split over 2 mornings
+- ML 102: 3 hours
+- independent workshops
+- almost always online
+  - 1 in person (wifi issues)
+  - 1 hybrid (require more organisation)
+
+:::
+::::
+
+TODO here some recommendations: make it online, split/shorter sessions
+
+# Material
+
+:::: {.columns}
+::: {.column}
+
+**UoA workshops**
+
+TODO material and what has been done to it
+
+:::
+::: {.column}
+
+**NeSI workshops**
+
+- ML 101
+  - Scikit-Learn workshop from Jake Vanderplas
+  - online recordings (very good to rehearse)
+  - Jupyter notebook based
+  - very few changes (updated package version)
+- ML 102
+  - TensorFlow tutorials
+  - Jupyter notebook based
+  - added an introduction
+  - added section to submit a Slurm job
+
+:::
+::::
+
+TODO here some recommendations: reuse/adapt content, don't start from scratch
+
+# Content
+
+:::: {.columns}
+::: {.column width="60%"}
+
+**Machine **
+
+- supervised vs. unsupervised
+  - regression, classification
+  - cluster, dimensionality reduction
+- ensemble models (random forests)
+- validation (train/test, cross-validation)
+
+:::
+::: {.column width="40%"}
+
+TODO add a nice image
+
+:::
+::::
+
+Recommendation: **resist the temptation of MLP (multi-layer perceptron)** for an intro
+
+- require more notions (architecture, training, data preprocessing, ...)
+- keep it for Deep Learning introduction
+
+# Audience
+
+TODO some more generic recommendations around EOIs, selection process, pre-workshop communication, teaching crew (get helpers)
+
+# Platform
+
+TODO Google Colab, Jupyter-on-NeSI, no need of GPU to start (or small ones on Colab available)
+
 # Recommendations
 
 - use existing material
@@ -119,3 +294,25 @@ some intro
 # How to get in touch
 
 - email abc
+
+<!-- snippet to create a slide ;-)
+
+:::: {.columns}
+::: {.column}
+
+**UoA workshops**
+
+TODO content
+
+:::
+::: {.column}
+
+**NeSI workshops**
+
+TODO content
+
+:::
+::::
+
+-->
+
