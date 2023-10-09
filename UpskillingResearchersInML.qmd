@@ -63,6 +63,9 @@ execute:
 
 --- 
 
+# recommendation by organisers
+based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=website): *Oral Presentations (15 minutes plus 5 minutes for questions and changeover): Short conversation starters which provide enough information to encourage the audience to engage and seek further information.*
+
 # todo
 - put links for lightning talk and BoF
 - put links to NeSI and CeR

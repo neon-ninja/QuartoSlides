@@ -64,7 +64,8 @@ execute:
   enabled: true
 
 --- 
-
+# to be removed: Info by organisers
+based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=website):*Lightning Talks (5 minutes): Presentations in which participants speak about their ideas, current activities, challenges and professional passions. Lightning Talks will be held during lunch breaks at the “Lightning Talk Stage”.*
 
 # Overview
 ::: {.incremental}
