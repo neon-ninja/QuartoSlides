@@ -3,9 +3,7 @@ title: "Upskilling researchers in Machine Learning"
 subtitle: "Lightning talk ⚡️"
 author: "Maxime Rio, Jens Brinkmann"
 institute: "New Zealand eResearch Infrastructure (NeSI), The University of Auckland (UoA)"
-# logo-container: "ResBaz_transparent_Logo_cropped.svg"
 date: 2023-10-17
-# date: today
 date-format: full
 
 # bibliography: refs.bib
@@ -70,6 +68,7 @@ execute:
 - put links to NeSI and CeR
 
 # Overview
+
 ::: {.incremental}
 some intro
 :::
@@ -80,7 +79,6 @@ some intro
 - This talk is focused on the delivery
   - two perspectives: CeR and NeSI 
 - BoF (right after this talk) will be a broader discussion of a similar topic 
-
 
 ## This talk's Goal
 
@@ -107,11 +105,10 @@ some intro
   - Column right: show details of Carp Sessions
 - Maybe a comparison of content covered
 
-
 ## Resoures used
+
 - Colab
 - JupyterHub?
-
 
 # Recommendations
 
