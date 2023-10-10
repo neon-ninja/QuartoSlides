@@ -69,49 +69,14 @@ based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_so
 # todo
 - put links for lightning talk and BoF
 - put links to NeSI and CeR
+- what tables and stats from the Lightning talk to include?
 
-# Outline
+# About this talk
 
 ::: {.incremental}
-some intro
+- some intro
+- maybe a ToC?
 :::
-
-## This talk's focus
-
-- Lightning Talk earlier today was mainly about answering 'what' we did and metrics
-- This talk is focused on the delivery
-  - two perspectives: CeR and NeSI 
-- BoF (right after this talk) will be a broader discussion of a similar topic 
-
-## This talk's Goal
-
-- share our experience
-  - lessons learned
-  - what went well, what didn't, how we would do it differently
-- emphasising on some best-practices
-- encourage others to do similar things
-  - because *the time is now*
-  - you need less resources than you might expect
-
-## This talk's Structure
-
-- we (CeR and NeSI) won't talk about these topics one after the other
-- we picked some perspectives and will share them in parallel
-
-## How the ML sessions were executed
-
-- CeR and NeSI independently made the decision to base the workshops on existing material (The Carpentries) and ([Scikit-learn Tutorial(https://github.com/jakevdp/sklearn_tutorial) by 
-[Jake Vanderplas]](https://github.com/jakevdp))
-- The underlying idea was to start with foundational ML aspects and to build up
-- different session times
-  - Column left: show details of ML101 and ML201
-  - Column right: show details of Carp Sessions
-- Maybe a comparison of content covered
-
-## Resoures used
-
-- Colab
-- JupyterHub?
 
 # Who are we?
 
@@ -120,9 +85,9 @@ some intro
 
 **Maxime Rio**
 
-![](./UpskillingResearchersInML_Assets/flying_max.png){width=40% fig-align="center"}
+![](./UpskillingResearchersInML_Assets/flying_max.jpg){width=40% fig-align="center"}
 
-<!-- TODO upload better image, reduce margins  -->
+<!-- TODO upload better image, reduce margins EDIT Jens: Cropped existing version  -->
 
 - Data Science Engineer @ NeSI
 - Data Scientist @ NIWA
@@ -137,10 +102,80 @@ some intro
 **Jens Brinkmann**
 
 - TODO funny picture
-- TODO little bio :)
+- official title: *Senior eResearch Engagement Specialist*
+- Mechanical Engineer with a background in Photography/Videography
+- Support reseachers with their computational needs and training around that 
 
 :::
 ::::
+
+
+## This talk's focus
+
+- The [Lightning Talk earlier today](https://conference.eresearch.edu.au/developing-a-carpentries-style-machine-learning-workshop/) was mainly about answering '*what*' we[^1] did and metrics
+- [This talk](https://conference.eresearch.edu.au/upskilling-researchers-in-machine-learning/) is focused on the **delivery**
+  - two perspectives: CeR and NeSI 
+- [BoF](https://conference.eresearch.edu.au/ai-skill-training-pathway-bridging-gaps-and-fostering-inclusivity/) (right after this talk) will be a *broader discussion* of a similar topic 
+
+
+[^1]: *we* is CeR (Centre for eResearch) and NeSI (National eScience Infrastructure)
+
+## This talk's Goal
+
+- share our experience
+  - lessons learned
+  - what went well, what didn't, how we would do it differently
+- emphasising on some best-practices
+- encourage others to do similar things
+  - because *the time is now*
+  - you need less resources than you might expect
+
+## This talk's Structure
+
+- we won't talk about the previously mentioned topics *one after the other*
+- we picked some perspectives and will share them in parallel
+
+# Execution-phase of the ML workshops
+
+- (maybe another sub toc?)
+
+## How the ML sessions were executed
+
+- CeR and NeSI independently made the decision to base the workshops on existing material ([The Carpentries](https://carpentries.org/index.html)) and ([Scikit-learn Tutorial(https://github.com/jakevdp/sklearn_tutorial) by 
+[Jake Vanderplas]](https://github.com/jakevdp))
+- Reasoning about what topics to cover and in what depth: Decision to started with foundational ML aspects and to build up
+- different session times
+  - Column left: show details of ML101 and ML201
+  - Column right: show details of Carp Sessions
+- Maybe a comparison of content covered
+
+## Resoures used
+
+
+:::: {.columns}
+::: {.column}
+
+**NeSI**
+<!-- TODO: check if this is all correct, just from memory -->
+- (several iterations of the workshops) *in-person* with own challenges then online only event: Zoom.us
+- byod
+- Jupyter Hub
+
+:::
+
+::: {.column}
+
+**CeR**
+
+- online only event: Zoom.us
+- byod
+- deviation from 'The Carpentries': No local Python installs
+- Google Colab
+
+:::
+::::
+
+
 
 # One goal -- 2 approaches
 
@@ -149,14 +184,17 @@ some intro
 
 - Introduce researchers to Machine Learning <br> and Deep Learning
 - Teaching by doing, i.e. hands-on interactive workshops
-- Not a full course, more an *ice-breaker*
+- Unrealistic to cover topic exhaustively, more of an *ice-breaker*
 - Yet provide practical knowledge to get started
+  - but not a show and tell of existing commercial solutions 
 
 :::
 
 ::: {.column}
 
-TODO add here a nice image :)
+![AI Image](./UpskillingResearchersInML_Assets/BingAIDalle3.jpeg)
+*Figure 1: [AI Created Photo (DallE3, Bing)](https://www.bing.com/images/create/a-cool-photo-showing-machine-learning/6525c46fdd2b4dabb631b07a2a527ba6?id=BeZ%2bVfneQKjueVSP0cGXoQ%3d%3d&view=detailv2&idpp=genimg&idpclose=1&FORM=SYDBIC&ssp=1&setlang=en-NZ&safesearch=moderate).*
+<!-- had to be an AI generated image, we can adjust -->
 
 :::
 ::::
@@ -167,13 +205,21 @@ Let's dissect some key aspects of the 2 approaches!
 
 <!-- goal: give some credibility to our recommendations -->
 
+
+## Audience and Runs
+
 :::: {.columns}
 ::: {.column}
 
 **UoA workshops**
 
-- TODO describe modules
-- TODO add link to Lightning talk
+- audience: The University of Auckland (UoA) researchers
+- two runs
+  - Run #1: March 2023
+  - Run #2: September 2023
+- well-received: filtering by mandatory Expression of Interest (EoI)
+  - about 100 applications for 30 spots
+- TODO add Zoom participants plot
 
 :::
 ::: {.column}
@@ -196,14 +242,21 @@ Let's dissect some key aspects of the 2 approaches!
 :::
 ::::
 
-# Format
+## Schedule
 
 :::: {.columns}
 ::: {.column}
 
 **UoA workshops**
 
-TODO content
+- Run #1: 
+  - 4h Python
+  - 4h Intro ML
+  - ... PUT CORRECT NUMBERS HERE
+- Run #2: 
+  - --4h Python--
+  - 8h Intro ML
+  - ... PUT CORRECT NUMBERS HERE
 
 :::
 ::: {.column}
@@ -222,16 +275,19 @@ TODO content
 :::
 ::::
 
-TODO here some recommendations: make it online, split/shorter sessions
+TODO here some recommendations: 
 
-# Material
+- make it online
+- split/shorter sessions (bearing in mind the scheduling-challenges for researchers)
+
+## Material
 
 :::: {.columns}
 ::: {.column}
 
 **UoA workshops**
 
-TODO material and what has been done to it
+- TODO WHAT copy-paste of the table of Lightning talk?
 
 :::
 ::: {.column}
@@ -254,12 +310,14 @@ TODO material and what has been done to it
 
 TODO here some recommendations: reuse/adapt content, don't start from scratch
 
-# Content
+## Content
+
+<!-- I AM NOT SURE HOW CONTENT DIFFERS FROM MATERIAL? -->
 
 :::: {.columns}
 ::: {.column width="60%"}
 
-**Machine **
+**Machine Learning**
 
 - supervised vs. unsupervised
   - regression, classification
@@ -271,24 +329,27 @@ TODO here some recommendations: reuse/adapt content, don't start from scratch
 ::: {.column width="40%"}
 
 TODO add a nice image
+<!-- WHAT KIND OF IMAGE DID YOU HAVE IN MIND?? -->
 
 :::
 ::::
+
+# Recommendations based on our Experience
 
 Recommendation: **resist the temptation of MLP (multi-layer perceptron)** for an intro
 
 - require more notions (architecture, training, data preprocessing, ...)
 - keep it for Deep Learning introduction
 
-# Audience
+## Audience
 
 TODO some more generic recommendations around EOIs, selection process, pre-workshop communication, teaching crew (get helpers)
 
-# Platform
+## Platform
 
 TODO Google Colab, Jupyter-on-NeSI, no need of GPU to start (or small ones on Colab available)
 
-# Recommendations
+# Other Recommendations
 
 - use existing material
 - don't be afraid to use Colab, etc. you don't need fancy GPUs, even though you can have some
