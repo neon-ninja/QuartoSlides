@@ -270,13 +270,16 @@ There will be a **lot** of interest so...
 
 ::: {.column}
 
+<!-- TODO use a better capture on a larger screen -->
+![](./UpskillingResearchersInML_Assets/penguins.png)
+
 :::
 
 ::: {.column}
 
-- Almost always online
-  - 1 in person (had wifi issues)
-  - 1 hybrid (require more organisation)
+- Online and in person
+  - 2 delivered in person (1 had wifi issues 😓)
+  - 5 delivered online
 - Use Jupyter-on-NeSI
   - JupyterHub platform
   - Require a NeSI account
