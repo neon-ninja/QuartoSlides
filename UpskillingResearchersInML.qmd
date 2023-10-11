@@ -164,8 +164,8 @@ Let's dissect some key aspects of the 2 approaches!
 
 ## How the ML sessions were executed
 
-- CeR and NeSI independently made the decision to base the workshops on **existing material** ([The Carpentries](https://carpentries.org/index.html)) and ([Scikit-learn Tutorial(https://github.com/jakevdp/sklearn_tutorial) by 
-[Jake Vanderplas]](https://github.com/jakevdp))
+- CeR and NeSI independently made the decision to base the workshops on **existing material** ([The Carpentries](https://carpentries.org/index.html)) and ([Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_tutorial) by 
+[Jake Vanderplas](https://github.com/jakevdp))
 
 ## Resoures used
 
