@@ -470,7 +470,24 @@ CeR and NeSI independently made the decision to base the workshops on **existing
 - Use shorter sessions and stick to breaks
 - Keep MLP for the Deep Learning section, start with Random Forests
 
-# How to get in touch
+# How to get in touch {.center}
 
-- email abc
-- maybe a QR code or two
+:::: {.columns}
+::: {.column width="60%"}
+
+![](./UpskillingResearchersInML_Assets/kereru-taieri-mouth-1920-2.webp)
+*Kererū / New Zealand pigeon, not use(ful) for mails* 😅
+*[Photography](https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/nz-pigeon-kereru/) from the Department of Conservation*
+
+:::
+
+:::{.column width="40%"}
+
+**Maxime Rio** <br> 📨 maxime.ri@nesi.org.nz
+
+**Jens Brinkmann** <br> 📨 j.brinkmann@auckland.ac.nz 
+
+:::
+::::
+
+<!-- maybe a QR code or two? -->
