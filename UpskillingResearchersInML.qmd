@@ -202,19 +202,19 @@ TODO add Zoom participants plot
 :::: {.columns}
 ::: {.column}
 
-TODO picture
+![](./UpskillingResearchersInML_Assets/ml101_1.jpg)
+*First ML101 workshop at eResearch NZ 2021*
 
 :::
 
 ::: {.column}
 
-<!-- TODO double check all the numbers -->
 - Audience: Aotearoa -- NZ researchers
 - ML 101
   - intro to Machine Learning
   - started in 2021
   - 7 workshops (in person, online, hybrid)
-  - TODO attendees in total
+  - 127 attendees in total (from 10 to 32)
 - ML 102
   - intro to Deep Learning (CNNs)
   - started in 2022
@@ -225,6 +225,17 @@ TODO picture
 :::
 ::::
 
+<!-- numbers (check with Nisha & Matt for ML102)
+ML101 2021 eRNZ ~10 
+ML101 2021 Greta 19
+ML101 2021 CRIs 32
+ML101 2021 Uni 22
+ML101 2022 Pradeesh 11
+ML101 2023 May 18
+ML101 2023 August 15
+ML102 2022 June 20?
+ML102 2023 July ?? 
+-->
 
 ## Recommendations {.center}
 
