@@ -367,7 +367,8 @@ TODO illustration
 :::: {.columns}
 ::: {.column}
 
-TODO add image
+![](./UpskillingResearchersInML_Assets/jake.png)
+*My rehearsal and source of inspiration 💓*
 
 :::
 ::: {.column}
