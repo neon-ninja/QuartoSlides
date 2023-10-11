@@ -135,24 +135,30 @@ execute:
 # One goal -- 2 approaches
 
 :::: {.columns}
-::: {.column width=60%}
+::: {.column width=50%}
 
-- Introduce researchers to Machine Learning <br> and Deep Learning
-- Teaching by doing, i.e. hands-on interactive workshops
-- Unrealistic to cover topic exhaustively, more of an *ice-breaker*
-- Yet provide practical knowledge to get started
-  - but not a show and tell of existing commercial solutions 
+- Introduce researchers to Machine Learning and Deep Learning
+- Start with **foundational** ML aspects and to build up from there
+- Research field agnostic
+- **Hands-on** approach (teaching by doing)
+  - **no** show and tell of existing commercial solutions
+  - **no** theoretical lectures
+  - **no** deep dive into the maths behind ML
+- Not an exhaustive course but make attendees confident to try things by themselves
 
 :::
 
-::: {.column width=40%}
+::: {.column width=50%}
 
-![AI Image](./UpskillingResearchersInML_Assets/BingAIDalle3.jpeg)
+![](./UpskillingResearchersInML_Assets/BingAIDalle3.jpeg){width=70% fig-align="center"}
+
 *Figure 1: [AI Created Photo (DallE3, Bing)](https://www.bing.com/images/create/a-cool-photo-showing-machine-learning/6525c46fdd2b4dabb631b07a2a527ba6?id=BeZ%2bVfneQKjueVSP0cGXoQ%3d%3d&view=detailv2&idpp=genimg&idpclose=1&FORM=SYDBIC&ssp=1&setlang=en-NZ&safesearch=moderate).*
 <!-- had to be an AI generated image, we can adjust -->
 
 :::
 ::::
+
+Let's dissect some key aspects of the 2 approaches!
 
 # Execution-phase of the ML workshops
 
@@ -160,12 +166,6 @@ execute:
 
 - CeR and NeSI independently made the decision to base the workshops on **existing material** ([The Carpentries](https://carpentries.org/index.html)) and ([Scikit-learn Tutorial(https://github.com/jakevdp/sklearn_tutorial) by 
 [Jake Vanderplas]](https://github.com/jakevdp))
-- Scope: Decision to started with **foundational** ML aspects and to build up from there
-- Research field agnostic
-- **Hands-on** approach
-  - **no** show and tell of existing commercial solutions
-  - **no** theoretical lectures
-  - **no** deep dive into the maths behind ML
 
 ## Resoures used
 
@@ -173,6 +173,7 @@ execute:
 ::: {.column}
 
 **NeSI**
+
 <!-- TODO: check if this is all correct, just from memory -->
 - (several iterations of the workshops) *in-person* with own challenges then online only event: Zoom.us
 - byod
@@ -191,8 +192,6 @@ execute:
 
 :::
 ::::
-
-Let's dissect some key aspects of the 2 approaches!
 
 # Some numbers
 
