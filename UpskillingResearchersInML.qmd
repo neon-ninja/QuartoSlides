@@ -68,7 +68,7 @@ execute:
 # Who are we?
 
 :::: {.columns}
-::: {.column}
+::: {.column width=45%}
 
 **Maxime Rio**
 
@@ -76,23 +76,23 @@ execute:
 
 <!-- TODO upload better image, reduce margins EDIT Jens: Cropped existing version  -->
 
-- Data Science Engineer @ NeSI
-- Data Scientist @ NIWA
+- *Data Science Engineer @ NeSI*
+- *Data Scientist @ NIWA*
 - Help researchers optimise and scale-up <br> their code,
 - Develop ML pipelines and models,
 - Organise ML and data science **training**
 
 :::
 
-::: {.column}
+::: {.column width=55%}
 
 **Jens Brinkmann**
 
-TODO funny picture
-
-- Official title: *Senior eResearch Engagement Specialist*
+- *Senior eResearch Engagement Specialist @ UoA*
 - Mechanical Engineer with a background in Photography/Videography
 - Support reseachers with their computational needs and training around that 
+
+TODO funny picture
 
 :::
 ::::
@@ -144,7 +144,7 @@ TODO funny picture
 
 -->
 
-# One goal -- 2 approaches
+# A shared goal
 
 :::: {.columns}
 ::: {.column width=50%}
@@ -169,8 +169,6 @@ TODO funny picture
 
 :::
 ::::
-
-Let's dissect some key aspects of the 2 approaches!
 
 # Some numbers
 
