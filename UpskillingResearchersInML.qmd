@@ -162,11 +162,6 @@ Let's dissect some key aspects of the 2 approaches!
 
 # Execution-phase of the ML workshops
 
-## How the ML sessions were executed
-
-- CeR and NeSI independently made the decision to base the workshops on **existing material** ([The Carpentries](https://carpentries.org/index.html)) and ([Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_tutorial) by 
-[Jake Vanderplas](https://github.com/jakevdp))
-
 ## Resoures used
 
 :::: {.columns}
@@ -238,7 +233,7 @@ Let's dissect some key aspects of the 2 approaches!
 
 <!-- so this is purely about the hours and the split of content over these hours -->
 
-## UoA wokshops
+## UoA workshops
 
 :::: {.columns}
 ::: {.column}
@@ -293,15 +288,17 @@ TODO illustration
 
 # Material
 
-- An overview of the lessons that were used, adapted, enhanced:
-<!-- IS THIS PREVIOUS STATEMENT WHAT YOU HAD IN MIND? -->
+## UoA workshops
+
+- [The Carpentries](https://carpentries.org/index.html)
+- TODO paste the table with the linked Slides from Lightning talk
+
+## NeSI workshops
 
 :::: {.columns}
 ::: {.column}
 
-**UoA workshops**
-
-- TODO paste the table with the linked Slides from Lightning talk
+TODO add image
 
 :::
 ::: {.column}
@@ -309,7 +306,8 @@ TODO illustration
 **NeSI workshops**
 
 - ML 101
-  - Scikit-Learn workshop from Jake Vanderplas
+  - [Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_tutorial) by 
+[Jake Vanderplas](https://github.com/jakevdp)
   - online recordings (very good to rehearse)
   - Jupyter notebook based
   - very few changes (updated package version)
@@ -322,14 +320,19 @@ TODO illustration
 :::
 ::::
 
-Overall recommendations: 
+## Recommendations
+
+CeR and NeSI independently made the decision to base the workshops on **existing material**
+
 - don't reinvent the wheel
 - reuse/adapt content
 
-## Content
+# Content
 
-- this differs from the previous perspective as it is more about the abstract topics covered
-<!-- IS THIS PREVIOUS STATEMENT WHAT YOU HAD IN MIND? -->
+<!-- this differs from the previous perspective as it is more about the abstract topics covered
+     IS THIS PREVIOUS STATEMENT WHAT YOU HAD IN MIND? yes :) -->
+
+##
 
 :::: {.columns}
 ::: {.column width="60%"}
@@ -342,24 +345,30 @@ Overall recommendations:
 - ensemble models (random forests)
 - validation (train/test, cross-validation)
 
-<!-- we should include the DeepLearning topic here, too? Or was the point for you to show: This was covered by both of us? -->
 :::
 ::: {.column width="40%"}
 
-TODO add a nice image
-<!-- WHAT KIND OF IMAGE DID YOU HAVE IN MIND?? -->
+**Deep Learning**
+
+<!-- we should include the DeepLearning topic here, too? Or was the point for you to show: This was covered by both of us?
+     we should add this one, good point
+-->
 
 :::
 ::::
 
-# Recommendations based on our Experience
+## Recommendations
 
-Recommendation: **resist the temptation of MLP (multi-layer perceptron)** for an intro
+- **random forest** are a **good** first non-linear model to learn
+  - intuitive to understand how it works
+  - good performances on tabular data
+  - doesn't require too much care in terms of data preparation
 
-- require more notions (architecture, training, data preprocessing, ...)
-- keep it for Deep Learning introduction
+- resist the temptation of **MLP (multi-layer perceptron)** for an ML intro
+  - require more notions (architecture, training, data preprocessing, ...)
+  - keep it for Deep Learning introduction
 
-## Audience
+# Audience
 
 TODO some more generic recommendations around EOIs, selection process, pre-workshop communication, teaching crew (get helpers)
 
