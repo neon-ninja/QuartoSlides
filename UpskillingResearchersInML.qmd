@@ -92,7 +92,7 @@ execute:
 - Mechanical Engineer with a background in Photography/Videography
 - Support reseachers with their computational needs and training around that 
 
-TODO funny picture
+TODO funny (or serious) picture
 
 :::
 ::::
@@ -170,10 +170,9 @@ TODO funny picture
 :::
 ::::
 
-# Some numbers
+# Workshops overview
 
-<!-- goal: give some credibility to our recommendations -->
-
+<!-- goal: give some credibility to our recommendations and advise about recruitment process -->
 
 ## UoA workshops
 
@@ -221,6 +220,7 @@ TODO picture
   - started in 2022
   - 2 workshops (online)
   - TODO attendees in total
+- Mixture of direct registration and EoIs
 
 :::
 ::::
@@ -228,29 +228,18 @@ TODO picture
 
 ## Recommendations {.center}
 
-- 30 participants is a good number for an online training
-- Expect people to not show up
+There will be a **lot** of interest so...
 
+- use an Expression of Interest for registration and filter,
+- 30 participants is a good number for an online training,
+- expect people to not show up (if free and online).
 
-# Execution-phase of the ML workshops
+# Platform(s)
 
-## Resoures used
+## UoA workshops
 
 :::: {.columns}
 ::: {.column}
-
-**NeSI**
-
-<!-- TODO: check if this is all correct, just from memory -->
-- (several iterations of the workshops) *in-person* with own challenges then online only event: Zoom.us
-- byod
-- Jupyter Hub
-
-:::
-
-::: {.column}
-
-**CeR**
 
 - online only event: Zoom.us
 - byod
@@ -258,8 +247,40 @@ TODO picture
 - Google Colab
 
 :::
+
+::: {.column}
+
+:::
 ::::
 
+## NeSI workshops
+
+:::: {.columns}
+
+::: {.column}
+
+:::
+
+::: {.column}
+
+- Almost always online
+  - 1 in person (had wifi issues)
+  - 1 hybrid (require more organisation)
+- Use Jupyter-on-NeSI
+  - JupyterHub platform
+  - ML101: 2 cores & 4 GB of RAM
+  - ML102: 4 cores & 8 GB of RAM
+- Use Slurm based job for GPU training (a little bit)
+- Tip: make sure the Platform team does not schedule upgrades that day...
+
+:::
+::::
+
+## Recommendations {.center}
+
+- Make it online
+- Leverage online computational platform (Google Colab, JupyterHub, Open OnDemand...)
+- No need of GPU to start (or small ones on Colab available)
 
 # Schedule
 
@@ -292,30 +313,29 @@ TODO illustration
 :::: {.columns}
 ::: {.column}
 
-- ML 101: 6 hours
+- ML 101
+  - 6 hours with TODO breaks
   - at first in one day
   - now split over 2 mornings
-- ML 102: 3 hours
+- ML 102
+  - 3 hours with TODO breaks
 - Independent workshops
-- Almost always online
-  - 1 in person (wifi issues)
-  - 1 hybrid (require more organisation)
+- But organised "close" to each other
 
 :::
 ::: {.column}
 
-TODO illustration
+TODO illustration or runsheet capture
 
 :::
 ::::
 
-
 ## Recommendations {.center}
 
-- Make it online
 - Split/shorter sessions (bearing in mind the scheduling-challenges for researchers)
 - Sticking to break-schedule
 - Following best practices for online audience
+  - TODO enumerate a bit
   - [Webinar: Tips & tricks for hosting a successful online event](https://youtu.be/XTeCHUZ2H_w?si=OD4GDRNSV460zK7O)
 
 # Material
@@ -402,14 +422,6 @@ CeR and NeSI independently made the decision to base the workshops on **existing
 - Resist the temptation of **MLP (multi-layer perceptron)** for an ML intro
   - require more notions (architecture, training, data preprocessing, ...)
   - keep it for Deep Learning introduction
-
-# Audience
-
-TODO some more generic recommendations around EOIs, selection process, pre-workshop communication, teaching crew (get helpers)
-
-## Platform
-
-TODO Google Colab, Jupyter-on-NeSI, no need of GPU to start (or small ones on Colab available)
 
 # Other Recommendations
 
