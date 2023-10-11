@@ -406,6 +406,8 @@ CeR and NeSI independently made the decision to base the workshops on **existing
 
 **Deep Learning**
 
+TODO add contents from workshops
+
 <!-- we should include the DeepLearning topic here, too? Or was the point for you to show: This was covered by both of us?
      we should add this one, good point
 -->
