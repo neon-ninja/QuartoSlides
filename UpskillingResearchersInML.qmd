@@ -63,19 +63,7 @@ execute:
 
 --- 
 
-
 <!-- based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=website): *Oral Presentations (15 minutes plus 5 minutes for questions and changeover): Short conversation starters which provide enough information to encourage the audience to engage and seek further information.* -->
-
-
-
-
-
-# About this talk
-
-::: {.incremental}
-- We want to inform about our experience with Machine Learning (ML) workshops
-- We want to share some recommendations
-:::
 
 # Who are we?
 
@@ -108,6 +96,14 @@ execute:
 :::
 ::::
 
+# About this talk
+
+::: {.incremental}
+- We want to inform about our experience with Machine Learning (ML) workshops
+- We want to share some recommendations
+:::
+
+<!-- REMOVED BY MAXIME (who thinks that this could be condensed in the "About this talk" slide :D
 
 ## This talk's focus
 
@@ -134,14 +130,12 @@ execute:
 - we won't talk about this from a NeSI vs. CeR perspective sequentially
 - we rather picked some perspectives and will share them in parallel
 
-# Execution-phase of the ML workshops
+-->
 
-
-
-## One goal -- 2 approaches
+# One goal -- 2 approaches
 
 :::: {.columns}
-::: {.column}
+::: {.column width=60%}
 
 - Introduce researchers to Machine Learning <br> and Deep Learning
 - Teaching by doing, i.e. hands-on interactive workshops
@@ -151,7 +145,7 @@ execute:
 
 :::
 
-::: {.column}
+::: {.column width=40%}
 
 ![AI Image](./UpskillingResearchersInML_Assets/BingAIDalle3.jpeg)
 *Figure 1: [AI Created Photo (DallE3, Bing)](https://www.bing.com/images/create/a-cool-photo-showing-machine-learning/6525c46fdd2b4dabb631b07a2a527ba6?id=BeZ%2bVfneQKjueVSP0cGXoQ%3d%3d&view=detailv2&idpp=genimg&idpclose=1&FORM=SYDBIC&ssp=1&setlang=en-NZ&safesearch=moderate).*
@@ -159,6 +153,8 @@ execute:
 
 :::
 ::::
+
+# Execution-phase of the ML workshops
 
 ## How the ML sessions were executed
 
@@ -172,7 +168,6 @@ execute:
   - **no** deep dive into the maths behind ML
 
 ## Resoures used
-
 
 :::: {.columns}
 ::: {.column}
@@ -196,7 +191,6 @@ execute:
 
 :::
 ::::
-
 
 Let's dissect some key aspects of the 2 approaches!
 
@@ -242,6 +236,7 @@ Let's dissect some key aspects of the 2 approaches!
 ::::
 
 ## Schedule
+
 <!-- so this is purely about the hours and the split of content over these hours -->
 
 :::: {.columns}
@@ -282,6 +277,7 @@ Let's dissect some key aspects of the 2 approaches!
   - [Webinar: Tips & tricks for hosting a successful online event](https://youtu.be/XTeCHUZ2H_w?si=OD4GDRNSV460zK7O)
 
 ## Material
+
 - An overview of the lessons that were used, adapted, enhanced:
 <!-- IS THIS PREVIOUS STATEMENT WHAT YOU HAD IN MIND? -->
 
