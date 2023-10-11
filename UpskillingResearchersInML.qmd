@@ -374,13 +374,13 @@ TODO add image
 
 **NeSI workshops**
 
-- ML 101
+- ML 101 -- [github.com/nesi/sklearn_tutorial](https://github.com/nesi/sklearn_tutorial)
   - [Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_tutorial) by 
 [Jake Vanderplas](https://github.com/jakevdp)
-  - online recordings (very good to rehearse)
+  - existed online recordings <br> (very good to rehearse!)
   - Jupyter notebook based
   - very few changes (updated package version)
-- ML 102
+- ML 102 -- [github.com/nesi/ml102_workshop](https://github.com/nesi/ml102_workshop)
   - TensorFlow tutorials
   - Jupyter notebook based
   - added an introduction
@@ -391,7 +391,7 @@ TODO add image
 
 ## Recommendations {.center}
 
-CeR and NeSI independently made the decision to base the workshops on **existing material**
+CeR and NeSI independently made the decision to base the workshops on **existing material**.
 
 - Don't reinvent the wheel
 - Reuse/adapt content
