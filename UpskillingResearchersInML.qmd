@@ -63,19 +63,18 @@ execute:
 
 --- 
 
-# recommendation by organisers
-based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=website): *Oral Presentations (15 minutes plus 5 minutes for questions and changeover): Short conversation starters which provide enough information to encourage the audience to engage and seek further information.*
 
-# todo
-- put links for lightning talk and BoF
-- put links to NeSI and CeR
-- what tables and stats from the Lightning talk to include?
+<!-- based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=website): *Oral Presentations (15 minutes plus 5 minutes for questions and changeover): Short conversation starters which provide enough information to encourage the audience to engage and seek further information.* -->
+
+
+
+
 
 # About this talk
 
 ::: {.incremental}
-- some intro
-- maybe a ToC?
+- We want to inform about our experience with Machine Learning (ML) workshops
+- We want to share some recommendations
 :::
 
 # Who are we?
@@ -113,18 +112,18 @@ based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_so
 ## This talk's focus
 
 - The [Lightning Talk earlier today](https://conference.eresearch.edu.au/developing-a-carpentries-style-machine-learning-workshop/) was mainly about answering '*what*' we[^1] did and metrics
-- [This talk](https://conference.eresearch.edu.au/upskilling-researchers-in-machine-learning/) is focused on the **delivery**
+- [This current talk](https://conference.eresearch.edu.au/upskilling-researchers-in-machine-learning/) is focused on the **delivery**
   - two perspectives: CeR and NeSI 
 - [BoF](https://conference.eresearch.edu.au/ai-skill-training-pathway-bridging-gaps-and-fostering-inclusivity/) (right after this talk) will be a *broader discussion* of a similar topic 
 
 
-[^1]: *we* is CeR (Centre for eResearch) and NeSI (National eScience Infrastructure)
+[^1]: by "*we*" is ([CeR - Centre for eResearch](https://eresearch.auckland.ac.nz/)) and [NeSI (National eScience Infrastructure)](https://www.nesi.org.nz/)
 
 ## This talk's Goal
 
 - share our experience
   - lessons learned
-  - what went well, what didn't, how we would do it differently
+  - along the lines of: What went well, what didn't, how we would do it differently
 - emphasising on some best-practices
 - encourage others to do similar things
   - because *the time is now*
@@ -132,22 +131,45 @@ based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_so
 
 ## This talk's Structure
 
-- we won't talk about the previously mentioned topics *one after the other*
-- we picked some perspectives and will share them in parallel
+- we won't talk about this from a NeSI vs. CeR perspective sequentially
+- we rather picked some perspectives and will share them in parallel
 
 # Execution-phase of the ML workshops
 
-- (maybe another sub toc?)
+
+
+## One goal -- 2 approaches
+
+:::: {.columns}
+::: {.column}
+
+- Introduce researchers to Machine Learning <br> and Deep Learning
+- Teaching by doing, i.e. hands-on interactive workshops
+- Unrealistic to cover topic exhaustively, more of an *ice-breaker*
+- Yet provide practical knowledge to get started
+  - but not a show and tell of existing commercial solutions 
+
+:::
+
+::: {.column}
+
+![AI Image](./UpskillingResearchersInML_Assets/BingAIDalle3.jpeg)
+*Figure 1: [AI Created Photo (DallE3, Bing)](https://www.bing.com/images/create/a-cool-photo-showing-machine-learning/6525c46fdd2b4dabb631b07a2a527ba6?id=BeZ%2bVfneQKjueVSP0cGXoQ%3d%3d&view=detailv2&idpp=genimg&idpclose=1&FORM=SYDBIC&ssp=1&setlang=en-NZ&safesearch=moderate).*
+<!-- had to be an AI generated image, we can adjust -->
+
+:::
+::::
 
 ## How the ML sessions were executed
 
-- CeR and NeSI independently made the decision to base the workshops on existing material ([The Carpentries](https://carpentries.org/index.html)) and ([Scikit-learn Tutorial(https://github.com/jakevdp/sklearn_tutorial) by 
+- CeR and NeSI independently made the decision to base the workshops on **existing material** ([The Carpentries](https://carpentries.org/index.html)) and ([Scikit-learn Tutorial(https://github.com/jakevdp/sklearn_tutorial) by 
 [Jake Vanderplas]](https://github.com/jakevdp))
-- Reasoning about what topics to cover and in what depth: Decision to started with foundational ML aspects and to build up
-- different session times
-  - Column left: show details of ML101 and ML201
-  - Column right: show details of Carp Sessions
-- Maybe a comparison of content covered
+- Scope: Decision to started with **foundational** ML aspects and to build up from there
+- Research field agnostic
+- **Hands-on** approach
+  - **no** show and tell of existing commercial solutions
+  - **no** theoretical lectures
+  - **no** deep dive into the maths behind ML
 
 ## Resoures used
 
@@ -175,29 +197,6 @@ based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_so
 :::
 ::::
 
-
-
-# One goal -- 2 approaches
-
-:::: {.columns}
-::: {.column}
-
-- Introduce researchers to Machine Learning <br> and Deep Learning
-- Teaching by doing, i.e. hands-on interactive workshops
-- Unrealistic to cover topic exhaustively, more of an *ice-breaker*
-- Yet provide practical knowledge to get started
-  - but not a show and tell of existing commercial solutions 
-
-:::
-
-::: {.column}
-
-![AI Image](./UpskillingResearchersInML_Assets/BingAIDalle3.jpeg)
-*Figure 1: [AI Created Photo (DallE3, Bing)](https://www.bing.com/images/create/a-cool-photo-showing-machine-learning/6525c46fdd2b4dabb631b07a2a527ba6?id=BeZ%2bVfneQKjueVSP0cGXoQ%3d%3d&view=detailv2&idpp=genimg&idpclose=1&FORM=SYDBIC&ssp=1&setlang=en-NZ&safesearch=moderate).*
-<!-- had to be an AI generated image, we can adjust -->
-
-:::
-::::
 
 Let's dissect some key aspects of the 2 approaches!
 
@@ -243,6 +242,7 @@ Let's dissect some key aspects of the 2 approaches!
 ::::
 
 ## Schedule
+<!-- so this is purely about the hours and the split of content over these hours -->
 
 :::: {.columns}
 ::: {.column}
@@ -275,19 +275,22 @@ Let's dissect some key aspects of the 2 approaches!
 :::
 ::::
 
-TODO here some recommendations: 
-
 - make it online
 - split/shorter sessions (bearing in mind the scheduling-challenges for researchers)
+- sticking to break-schedule
+- following best practices for online audience
+  - [Webinar: Tips & tricks for hosting a successful online event](https://youtu.be/XTeCHUZ2H_w?si=OD4GDRNSV460zK7O)
 
 ## Material
+- An overview of the lessons that were used, adapted, enhanced:
+<!-- IS THIS PREVIOUS STATEMENT WHAT YOU HAD IN MIND? -->
 
 :::: {.columns}
 ::: {.column}
 
 **UoA workshops**
 
-- TODO WHAT copy-paste of the table of Lightning talk?
+- TODO paste the table with the linked Slides from Lightning talk
 
 :::
 ::: {.column}
@@ -308,11 +311,14 @@ TODO here some recommendations:
 :::
 ::::
 
-TODO here some recommendations: reuse/adapt content, don't start from scratch
+Overall recommendations: 
+- don't reinvent the wheel
+- reuse/adapt content
 
 ## Content
 
-<!-- I AM NOT SURE HOW CONTENT DIFFERS FROM MATERIAL? -->
+- this differs from the previous perspective as it is more about the abstract topics covered
+<!-- IS THIS PREVIOUS STATEMENT WHAT YOU HAD IN MIND? -->
 
 :::: {.columns}
 ::: {.column width="60%"}
@@ -325,6 +331,7 @@ TODO here some recommendations: reuse/adapt content, don't start from scratch
 - ensemble models (random forests)
 - validation (train/test, cross-validation)
 
+<!-- we should include the DeepLearning topic here, too? Or was the point for you to show: This was covered by both of us? -->
 :::
 ::: {.column width="40%"}
 
@@ -358,6 +365,8 @@ TODO Google Colab, Jupyter-on-NeSI, no need of GPU to start (or small ones on Co
 # How to get in touch
 
 - email abc
+- maybe a QR code or two
+- 
 
 <!-- snippet to create a slide ;-)
 
