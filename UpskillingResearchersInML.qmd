@@ -351,8 +351,11 @@ TODO illustration
 
 - Split/shorter sessions (bearing in mind the scheduling-challenges for researchers)
 - Sticking to break-schedule
-- Following best practices for online audience
-  - TODO enumerate a bit
+- Following best practices for online audience, among which
+  - get a Zoom DJ, some helpers, get multiple co-hosts
+  - keep a QA document
+  - prepare your intro and outro
+  - make attendees join from same computer running the code
   - [Webinar: Tips & tricks for hosting a successful online event](https://youtu.be/XTeCHUZ2H_w?si=OD4GDRNSV460zK7O)
 
 # Material
