@@ -278,7 +278,7 @@ TODO illustration
 ::::
 
 
-## Recommendations
+## Recommendations {.center}
 
 - make it online
 - split/shorter sessions (bearing in mind the scheduling-challenges for researchers)
@@ -320,26 +320,29 @@ TODO add image
 :::
 ::::
 
-## Recommendations
+## Recommendations {.center}
 
 CeR and NeSI independently made the decision to base the workshops on **existing material**
 
-- don't reinvent the wheel
-- reuse/adapt content
+- Don't reinvent the wheel
+- Reuse/adapt content
+
+<!-- should we mention notebooks? -->
 
 # Content
 
 <!-- this differs from the previous perspective as it is more about the abstract topics covered
      IS THIS PREVIOUS STATEMENT WHAT YOU HAD IN MIND? yes :) -->
 
-##
+## {.center}
 
 :::: {.columns}
 ::: {.column width="60%"}
 
 **Machine Learning**
 
-- supervised vs. unsupervised
+- *data preparation*
+- supervised vs. unsupervised learning
   - regression, classification
   - cluster, dimensionality reduction
 - ensemble models (random forests)
@@ -357,9 +360,9 @@ CeR and NeSI independently made the decision to base the workshops on **existing
 :::
 ::::
 
-## Recommendations
+## Recommendations {.center}
 
-- **random forest** are a **good** first non-linear model to learn
+- **random forest** is a **good** first non-linear model to learn
   - intuitive to understand how it works
   - good performances on tabular data
   - doesn't require too much care in terms of data preparation
@@ -386,7 +389,6 @@ TODO Google Colab, Jupyter-on-NeSI, no need of GPU to start (or small ones on Co
 
 - email abc
 - maybe a QR code or two
-- 
 
 <!-- snippet to create a slide ;-)
 
