@@ -272,6 +272,7 @@ There will be a **lot** of interest so...
 
 <!-- TODO use a better capture on a larger screen -->
 ![](./UpskillingResearchersInML_Assets/penguins.png)
+*JupyterLab session running on Jupyter-on-NeSI*
 
 :::
 
@@ -329,18 +330,19 @@ TODO illustration
 ::: {.column}
 
 - ML 101
-  - 6 hours with TODO breaks
+  - 6 hours with 3 breaks ☕
   - at first in one day
   - now split over 2 mornings
 - ML 102
-  - 3 hours with TODO breaks
+  - 3 hours with 2 breaks 🍵
 - Independent workshops
 - But organised "close" to each other
 
 :::
 ::: {.column}
 
-TODO illustration or runsheet capture
+![](./UpskillingResearchersInML_Assets/ml101_runsheet.png)
+*ML101 runsheet, used to keep track of time*
 
 :::
 ::::
