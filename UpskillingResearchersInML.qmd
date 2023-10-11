@@ -161,6 +161,68 @@ TODO funny picture
 
 Let's dissect some key aspects of the 2 approaches!
 
+# Some numbers
+
+<!-- goal: give some credibility to our recommendations -->
+
+
+## UoA workshops
+
+:::: {.columns}
+::: {.column}
+
+- Audience: The University of Auckland (UoA) researchers
+- Two runs
+  - Run #1: March 2023
+  - Run #2: September 2023
+- Well-received
+  - filtering by mandatory Expression of Interest (EoI)
+  - about 100 applications for 30 spots
+
+:::
+
+::: {.column}
+
+TODO add Zoom participants plot
+
+:::
+::::
+
+
+## NeSI workshops
+
+:::: {.columns}
+::: {.column}
+
+TODO picture
+
+:::
+
+::: {.column}
+
+<!-- TODO double check all the numbers -->
+- Audience: Aotearoa -- NZ researchers
+- ML 101
+  - intro to Machine Learning
+  - started in 2021
+  - 7 workshops (in person, online, hybrid)
+  - TODO attendees in total
+- ML 102
+  - intro to Deep Learning (CNNs)
+  - started in 2022
+  - 2 workshops (online)
+  - TODO attendees in total
+
+:::
+::::
+
+
+## Recommendations {.center}
+
+- 30 participants is a good number for an online training
+- Expect people to not show up
+
+
 # Execution-phase of the ML workshops
 
 ## Resoures used
@@ -189,46 +251,6 @@ Let's dissect some key aspects of the 2 approaches!
 :::
 ::::
 
-# Some numbers
-
-<!-- goal: give some credibility to our recommendations -->
-
-
-## Audience and Runs -- 
-
-:::: {.columns}
-::: {.column}
-
-**UoA workshops**
-
-- Audience: The University of Auckland (UoA) researchers
-- Two runs
-  - Run #1: March 2023
-  - Run #2: September 2023
-- Well-received: filtering by mandatory Expression of Interest (EoI)
-  - about 100 applications for 30 spots
-- TODO add Zoom participants plot
-
-:::
-::: {.column}
-
-**NeSI workshops**
-
-<!-- TODO double check all the numbers -->
-- Audience: Aotearoa -- NZ researchers
-- ML 101
-  - intro to Machine Learning
-  - started in 2021
-  - 7 workshops (in person, online, hybrid)
-  - TODO attendees in total
-- ML 102
-  - intro to Deep Learning (CNNs)
-  - started in 2022
-  - 2 workshops (online)
-  - TODO attendees in total
-
-:::
-::::
 
 # Schedule
 
