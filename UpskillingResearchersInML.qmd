@@ -412,17 +412,31 @@ CeR and NeSI independently made the decision to base the workshops on **existing
 
 - *Data preparation*
 - Supervised vs. unsupervised learning
-  - regression, classification
-  - cluster, dimensionality reduction
+  - regression
+  - classification
+  - clustering
+  - dimensionality reduction
 - Ensemble models (random forests)
-- Validation (train/test, cross-validation)
+- Validation
+  - train/test/validation split
+  - cross-validation
+  - validation and learning curves
 
 :::
 ::: {.column width="40%"}
 
 **Deep Learning**
 
-TODO add contents from workshops
+- Model architectures
+  - Multi-layer perceptron
+  - Convolutional neural network (computer vision)
+  - Recurrent neural network (sequences, times series)
+- Model training
+  - optimisers and mini-batch
+  - overfitting and early stopping
+  - data augmentation
+  - dropout, batch normalisation, ...
+- Transfer learning
 
 <!-- we should include the DeepLearning topic here, too? Or was the point for you to show: This was covered by both of us?
      we should add this one, good point
