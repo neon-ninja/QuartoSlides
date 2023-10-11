@@ -100,8 +100,19 @@ TODO funny picture
 # About this talk
 
 ::: {.incremental}
+
+::: {.incremental}
 - We want to inform about our experience with Machine Learning (ML) workshops.
 - We want to share some recommendations.
+
+:::
+
+::: {.incremental}
+- The [Lightning Talk earlier today](https://conference.eresearch.edu.au/developing-a-carpentries-style-machine-learning-workshop/) was mainly about answering *what* we did and metrics.
+- [This current talk](https://conference.eresearch.edu.au/upskilling-researchers-in-machine-learning/) is focused on the **delivery**.
+- [BoF](https://conference.eresearch.edu.au/ai-skill-training-pathway-bridging-gaps-and-fostering-inclusivity/) (right after this talk) will be a *broader discussion* of a similar topic. 
+:::
+
 :::
 
 <!-- REMOVED BY MAXIME (who thinks that this could be condensed in the "About this talk" slide :D
