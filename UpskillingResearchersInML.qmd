@@ -198,7 +198,7 @@ Let's dissect some key aspects of the 2 approaches!
 <!-- goal: give some credibility to our recommendations -->
 
 
-## Audience and Runs
+## Audience and Runs -- 
 
 :::: {.columns}
 ::: {.column}
@@ -234,14 +234,14 @@ Let's dissect some key aspects of the 2 approaches!
 :::
 ::::
 
-## Schedule
+# Schedule
 
 <!-- so this is purely about the hours and the split of content over these hours -->
 
+## UoA wokshops
+
 :::: {.columns}
 ::: {.column}
-
-**UoA workshops**
 
 - Run #1: 
   - 4h Python
@@ -255,7 +255,15 @@ Let's dissect some key aspects of the 2 approaches!
 :::
 ::: {.column}
 
-**NeSI workshops**
+TODO illustration
+
+:::
+::::
+
+## NeSI workshops
+
+:::: {.columns}
+::: {.column}
 
 - ML 101: 6 hours
   - at first in one day
@@ -267,7 +275,15 @@ Let's dissect some key aspects of the 2 approaches!
   - 1 hybrid (require more organisation)
 
 :::
+::: {.column}
+
+TODO illustration
+
+:::
 ::::
+
+
+## Recommendations
 
 - make it online
 - split/shorter sessions (bearing in mind the scheduling-challenges for researchers)
@@ -275,7 +291,7 @@ Let's dissect some key aspects of the 2 approaches!
 - following best practices for online audience
   - [Webinar: Tips & tricks for hosting a successful online event](https://youtu.be/XTeCHUZ2H_w?si=OD4GDRNSV460zK7O)
 
-## Material
+# Material
 
 - An overview of the lessons that were used, adapted, enhanced:
 <!-- IS THIS PREVIOUS STATEMENT WHAT YOU HAD IN MIND? -->
