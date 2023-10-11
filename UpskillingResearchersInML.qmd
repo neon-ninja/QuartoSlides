@@ -88,8 +88,9 @@ execute:
 
 **Jens Brinkmann**
 
-- TODO funny picture
-- official title: *Senior eResearch Engagement Specialist*
+TODO funny picture
+
+- Official title: *Senior eResearch Engagement Specialist*
 - Mechanical Engineer with a background in Photography/Videography
 - Support reseachers with their computational needs and training around that 
 
@@ -99,8 +100,8 @@ execute:
 # About this talk
 
 ::: {.incremental}
-- We want to inform about our experience with Machine Learning (ML) workshops
-- We want to share some recommendations
+- We want to inform about our experience with Machine Learning (ML) workshops.
+- We want to share some recommendations.
 :::
 
 <!-- REMOVED BY MAXIME (who thinks that this could be condensed in the "About this talk" slide :D
@@ -200,11 +201,11 @@ Let's dissect some key aspects of the 2 approaches!
 
 **UoA workshops**
 
-- audience: The University of Auckland (UoA) researchers
-- two runs
+- Audience: The University of Auckland (UoA) researchers
+- Two runs
   - Run #1: March 2023
   - Run #2: September 2023
-- well-received: filtering by mandatory Expression of Interest (EoI)
+- Well-received: filtering by mandatory Expression of Interest (EoI)
   - about 100 applications for 30 spots
 - TODO add Zoom participants plot
 
@@ -214,7 +215,7 @@ Let's dissect some key aspects of the 2 approaches!
 **NeSI workshops**
 
 <!-- TODO double check all the numbers -->
-- audience: Aotearoa -- NZ researchers
+- Audience: Aotearoa -- NZ researchers
 - ML 101
   - intro to Machine Learning
   - started in 2021
@@ -264,8 +265,8 @@ TODO illustration
   - at first in one day
   - now split over 2 mornings
 - ML 102: 3 hours
-- independent workshops
-- almost always online
+- Independent workshops
+- Almost always online
   - 1 in person (wifi issues)
   - 1 hybrid (require more organisation)
 
@@ -280,10 +281,10 @@ TODO illustration
 
 ## Recommendations {.center}
 
-- make it online
-- split/shorter sessions (bearing in mind the scheduling-challenges for researchers)
-- sticking to break-schedule
-- following best practices for online audience
+- Make it online
+- Split/shorter sessions (bearing in mind the scheduling-challenges for researchers)
+- Sticking to break-schedule
+- Following best practices for online audience
   - [Webinar: Tips & tricks for hosting a successful online event](https://youtu.be/XTeCHUZ2H_w?si=OD4GDRNSV460zK7O)
 
 # Material
@@ -341,12 +342,12 @@ CeR and NeSI independently made the decision to base the workshops on **existing
 
 **Machine Learning**
 
-- *data preparation*
-- supervised vs. unsupervised learning
+- *Data preparation*
+- Supervised vs. unsupervised learning
   - regression, classification
   - cluster, dimensionality reduction
-- ensemble models (random forests)
-- validation (train/test, cross-validation)
+- Ensemble models (random forests)
+- Validation (train/test, cross-validation)
 
 :::
 ::: {.column width="40%"}
@@ -362,12 +363,12 @@ CeR and NeSI independently made the decision to base the workshops on **existing
 
 ## Recommendations {.center}
 
-- **random forest** is a **good** first non-linear model to learn
+- **Random forest** is a **good** first non-linear model to learn
   - intuitive to understand how it works
   - good performances on tabular data
   - doesn't require too much care in terms of data preparation
 
-- resist the temptation of **MLP (multi-layer perceptron)** for an ML intro
+- Resist the temptation of **MLP (multi-layer perceptron)** for an ML intro
   - require more notions (architecture, training, data preprocessing, ...)
   - keep it for Deep Learning introduction
 
@@ -381,9 +382,9 @@ TODO Google Colab, Jupyter-on-NeSI, no need of GPU to start (or small ones on Co
 
 # Other Recommendations
 
-- use existing material
-- don't be afraid to use Colab, etc. you don't need fancy GPUs, even though you can have some
-- decision if Python is prerequisite or not?!
+- Use existing material
+- Don't be afraid to use Colab, etc. you don't need fancy GPUs, even though you can have some
+- Decision if Python is prerequisite or not?!
 
 # How to get in touch
 
