@@ -101,21 +101,18 @@ execute:
 
 # About this talk
 
-::: {.incremental}
 
-::: {.incremental}
 - We want to inform about our experience with Machine Learning (ML) workshops.
 - We want to share some recommendations.
+- *You can do it!*
 
-:::
+<!-- MAKE SURE SPACE IS HERE -->
 
-::: {.incremental}
+
 - The [Lightning Talk earlier today](https://conference.eresearch.edu.au/developing-a-carpentries-style-machine-learning-workshop/) was mainly about answering *what* we did and metrics.
 - [This current talk](https://conference.eresearch.edu.au/upskilling-researchers-in-machine-learning/) is focused on the **delivery**.
 - [BoF](https://conference.eresearch.edu.au/ai-skill-training-pathway-bridging-gaps-and-fostering-inclusivity/) (right after this talk) will be a *broader discussion* of a similar topic. 
-:::
 
-:::
 
 # A shared goal
 
@@ -164,7 +161,7 @@ execute:
 
 ::: {.column}
 
-{{< embed Plots.ipynb#zoom-participance >}}
+![](./UpskillingResearchersInML_Assets/ZoomParticipants.jpg)
 
 :::
 ::::
@@ -234,6 +231,7 @@ There will be **a lot** of interest so...
 
 :::
 
+
 ::: {.column}
 ![](./UpskillingResearchersInML_Assets/colab2.jpg)
 :::
@@ -282,18 +280,28 @@ There will be **a lot** of interest so...
 :::: {.columns}
 ::: {.column}
 
-- Run #1: 
-  - two afternoons (8h) Python
-  - one afternoon (4h) Intro to ML
-  - two afternoons (8h) DL
-- Run #2: 
-  - two afternoons (8h) ML
-  - two afternoons (8h) DL
+**Run #1** 
+
+| Time Budget           | Activity                 |
+|-----------------------|--------------------------|
+| two afternoons (8h)   | Python                   |
+| one afternoon (4h)    | ML                       |
+| two afternoons (8h)   | DL                       |
+
+**Run #2 **
+
+| Time Budget           | Activity                 |
+|-----------------------|--------------------------|
+| two afternoons (8h)   | ML                       |
+| two afternoons (8h)   | DL                       |
+
 
 :::
 ::: {.column}
 
-TODO illustration MAYBE TILES OF LIGHTNING TALK PLOTS?
+- all workshops took place in the **same week**
+- no *mixing and matching*, signing up = coming to **all sessions**
+- Major adjustment for Run #2: **Python** as a **prerequisite**, not part of the series
 
 :::
 ::::
@@ -321,8 +329,8 @@ TODO illustration MAYBE TILES OF LIGHTNING TALK PLOTS?
 :::
 ::::
 
-## Workshop Recommendations {.center}
-::: {.incremental}
+## Recommendations {.center}
+
 - Split/shorter sessions (bearing in mind the scheduling-challenges for researchers)
 - Sticking to break-schedule
 - Following best practices for online audience, among which
@@ -331,7 +339,7 @@ TODO illustration MAYBE TILES OF LIGHTNING TALK PLOTS?
   - prepare your intro and outro
   - make attendees join from same computer running the code
   - [Webinar: Tips & tricks for hosting a successful online event](https://youtu.be/XTeCHUZ2H_w?si=OD4GDRNSV460zK7O)
-:::
+
 # Material
 
 ## UoA workshops
@@ -343,6 +351,8 @@ TODO illustration MAYBE TILES OF LIGHTNING TALK PLOTS?
 | Introduction to Machine Learning with Scikit Learn | [Alpha](https://mike-ivs.github.io/machine-learning-novice-sklearn/02-regression/index.html) | Wed |  Mon, Tue |   |
 | Introduction to Deep Learning                      | [Beta](https://carpentries-incubator.github.io/deep-learning-intro/aio.html)                 |    Thu, Fri   |  Wed, Thu |   |
 
+
+![](UpskillingResearchersInML_Assets/Carps.jpg)
 
 ## NeSI workshops
 
@@ -412,8 +422,7 @@ CeR and NeSI independently made the decision to base the workshops on **existing
 
 - Model architectures
   - Multi-layer perceptron
-  - Convolutional neural network (computer vision)
-  - Recurrent neural network (sequences, times series)
+  - Convolutional neural network <br> (CNN | computer vision)
 - Model training
   - optimisers and mini-batch
   - overfitting and early stopping
@@ -440,7 +449,7 @@ CeR and NeSI independently made the decision to base the workshops on **existing
   - keep it for Deep Learning introduction
 
 # Summary
-::: {.incremental}
+
 - Use Expression-of-Interest for registrations
 - Make it online
 - Use an online compute platform 
@@ -449,7 +458,7 @@ CeR and NeSI independently made the decision to base the workshops on **existing
 - Re-use and adapt existing material
 - Use shorter sessions and stick to breaks
 - Keep MLP for the Deep Learning section, start with Random Forests
-:::
+
 
 # How to get in touch {.center}
 
