@@ -64,8 +64,7 @@ execute:
   enabled: true
 
 --- 
-# to be removed: Info by organisers
-based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=website):*Lightning Talks (5 minutes): Presentations in which participants speak about their ideas, current activities, challenges and professional passions. Lightning Talks will be held during lunch breaks at the “Lightning Talk Stage”.*
+
 
 # Overview
 ::: {.incremental}
@@ -73,16 +72,17 @@ based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_so
   - Q1: What was done?
   - Q2: Who participated? And feelings about it.
   - Q3: ML-Carp's future?
-- This talk links to upcoming sessions
-  - *Upskilling researchers in Machine Learning*
-  - BoF Session: *AI Skill Training Pathway: Bridging Gaps and Fostering Inclusivity*
+- This talk links to upcoming sessions:
+  - [Upskilling researchers in Machine Learning](https://conference.eresearch.edu.au/upskilling-researchers-in-machine-learning/) 
+  - [BoF Session: *AI Skill Training Pathway: Bridging Gaps and Fostering Inclusivity*](https://conference.eresearch.edu.au/ai-skill-training-pathway-bridging-gaps-and-fostering-inclusivity/) 
+
 :::
 
 # What was done
 ## Background
 
 ::: {.incremental}
-- Machine Learning (ML) or Artificial Intelligence (AI) are without a doubt **hot topics**
+- Machine Learning (ML) or Artificial Intelligence (AI) are without a doubt **a hot topics**
 - Empowering reserachers to **understand and use** ML seems **rewarding**, but also **challenging**
 - [The Carpentries](https://carpentries.org/) ![The Carpentries](TheCarpentries.svg){ width=10% } offer a proven teaching-style accounting for participants with limited IT experience
   - Core aspects 
@@ -157,7 +157,7 @@ based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_so
 
 ## Zoom attendance
 
-{{< embed Plots.ipynb#zoom-participance >}}
+{{< embed Plots.ipynb#zoom-participance-line >}}
 
 
 ## Participants Promotion/Demotion
