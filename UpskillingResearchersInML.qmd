@@ -183,7 +183,7 @@ execute:
 - ML 101
   - intro to Machine Learning
   - started in 2021
-  - 7 workshops (in person, online, hybrid)
+  - 7 workshops (in person, online)
   - 127 attendees in total (from 10 to 32)
 - ML 102
   - intro to Deep Learning (CNNs)
