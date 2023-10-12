@@ -1,5 +1,5 @@
 ---
-title: "Upskilling researchers in Machine Learning"
+title: "Upskilling Researchers in Machine Learning"
 # subtitle: "Lightning talk ⚡️"
 author: "Maxime Rio, Jens Brinkmann"
 institute: "New Zealand eResearch Infrastructure (NeSI), The University of Auckland (UoA)"
@@ -49,7 +49,7 @@ format:
     reveal_options:
       menu:
         numbers: true
-    header: Upskilling researchers in Machine Learning
+    header: Upskilling Researchers in Machine Learning
     header-logo: NeSIAndUoA.jpg
     hide-from-titleSlide: all
     filters:
@@ -92,7 +92,7 @@ execute:
 
 - *Senior eResearch Engagement Specialist @ UoA*
 - Mechanical Engineer with a background in Photography/Videography
-- Support reseachers with their computational needs and training around that 
+- Support researchers with their computational needs and training around that 
 
 
 
@@ -102,8 +102,8 @@ execute:
 # About this talk
 
 
-- We want to inform about our experience with Machine Learning (ML) workshops.
-- We want to share some recommendations.
+- We want to inform about our **experience** with Machine Learning (ML) workshops.
+- We want to share some **recommendations**.
 - *You can do it!*
 
 <!-- MAKE SURE SPACE IS HERE -->
@@ -120,7 +120,7 @@ execute:
 ::: {.column width=50%}
 
 - Introduce researchers to Machine Learning and Deep Learning
-- Start with **foundational** ML aspects and to build up from there
+- Start with **foundational** ML aspects and build up from there
 - Research-field agnostic
 - **Hands-on** approach (teaching by doing)
   - **no** show and tell of existing commercial solutions
@@ -161,7 +161,7 @@ execute:
 
 ::: {.column}
 
-![](./UpskillingResearchersInML_Assets/ZoomParticipants.jpg)
+![](./UpskillingResearchersInML_Assets/ZoomParticipantsLine.svg)
 
 :::
 ::::
@@ -181,12 +181,12 @@ execute:
 
 - Audience: Aotearoa -- NZ researchers
 - ML 101
-  - intro to Machine Learning
+  - Intro to Machine Learning
   - started in 2021
   - 7 workshops (in person, online)
   - 127 attendees in total (from 10 to 32)
 - ML 102
-  - intro to Deep Learning (CNNs)
+  - Intro to Deep Learning (CNNs)
   - started in 2022
   - 2 workshops (online)
   - 44 attendees in total (20 and 24)
@@ -223,9 +223,9 @@ There will be **a lot** of interest so...
 ::: {.column}
 
 - online only event: [Zoom.us](https://zoom.us/)
-- byod (*bring your own device*)
-- major deviation from '*The Carpentries*': No local Python installs
-- [Google Colab](https://colab.research.google.com/) - browser-based Jupyter notebook using Google resources (a virtual machine, GPU can be added)
+- BYOD (*bring your own device*)
+- major deviation from [The Carpentries](https://carpentries.org/index.html): No local Python installs
+- [Google Colab](https://colab.research.google.com/) (a browser-based Jupyter Notebook using Google infrastructure (a virtual machine, GPU can be added))
 
 
 
@@ -233,7 +233,7 @@ There will be **a lot** of interest so...
 
 
 ::: {.column}
-![](./UpskillingResearchersInML_Assets/colab2.jpg)
+![*Google Colab in a Browser*](./UpskillingResearchersInML_Assets/colab2.jpg){fig-align="center"}
 :::
 ::::
 
@@ -259,7 +259,7 @@ There will be **a lot** of interest so...
   - Require a NeSI account
   - ML101: 2 cores & 4 GB of RAM
   - ML102: 4 cores & 8 GB of RAM
-- Use Slurm based job for GPU training (a little bit)
+- Use Slurm-based job for GPU training (a little bit)
 - Tip: make sure the Platform team does not schedule upgrades that day 😬...
 
 :::
@@ -268,8 +268,8 @@ There will be **a lot** of interest so...
 ## Recommendations {.center}
 
 - Make it online
-- Leverage online computational platform (Google Colab, JupyterHub, Open OnDemand...)
-- No need of GPU to start (or small ones on Colab available)
+- Leverage online computational platforms (Google Colab, JupyterHub, Open OnDemand...)
+- No need for GPU to start (or small ones on Colab available)
 
 # Schedule
 
@@ -331,13 +331,13 @@ There will be **a lot** of interest so...
 
 ## Recommendations {.center}
 
-- Split/shorter sessions (bearing in mind the scheduling-challenges for researchers)
+- Split/shorter sessions (bearing in mind the scheduling challenges for researchers)
 - Sticking to break-schedule
-- Following best practices for online audience, among which
+- Following best practices for online audiences, among which
   - get a Zoom DJ, some helpers, get multiple co-hosts
   - keep a QA document
   - prepare your intro and outro
-  - make attendees join from same computer running the code
+  - make attendees join from the same computer running the code
   - [Webinar: Tips & tricks for hosting a successful online event](https://youtu.be/XTeCHUZ2H_w?si=OD4GDRNSV460zK7O)
 
 # Material
@@ -351,8 +351,9 @@ There will be **a lot** of interest so...
 | Introduction to Machine Learning with Scikit Learn | [Alpha](https://mike-ivs.github.io/machine-learning-novice-sklearn/02-regression/index.html) | Wed |  Mon, Tue |   |
 | Introduction to Deep Learning                      | [Beta](https://carpentries-incubator.github.io/deep-learning-intro/aio.html)                 |    Thu, Fri   |  Wed, Thu |   |
 
-
-![](UpskillingResearchersInML_Assets/Carps.jpg)
+::: {layout="[[-1], [1], [-1]]"}
+![](UpskillingResearchersInML_Assets/Carps.jpg){fig-align="center"}
+:::
 
 ## NeSI workshops
 
@@ -371,11 +372,11 @@ There will be **a lot** of interest so...
   - [Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_tutorial) by 
 [Jake Vanderplas](https://github.com/jakevdp)
   - existed online recordings <br> (very good to rehearse!)
-  - Jupyter notebook based
+  - Jupyter Notebook based
   - very few changes (updated package version)
 - ML 102 -- [github.com/nesi/ml102_workshop](https://github.com/nesi/ml102_workshop)
   - TensorFlow tutorials
-  - Jupyter notebook based
+  - Jupyter Notebook based
   - added an introduction
   - added section to submit a Slurm job
 
@@ -384,7 +385,7 @@ There will be **a lot** of interest so...
 
 ## Recommendations {.center}
 
-CeR and NeSI independently made the decision to base the workshops on **existing material**.
+CeR and NeSI independently decided to base the workshops on **existing material**.
 
 - Don't reinvent the wheel
 - Reuse/adapt content
