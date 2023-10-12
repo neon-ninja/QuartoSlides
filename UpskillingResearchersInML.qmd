@@ -74,8 +74,6 @@ execute:
 
 ![](./UpskillingResearchersInML_Assets/flying_max.jpg){width=40% fig-align="center"}
 
-<!-- TODO upload better image, reduce margins EDIT Jens: Cropped existing version  -->
-
 - *Data Science Engineer @ NeSI*
 - *Data Scientist @ NIWA*
 - Help researchers optimise and scale-up <br> their code,
@@ -88,11 +86,15 @@ execute:
 
 **Jens Brinkmann**
 
+
+![](./UpskillingResearchersInML_Assets/Jens_2022.jpg){width=30% fig-align="center"}
+
+
 - *Senior eResearch Engagement Specialist @ UoA*
 - Mechanical Engineer with a background in Photography/Videography
 - Support reseachers with their computational needs and training around that 
 
-TODO funny (or serious) picture
+
 
 :::
 ::::
@@ -115,35 +117,6 @@ TODO funny (or serious) picture
 
 :::
 
-<!-- REMOVED BY MAXIME (who thinks that this could be condensed in the "About this talk" slide :D
-
-## This talk's focus
-
-- The [Lightning Talk earlier today](https://conference.eresearch.edu.au/developing-a-carpentries-style-machine-learning-workshop/) was mainly about answering '*what*' we[^1] did and metrics
-- [This current talk](https://conference.eresearch.edu.au/upskilling-researchers-in-machine-learning/) is focused on the **delivery**
-  - two perspectives: CeR and NeSI 
-- [BoF](https://conference.eresearch.edu.au/ai-skill-training-pathway-bridging-gaps-and-fostering-inclusivity/) (right after this talk) will be a *broader discussion* of a similar topic 
-
-
-[^1]: by "*we*" is ([CeR - Centre for eResearch](https://eresearch.auckland.ac.nz/)) and [NeSI (National eScience Infrastructure)](https://www.nesi.org.nz/)
-
-## This talk's Goal
-
-- share our experience
-  - lessons learned
-  - along the lines of: What went well, what didn't, how we would do it differently
-- emphasising on some best-practices
-- encourage others to do similar things
-  - because *the time is now*
-  - you need less resources than you might expect
-
-## This talk's Structure
-
-- we won't talk about this from a NeSI vs. CeR perspective sequentially
-- we rather picked some perspectives and will share them in parallel
-
--->
-
 # A shared goal
 
 :::: {.columns}
@@ -151,7 +124,7 @@ TODO funny (or serious) picture
 
 - Introduce researchers to Machine Learning and Deep Learning
 - Start with **foundational** ML aspects and to build up from there
-- Research field agnostic
+- Research-field agnostic
 - **Hands-on** approach (teaching by doing)
   - **no** show and tell of existing commercial solutions
   - **no** theoretical lectures
@@ -185,13 +158,13 @@ TODO funny (or serious) picture
   - Run #2: September 2023
 - Well-received
   - filtering by mandatory Expression of Interest (EoI)
-  - about 100 applications for 30 spots
+  - about 100 applications for 40 spots
 
 :::
 
 ::: {.column}
 
-TODO add Zoom participants plot
+{{< embed Plots.ipynb#zoom-participance >}}
 
 :::
 ::::
@@ -239,7 +212,7 @@ ML102 2023 July 24
 
 ## Recommendations {.center}
 
-There will be a **lot** of interest so...
+There will be **a lot** of interest so...
 
 - use an Expression of Interest for registration and filter,
 - 30 participants is a good number for an online training,
@@ -252,15 +225,17 @@ There will be a **lot** of interest so...
 :::: {.columns}
 ::: {.column}
 
-- online only event: Zoom.us
-- byod
-- deviation from 'The Carpentries': No local Python installs
-- Google Colab
+- online only event: [Zoom.us](https://zoom.us/)
+- byod (*bring your own device*)
+- major deviation from '*The Carpentries*': No local Python installs
+- [Google Colab](https://colab.research.google.com/) - browser-based Jupyter notebook using Google resources (a virtual machine, GPU can be added)
+
+
 
 :::
 
 ::: {.column}
-
+![](./UpskillingResearchersInML_Assets/colab2.jpg)
 :::
 ::::
 
@@ -308,18 +283,17 @@ There will be a **lot** of interest so...
 ::: {.column}
 
 - Run #1: 
-  - 4h Python
-  - 4h Intro ML
-  - ... PUT CORRECT NUMBERS HERE
+  - two afternoons (8h) Python
+  - one afternoon (4h) Intro to ML
+  - two afternoons (8h) DL
 - Run #2: 
-  - --4h Python--
-  - 8h Intro ML
-  - ... PUT CORRECT NUMBERS HERE
+  - two afternoons (8h) ML
+  - two afternoons (8h) DL
 
 :::
 ::: {.column}
 
-TODO illustration
+TODO illustration MAYBE TILES OF LIGHTNING TALK PLOTS?
 
 :::
 ::::
@@ -347,8 +321,8 @@ TODO illustration
 :::
 ::::
 
-## Recommendations {.center}
-
+## Workshop Recommendations {.center}
+::: {.incremental}
 - Split/shorter sessions (bearing in mind the scheduling-challenges for researchers)
 - Sticking to break-schedule
 - Following best practices for online audience, among which
@@ -357,13 +331,18 @@ TODO illustration
   - prepare your intro and outro
   - make attendees join from same computer running the code
   - [Webinar: Tips & tricks for hosting a successful online event](https://youtu.be/XTeCHUZ2H_w?si=OD4GDRNSV460zK7O)
-
+:::
 # Material
 
 ## UoA workshops
 
-- [The Carpentries](https://carpentries.org/index.html)
-- TODO paste the table with the linked Slides from Lightning talk
+
+| Lesson Title                                       | Status                                                                                       | Run #1   | Run #2                    |   |
+|----------------------------------------------------|----------------------------------------------------------------------------------------------|----------|---------------------------|---|
+| Programming with Python                            | [Released](https://swcarpentry.github.io/python-novice-inflammation/)                        | Mon, Tue |             -             |   |
+| Introduction to Machine Learning with Scikit Learn | [Alpha](https://mike-ivs.github.io/machine-learning-novice-sklearn/02-regression/index.html) | Wed |  Mon, Tue |   |
+| Introduction to Deep Learning                      | [Beta](https://carpentries-incubator.github.io/deep-learning-intro/aio.html)                 |    Thu, Fri   |  Wed, Thu |   |
+
 
 ## NeSI workshops
 
@@ -449,7 +428,7 @@ CeR and NeSI independently made the decision to base the workshops on **existing
 :::
 ::::
 
-## Recommendations {.center}
+## ML-Recommendations {.center}
 
 - **Random forest** is a **good** first non-linear model to learn
   - intuitive to understand how it works
@@ -461,14 +440,16 @@ CeR and NeSI independently made the decision to base the workshops on **existing
   - keep it for Deep Learning introduction
 
 # Summary
-
+::: {.incremental}
 - Use Expression-of-Interest for registrations
 - Make it online
-- Use an online compute platform (Colab, JupyterHub or Open OnDemand at your institution)
+- Use an online compute platform 
+  - (*Google Colab*, *JupyterHub* or *Open OnDemand* at your institution)
 - You don't need fancy GPUs, even though you can have some
 - Re-use and adapt existing material
 - Use shorter sessions and stick to breaks
 - Keep MLP for the Deep Learning section, start with Random Forests
+:::
 
 # How to get in touch {.center}
 
@@ -477,15 +458,15 @@ CeR and NeSI independently made the decision to base the workshops on **existing
 
 ![](./UpskillingResearchersInML_Assets/kereru-taieri-mouth-1920-2.webp)
 *Kererū / New Zealand pigeon, not use(ful) for mails* 😅
-*[Photography](https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/nz-pigeon-kereru/) from the Department of Conservation*
+*[Image Credit: Department of Conservation](https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/nz-pigeon-kereru/)*
 
 :::
 
 :::{.column width="40%"}
 
-**Maxime Rio** <br> 📨 maxime.ri@nesi.org.nz
+**Maxime Rio** <br> 📨 [maxime.rio@nesi.org.nz](mailto:maxime.rio@nesi.org.nz)
 
-**Jens Brinkmann** <br> 📨 j.brinkmann@auckland.ac.nz 
+**Jens Brinkmann** <br> 📨 [j.brinkmann@auckland.ac.nz](mailto:j.brinkmann@auckland.ac.nz)
 
 :::
 ::::
