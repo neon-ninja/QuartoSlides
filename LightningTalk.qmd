@@ -67,7 +67,7 @@ execute:
 
 
 # Overview
-::: {.incremental}
+
 - To answer the main question **"ML-Carp Workshop, what is that?"** let's answer three sub-questions:
   - Q1: What was done?
   - Q2: Who participated? And feelings about it.
@@ -76,12 +76,12 @@ execute:
   - [Upskilling researchers in Machine Learning](https://conference.eresearch.edu.au/upskilling-researchers-in-machine-learning/) 
   - [BoF Session: *AI Skill Training Pathway: Bridging Gaps and Fostering Inclusivity*](https://conference.eresearch.edu.au/ai-skill-training-pathway-bridging-gaps-and-fostering-inclusivity/) 
 
-:::
+
 
 # What was done
 ## Background
 
-::: {.incremental}
+
 - Machine Learning (ML) or Artificial Intelligence (AI) are without a doubt **a hot topics**
 - Empowering reserachers to **understand and use** ML seems **rewarding**, but also **challenging**
 - [The Carpentries](https://carpentries.org/) ![The Carpentries](TheCarpentries.svg){ width=10% } offer a proven teaching-style accounting for participants with limited IT experience
@@ -93,28 +93,30 @@ execute:
 - The [CeR (Centre for eResearch)](http://eresearch.auckland.ac.nz/) at the University of Auckland acquired funding to further develop and run a series of workshops (also referred to as *ML-Carp*)
 - Two iterations (referred to as *Run #1* and *Run#2*) took place so far. In March and September 2023.
 
-:::
+
 
 ## Lesson Overview
 
 
-::: {.fragment .fade-in}
+
 | Lesson Title                                       | Status                                                                                       | Run #1   | Run #2                    |   |
 |----------------------------------------------------|----------------------------------------------------------------------------------------------|----------|---------------------------|---|
 | Programming with Python                            | [Released](https://swcarpentry.github.io/python-novice-inflammation/)                        | Mon, Tue |             -             |   |
 | Introduction to Machine Learning with Scikit Learn | [Alpha](https://mike-ivs.github.io/machine-learning-novice-sklearn/02-regression/index.html) | Wed, Thu |  Mon, Tue |   |
 | Introduction to Deep Learning                      | [Beta](https://carpentries-incubator.github.io/deep-learning-intro/aio.html)                 |    Fri   |  Wed, Thu |   |
+
+::: {layout="[[-1], [1], [-1]]"}
+- 4h sessions over 4 consecutive afternoons
 :::
 
-::: {.fragment .fade-in}
-- Four hour sessions over four consecutive afternoon
-:::
-::: {.fragment .fade-in}
+
+
+
 - Depending on Maturity, sessions were run with a **small changes** or **substantially (re)developed**.
-:::
-::: {.fragment .fade-in}
+
+
 - One major change was [Goolge Colab](https://colab.research.google.com/) ![Colab](./Google_Colaboratory_SVG_Logo.svg){ width=3% } being used instead of local Python installs.
-:::
+
 
 ## Lesson Details
 
@@ -136,12 +138,12 @@ execute:
 
 # Who Pariticpanted And How They Liked It
 
-::: {.incremental}
+
 - Large sign-up numbers meant mandatory *expression of interest* and filtering
 - Analysis from two perspectives follows:
   - Metrics
   - Statements
-::: 
+
 
 ## Participants' Background
 
@@ -171,27 +173,27 @@ execute:
 - observation: Even at the very end of the sessions, questions, participantion and interest didn't cease
 
 
-::: {.incremental}
-- "*Python lesson might be separated*"
+
+- "***Python** lesson might be **separated***"
   - Run #2: Python was removed from the curriculum
-- "*more breaks*"
+- "*more **breaks***"
   - Run #2: better adherence to schedule
-- "*stick to one coding interface*"
+- "*stick to **one coding interface***"
   - Run #2: only Colab, VSC etc. was linked to for post-workshop engagement
-:::
 
 
 
 
 
 
-::: {.fragment .fade-in}
+
+
 
 :::{.callout-note}
 All statements are positively phrased; overall the results confirm a poasitive appreciation.
 :::
 
-:::
+
 
 <!-- # Reflection on Run #1 and adaption
 - The learning curve appeared too steep. From no coding to refined DL approaches in a few days appeared too challenging
@@ -242,7 +244,6 @@ All statements are positively phrased; overall the results confirm a poasitive a
 
 # Thank you and Contact details
 
-- Centre for eResearch Website
-- HackyHour
-- email address
-- QR code in blue in python generated
+- [Centre for eResearch Website](https://eresearch.auckland.ac.nz/)
+- [HackyHour](https://research-hub.auckland.ac.nz/digital-research-skills/hacky-hour)
+- 📨 [j.brinkmann@auckland.ac.nz](mailto:j.brinkmann@auckland.ac.nz)

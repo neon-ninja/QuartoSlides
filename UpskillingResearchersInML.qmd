@@ -225,9 +225,9 @@ There will be **a lot** of interest so...
 - online only event: [Zoom.us](https://zoom.us/)
 - BYOD (*bring your own device*)
 - major deviation from [The Carpentries](https://carpentries.org/index.html): No local Python installs
-- [Google Colab](https://colab.research.google.com/) (a browser-based Jupyter Notebook using Google infrastructure (a virtual machine, GPU can be added))
+- [Goolge Colab](https://colab.research.google.com/) ![Colab](./Google_Colaboratory_SVG_Logo.svg){ width=3% } (a browser-based Jupyter Notebook using Google infrastructure (a virtual machine, GPU can be added))
 
-
+ 
 
 :::
 
@@ -269,7 +269,7 @@ There will be **a lot** of interest so...
 
 - Make it online
 - Leverage online computational platforms (Google Colab, JupyterHub, Open OnDemand...)
-- No need for GPU to start (or small ones on Colab available)
+- No need for GPU to start (or small ones on Google Colab available)
 
 # Schedule
 
@@ -438,7 +438,7 @@ CeR and NeSI independently decided to base the workshops on **existing material*
 :::
 ::::
 
-## ML-Recommendations {.center}
+## Recommendations {.center}
 
 - **Random forest** is a **good** first non-linear model to learn
   - intuitive to understand how it works
