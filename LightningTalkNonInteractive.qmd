@@ -169,7 +169,7 @@ execute:
 ## Participants Promotion/Demotion
 
 <!-- {{< embed Plots.ipynb#participants-recommendation >}} -->
-![](UpskillingResearchersInML_Assets/ParticipantsRecommend1.svg)
+![](UpskillingResearchersInML_Assets/ParticipantsRecommend.svg)
 
 
 ## Participants' Feelings - Statements and Adjustments
