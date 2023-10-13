@@ -69,9 +69,9 @@ execute:
 # Overview
 
 - To answer the main question **"ML-Carp Workshop, what is that?"** let's answer three sub-questions:
-  - Q1: What was done?
-  - Q2: Who participated? And feelings about it.
-  - Q3: ML-Carp's future?
+  - Q1: **What** was done?
+  - Q2: **Who** participated and how did they **feel** about it?
+  - Q3: ML-Carp's **future**?
 - This talk links to upcoming sessions:
   - [Upskilling researchers in Machine Learning](https://conference.eresearch.edu.au/upskilling-researchers-in-machine-learning/) 
   - [BoF Session: *AI Skill Training Pathway: Bridging Gaps and Fostering Inclusivity*](https://conference.eresearch.edu.au/ai-skill-training-pathway-bridging-gaps-and-fostering-inclusivity/) 
@@ -82,14 +82,14 @@ execute:
 ## Background
 
 
-- Machine Learning (ML) or Artificial Intelligence (AI) are without a doubt **a hot topics**
-- Empowering reserachers to **understand and use** ML seems **rewarding**, but also **challenging**
+- Machine Learning (ML) or Artificial Intelligence (AI) are without a doubt **hot topics**
+- Empowering researchers to **understand and use** ML seems **rewarding**, but also **challenging**
 - [The Carpentries](https://carpentries.org/) ![The Carpentries](TheCarpentries.svg){ width=10% } offer a proven teaching-style accounting for participants with limited IT experience
   - Core aspects 
     - live-coding
     - positive attitude towards mistakes
-    - minimal prereuisites
-    - **maximising participant invovlement**
+    - minimal prerequisites
+    - **maximising participant involvement**
 - The [CeR (Centre for eResearch)](http://eresearch.auckland.ac.nz/) at the University of Auckland acquired funding to further develop and run a series of workshops (also referred to as *ML-Carp*)
 - Two iterations (referred to as *Run #1* and *Run#2*) took place so far. In March and September 2023.
 
@@ -112,7 +112,7 @@ execute:
 
 
 
-- Depending on Maturity, sessions were run with a **small changes** or **substantially (re)developed**.
+- Depending on Maturity, sessions were run with **small changes** or **substantially (re)developed**.
 
 
 - One major change was [Goolge Colab](https://colab.research.google.com/) ![Colab](./Google_Colaboratory_SVG_Logo.svg){ width=3% } being used instead of local Python installs.
@@ -136,11 +136,11 @@ execute:
 | [Command-Line Programs](https://swcarpentry.github.io/python-novice-inflammation/instructor/12-cmdline.html) | | |
 
 
-# Who Pariticpanted And How They Liked It
+# Who Participated And How Did They Like It?
 
 
-- Large sign-up numbers meant mandatory *expression of interest* and filtering
-- Analysis from two perspectives follows:
+- Large sign-up numbers meant mandatory *expression of interest* (EOI) and filtering
+- Analysis follows from two perspectives:
   - Metrics
   - Statements
 
@@ -168,10 +168,8 @@ execute:
 
 ## Participants' Feelings - Statements and Adjustments
 
-<!-- - various, most without background -->
-<!-- - strong Zoom attendance -->
-- observation: Even at the very end of the sessions, questions, participantion and interest didn't cease
 
+- observation: At very end of the Runs, questions/participation/interest didn't cease!
 
 
 - "***Python** lesson might be **separated***"
@@ -184,13 +182,8 @@ execute:
 
 
 
-
-
-
-
-
 :::{.callout-note}
-All statements are positively phrased; overall the results confirm a poasitive appreciation.
+All statements are positive phrased; overall the results confirm a poasitive appreciation.
 :::
 
 

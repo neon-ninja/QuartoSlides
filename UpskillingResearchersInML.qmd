@@ -76,8 +76,8 @@ execute:
 
 - *Data Science Engineer @ NeSI*
 - *Data Scientist @ NIWA*
-- Help researchers optimise and scale-up <br> their code,
-- Develop ML pipelines and models,
+- Help researchers optimise and scale-up <br> their code
+- Develop ML pipelines and models
 - Organise ML and data science **training**
 
 :::
@@ -102,16 +102,16 @@ execute:
 # About this talk
 
 
-- We want to inform about our **experience** with Machine Learning (ML) workshops.
+- We want to tell you about our **experience** with Machine Learning (ML) workshops.
 - We want to share some **recommendations**.
 - *You can do it!*
 
 <!-- MAKE SURE SPACE IS HERE -->
 
 
-- The [Lightning Talk earlier today](https://conference.eresearch.edu.au/developing-a-carpentries-style-machine-learning-workshop/) was mainly about answering *what* we did and metrics.
+- The [Lightning Talk earlier today](https://conference.eresearch.edu.au/developing-a-carpentries-style-machine-learning-workshop/) was mainly about answering *what* we did and providing metrics.
 - [This current talk](https://conference.eresearch.edu.au/upskilling-researchers-in-machine-learning/) is focused on the **delivery**.
-- [BoF](https://conference.eresearch.edu.au/ai-skill-training-pathway-bridging-gaps-and-fostering-inclusivity/) (right after this talk) will be a *broader discussion* of a similar topic. 
+- [BoF](https://conference.eresearch.edu.au/ai-skill-training-pathway-bridging-gaps-and-fostering-inclusivity/) (right after this talk) will be a *broader discussion*
 
 
 # A shared goal
@@ -225,7 +225,7 @@ There will be **a lot** of interest so...
 - online only event: [Zoom.us](https://zoom.us/)
 - BYOD (*bring your own device*)
 - major deviation from [The Carpentries](https://carpentries.org/index.html): No local Python installs
-- [Goolge Colab](https://colab.research.google.com/) ![Colab](./Google_Colaboratory_SVG_Logo.svg){ width=3% } (a browser-based Jupyter Notebook using Google infrastructure (a virtual machine, GPU can be added))
+- [Goolge Colab](https://colab.research.google.com/) ![Colab](./Google_Colaboratory_SVG_Logo.svg){ width=3% },a browser-based Jupyter Notebook using Google infrastructure (a virtual machine; a GPU can be added)
 
  
 
@@ -256,7 +256,7 @@ There will be **a lot** of interest so...
   - 5 delivered online
 - Use Jupyter-on-NeSI
   - JupyterHub platform
-  - Require a NeSI account
+  - Requires a NeSI account
   - ML101: 2 cores & 4 GB of RAM
   - ML102: 4 cores & 8 GB of RAM
 - Use Slurm-based job for GPU training (a little bit)
@@ -332,8 +332,8 @@ There will be **a lot** of interest so...
 ## Recommendations {.center}
 
 - Split/shorter sessions (bearing in mind the scheduling challenges for researchers)
-- Sticking to break-schedule
-- Following best practices for online audiences, among which
+- Stick to scheduled breaks
+- Follow best practices for online audiences:
   - get a Zoom DJ, some helpers, get multiple co-hosts
   - keep a QA document
   - prepare your intro and outro
@@ -371,7 +371,7 @@ There will be **a lot** of interest so...
 - ML 101 -- [github.com/nesi/sklearn_tutorial](https://github.com/nesi/sklearn_tutorial)
   - [Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_tutorial) by 
 [Jake Vanderplas](https://github.com/jakevdp)
-  - existed online recordings <br> (very good to rehearse!)
+  - online recordings exist <br> (very good to rehearse!)
   - Jupyter Notebook based
   - very few changes (updated package version)
 - ML 102 -- [github.com/nesi/ml102_workshop](https://github.com/nesi/ml102_workshop)
