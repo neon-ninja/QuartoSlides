@@ -1,1 +1,1 @@
-Sitemap: https://github.com/neon-ninja/QuartoSlides/sitemap.xml
+Sitemap: https://neon-ninja.github.io/QuartoSlides/sitemap.xml

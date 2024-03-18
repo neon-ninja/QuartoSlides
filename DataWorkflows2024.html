@@ -13,8 +13,8 @@
 <link href="site_libs/quarto-contrib/grid-htext-1.0.0/grid_htext.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.551">
 
-  <meta name="author" content="Dr.&nbsp;Jens Brinkmann">
-  <title>ML-Carp Recap and Outlook</title>
+  <meta name="author" content="Nick Young, Jens Brinkmann">
+  <title>Working with data in 2024</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -323,19 +323,23 @@
       margin-right: 0; 
     }
   </style>
+  <meta name="mermaid-theme" content="dark">
+  <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" data-background-image="UoALogoDarkBlueRGBLandscape.png" data-background-position="95% 76%" data-background-size="20%" class="quarto-title-block center">
-  <h1 class="title">ML-Carp Recap and Outlook</h1>
-  <p class="subtitle">What’s next?</p>
+  <h1 class="title">Working with data in 2024</h1>
+  <p class="subtitle">State of the art workflows not just for Computer Scientists</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Dr.&nbsp;Jens Brinkmann 
+Nick Young, Jens Brinkmann 
 </div>
         <p class="quarto-title-affiliation">
             The University of Auckland
@@ -343,106 +347,92 @@ Dr.&nbsp;Jens Brinkmann
     </div>
 </div>
 
-  <p class="date">September, 2023</p>
+  <p class="date">July, 2024</p>
 </section>
-<section id="introduction-to-machine-learning-with-scikit-learn" class="slide level2">
-<h2>Introduction to Machine Learning with Scikit Learn</h2>
+<section>
+<section id="what-this-session-is-about-and-how-it-relates" class="title-slide slide level1 center">
+<h1>What this session is about and how it relates</h1>
 <ul>
-<li>Nelis introduced us to the topic</li>
-<li>Mike built on that</li>
-<li>Regression and Classification</li>
-<li>Ensemble methods, Clustering, Dimension reduction</li>
+<li>an introduction</li>
+<li>there are realted sessions</li>
+<li>there is homework <span class="emoji" data-emoji="briefcase">💼</span></li>
+<li>if fully immerse yourself in all these sessions, you will get up to speed quickly.</li>
+<li>A good <em>bang for the buck</em> <span class="emoji" data-emoji="money_with_wings">💸</span></li>
 </ul>
-<div class="r-stack">
-<p><img data-src="regression_example.png" class="fragment fade-in-then-out" style="width:80.0%"></p>
-<p><img data-src="e3_dt_space_2.png" class="fragment fade-in-then-out" style="width:100.0%"></p>
+<div class="cell" data-reveal="true" data-fig-width="15" data-fig-height="5" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A["Session :one:"] --&gt; B{Decision}
+  B --&gt; C[just observe]
+  B --&gt; D[get involved]
+  C --&gt; E[get an overview and hear buzzwords]
+  D --&gt; F[get hands-on experience]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
 </div>
 </section>
-<section id="introduction-to-deep-learning" class="slide level2">
-<h2>Introduction to Deep Learning</h2>
+<section id="this-session-vs.-related" class="slide level2">
+<h2>This session vs.&nbsp;related</h2>
 <ul>
-<li>Nidhi switched from generic ML to Deep Learning (DL)</li>
-<li>Some aspects (there are more:)
+<li>This session is the introduction. Let’s call it <strong>Level</strong> <span class="emoji" data-emoji="one">1️⃣</span>
 <ul>
-<li>ML: is non-stoachstic; similar if not the same result</li>
-<li>DL: non-convex and complex</li>
-<li>DL: only estimated/non-deterministic results/<em>every run can differ a bit</em></li>
-<li>DL: of uses neural networks, but also DBN, VAEs, etc.</li>
-<li>DL: tends to use way more resources (CPU/GPU)</li>
-<li>ML: Can still solve a lot of real-world issues using limilted resources</li>
+<li>We will mostly talk</li>
+<li>Nick is the expert who taught Jens many things over the past years, we’ll replicate some of the back and forth</li>
+<li>We will provide you with an overview</li>
+<li>you are asked to think about <strong>examples</strong> you’d like see used in the upcoming sessions</li>
+</ul></li>
+<li>You can decide if you just want to listen or if you want to follow along
+<ul>
+<li>If you want to get your hands dirty, hold your horses <span class="emoji" data-emoji="horse">🐴</span></li>
+<li>don’t miss out now</li>
+<li>the next sessions will be all about hands-on experience with the tools <span class="emoji" data-emoji="hammer_and_wrench">🛠️</span></li>
+</ul></li>
+<li>There is homework <span class="emoji" data-emoji="briefcase">💼</span>
+<ul>
+<li>see later slides</li>
 </ul></li>
 </ul>
+<!-- TODO PUT SOME ICONS (VSC, ... GIT, ... here) -->
 </section>
-<section id="workflows-for-heavier-computation" class="slide level2">
-<h2>Workflows for heavier computation</h2>
+<section id="homework" class="slide level2">
+<h2>Homework <span class="emoji" data-emoji="briefcase">💼</span></h2>
 <ul>
-<li>Google Colab vs.&nbsp;<del>locally installed Jupyter Notebooks</del> or <del>Plain Vanilla Python</del>
-<ul>
-<li>Do all use Colab ‘in the real world’ all the time? No!
-<ul>
-<li><a href="https://code.visualstudio.com/">VSCode</a></li>
-<li>Python locally installed
-<ul>
-<li>Virtual Environment</li>
-<li><code>pip install</code></li>
-</ul></li>
-<li>using GPU/<a href="https://research-hub.auckland.ac.nz/research-software-and-computing/advanced-compute/nectar-research-cloud">Nectar</a>/…</li>
-</ul></li>
-</ul></li>
+<li>Install software <!-- put 3 tabs win,osx,linux --></li>
+<li>Get a dataset (git pull/GitHub Desktop)</li>
+<li>run this one line, to see what if it works.</li>
 </ul>
 </section>
-<section id="recommended-next-steps" class="title-slide slide level1 center">
-<h1>Recommended next steps</h1>
+<section id="the-support-via-slack" class="slide level2">
+<h2>The support via Slack</h2>
 <ul>
-<li>This was a lot of content!</li>
-<li>Go through the examples in the near future / try to practice these techniques in your own research context
-<ul>
-<li>Set yourself a deadline</li>
-<li>not: <em>I will do that one day</em>; that day never comes!</li>
-</ul></li>
-<li>Please fill out the <a href="https://auckland.au1.qualtrics.com/jfe/form/SV_7QKm5JodbHrRaWW">Survey</a> before leaving this session</li>
-<li>Join the <a href="https://research-hub.auckland.ac.nz/digital-research-skills/hacky-hour">Hacky Hour</a> channel
-<ul>
-<li>Hacky Hour - Tuesdays 3-4pm <a href="[link](https://auckland.zoom.us/my/hackyhour)">on Zoom</a></li>
-<li>Our instructors/helpers will be on hand for the next 4 Hacky Hour sessions to help you apply what we’ve covered this week.</li>
-</ul></li>
+<li>We have a Slack channel</li>
+<li>We will be available for questions</li>
+<li>This is a premiere, so let’s see how many quesitons we can answer</li>
 </ul>
 </section>
-
-<section id="kaggle" class="title-slide slide level1 center">
-<h1>Kaggle</h1>
-<p><a href="https://www.kaggle.com/">Kaggle</a> is an AI community aimed at getting a better understanding/practice. There are competitions that we can recommend:</p>
+<section id="the-next-session-or-level-2" class="slide level2">
+<h2>The next session or Level <span class="emoji" data-emoji="two">2️⃣</span></h2>
 <ul>
-<li>Regression:
-<ul>
-<li><a href="https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data">House Prices</a> <span class="emoji" data-emoji="house">🏠</span></li>
-</ul></li>
-<li>Classification:
-<ul>
-<li><a href="https://www.kaggle.com/competitions/spaceship-titanic/data">Titanic</a> <span class="emoji" data-emoji="ship">🚢</span></li>
-<li><a href="https://www.kaggle.com/competitions/spaceship-titanic/data">Spaceship Titanic</a> 🛰️ <span class="emoji" data-emoji="ship">🚢</span></li>
-<li><a href="https://www.kaggle.com/competitions/digit-recognizer/data">mnist digit recognition</a> <span class="emoji" data-emoji="pen">🖊️</span> (probably quite a bit harder just because of the data input/processing)</li>
-</ul></li>
+<li>Here we will go through several steps</li>
+<li>We will use a real-world example</li>
+<li>In case you, as a group, haven’t agreed on a dataset of highest relevance, to be used, we will provide one</li>
 </ul>
-<p>(Alternative to Kaggle: <a href="https://scikit-learn.org/stable/datasets/toy_dataset.html">Scikit Toy Datasets</a>)</p>
-</section>
-
-<section id="links-to-teaching-material-and-slides" class="title-slide slide level1 center">
-<h1>Links to Teaching Material and Slides</h1>
+</section></section>
+<section id="the-software-stack-that-we-will-use" class="title-slide slide level1 center">
+<h1>The software ‘stack’ that we will use</h1>
 <ul>
-<li><a href="https://mike-ivs.github.io/machine-learning-novice-sklearn/">ML content</a></li>
-<li><a href="https://carpentries-incubator.github.io/deep-learning-intro/">DL content</a></li>
-<li><a href="https://drive.google.com/file/d/10cgZIeasB-yhU9DX87AaxPHlueuDym8u/view?usp=sharing">DL slide deck</a></li>
-<li><a href="https://jensbri.github.io/QuartoSlides/ML-Recap#/title-slide">This Deck of Slides</a></li>
-</ul>
-</section>
-
-<section id="good-luck" class="title-slide slide level1 center">
-<h1>Good luck</h1>
-<ul>
-<li>Stay in touch with us on your ML/DL/AI journey</li>
-<li>Use it or lose it</li>
-<li>ML/DL tools are valuable to your research now and your research or other career path</li>
+<li><a href="https://code.visualstudio.com/">Visual Studi Code (VSC)</a></li>
+<li><a href="https://www.python.org/">Python</a></li>
+<li><a href="https://jupyter.org/">Jupyter Notebooks</a></li>
+<li><a href="https://git-scm.com/">Git</a></li>
+<li><a href="https://github.com/">GitHub</a></li>
+<li><a href="https://geopandas.org/en/stable/">Geopandas</a>, <a href="https://python-visualization.github.io/folium/latest/">Folium</a></li>
 </ul>
 
 <div class="quarto-auto-generated-content">
@@ -458,7 +448,7 @@ Dr.&nbsp;Jens Brinkmann
 <p> </p>
 </div>
 <div class="header-text" data-hide-from-titleslide="true">
-<p>ML Carp Recap and Outlook</p>
+<p>State of the Art Workflows for working with data in 2024</p>
 </div>
 <div class="sb-title">
 <p> </p>

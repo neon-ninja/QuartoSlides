@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/neon-ninja/QuartoSlides/LaTeX101.html</loc>
-    <lastmod>2023-10-06T03:37:50.480Z</lastmod>
+    <loc>https://neon-ninja.github.io/QuartoSlides/ResBazPlanning.html</loc>
+    <lastmod>2024-03-18T02:32:59.044Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/neon-ninja/QuartoSlides/UpskillingResearchersInML.html</loc>
-    <lastmod>2023-10-06T03:37:48.244Z</lastmod>
+    <loc>https://neon-ninja.github.io/QuartoSlides/LaTeX101.html</loc>
+    <lastmod>2024-03-18T02:32:59.024Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/neon-ninja/QuartoSlides/Plots.html</loc>
-    <lastmod>2023-10-06T03:37:46.360Z</lastmod>
+    <loc>https://neon-ninja.github.io/QuartoSlides/LightningTalk.html</loc>
+    <lastmod>2024-03-18T02:32:59.024Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/neon-ninja/QuartoSlides/ResBazPlanning.html</loc>
-    <lastmod>2023-10-06T03:37:44.036Z</lastmod>
+    <loc>https://neon-ninja.github.io/QuartoSlides/UpskillingResearchersInML.html</loc>
+    <lastmod>2024-03-18T02:32:59.044Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/neon-ninja/QuartoSlides/ML-Recap.html</loc>
-    <lastmod>2023-10-06T03:37:47.868Z</lastmod>
+    <loc>https://neon-ninja.github.io/QuartoSlides/Plots.html</loc>
+    <lastmod>2024-03-18T02:32:59.044Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/neon-ninja/QuartoSlides/LightningTalk.html</loc>
-    <lastmod>2023-10-06T03:37:49.520Z</lastmod>
+    <loc>https://neon-ninja.github.io/QuartoSlides/ML-Recap.html</loc>
+    <lastmod>2024-03-18T02:32:59.024Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neon-ninja.github.io/QuartoSlides/DataWorkflows2024.html</loc>
+    <lastmod>2024-03-18T02:32:59.012Z</lastmod>
   </url>
 </urlset>

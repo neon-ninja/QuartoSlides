@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "ResBazPlanning.html#r",
+    "href": "ResBazPlanning.html#r",
+    "title": "ResBaz 2023 - Scheduling Assistance",
+    "section": "R",
+    "text": "R\n\nLet’s start with R.\nIt is very commonly used\nand it originated from research needs to undertake statistical analysis and to create graphics.\nNowadays, there are heaps of things that you can do with R and these are presented in the session\n“Introduction to R and R Studio”\n\nWhat you learned there will be expanded on in “Using R for statistical analysis” and even more in “Hands-on statistical analysis with R”"
+  },
+  {
+    "objectID": "ResBazPlanning.html#python",
+    "href": "ResBazPlanning.html#python",
+    "title": "ResBaz 2023 - Scheduling Assistance",
+    "section": "Python",
+    "text": "Python\n\nAnother popular programming language in the research Community is Python.\nPython is commonly employed for all kinds of research-tasks.\nTo get an overview, we reommend attending the taster session: “How Can Python Help Your Research?”.\n\nIf you have or already had developed a taste for Python, “Introduction to the Python Programming Language” gets you started with hands-on coding in Python\n\nIf you face challenges with handling/changing/manipulating not one but hundreds or more of files, “Python for Image Manipulation and Repeatable Research Pipelines” helps you in making Python do the work so you can free up some time to focus on research"
+  },
+  {
+    "objectID": "ResBazPlanning.html#cli",
+    "href": "ResBazPlanning.html#cli",
+    "title": "ResBaz 2023 - Scheduling Assistance",
+    "section": "CLI",
+    "text": "CLI\n\nEven though you can run many aspects of R and Python in a graphical user interface or gui, so independent of a command-line interface or CLI, many other software packages do have a cli version\nSome also refer to these as the terminal version.\n\nSometimes this might have even more functionality or\nyou can automate tedious tasks\nor its use contributes to a repeatable and hence reproduicble resareach workflow.\nThese things become more and more important."
+  },
+  {
+    "objectID": "ResBazPlanning.html#cli2",
+    "href": "ResBazPlanning.html#cli2",
+    "title": "ResBaz 2023 - Scheduling Assistance",
+    "section": "CLI2",
+    "text": "CLI2\n\nIn the session “introduction to command line” you will be familiarized with important commands but also the related mindset\nand syntax.\n\nA fancy way os daying how you have to type things out.\nOften upper or lower case, dashes and the sequence matter.\n\nAs a next step, you can apply these skills in the session “using the command line to find replace and manipulate data”\n\nThat session title gives a lot away\nand might save you hours of work"
+  },
+  {
     "objectID": "LaTeX101.html#visualisations-in-tikz",
     "href": "LaTeX101.html#visualisations-in-tikz",
     "title": "LaTeX 101 - Don’t be scared",
@@ -147,109 +175,18 @@
     "text": "Tables\n\n\n\nA simple table in \\(\\LaTeX\\) syntax:\n\n\\begin{table}[]\n\\caption{My Example Table}\n\\label{tab:my-table}\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline\ncountry     & 1999   & 2000   &  &  \\\\ \\hline\nAfghanistan & 745    & 2666   &  &  \\\\ \\hline\nBrazil      & 37737  & 80488  &  &  \\\\ \\hline\nChina       & 212258 & 213766 &  &  \\\\ \\hline\n\\end{tabular}\n\\end{table}\n\n\nAlternatively using markdown syntax:\n\n| country     | 1999   | 2000   |   |   |\n|-------------|--------|--------|---|---|\n| Afghanistan | 745    | 2666   |   |   |\n| Brazil      | 37737  | 80488  |   |   |\n| China       | 212258 | 213766 |   |   |\n\n\n\nTo be honest:\n\nBoth are a pain to format by hand\nYou shouldn’t work with your data in these. These are for publishing only.\nSome see spreadsheet software (MSExcel, Google Sheets, etc.) just suited for data entry, Python, R, OpenRefine, etc. are better alternatives whose learning curve isn’t as steep as you might expect and relevant sessions are also provided at this year’s ResBaz (see pointers)"
   },
   {
-    "objectID": "UpskillingResearchersInML.html#this-talks-focus",
-    "href": "UpskillingResearchersInML.html#this-talks-focus",
-    "title": "Upskilling researchers in Machine Learning",
-    "section": "This talk’s focus",
-    "text": "This talk’s focus\n\nLightning Talk earlier today was mainly about answering ‘what’ we did and metrics\nThis talk is focused on the delivery\n\ntwo perspectives: CeR and NeSI\n\nBoF (right after this talk) will be a broader discussion of a similar topic"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#this-talks-goal",
-    "href": "UpskillingResearchersInML.html#this-talks-goal",
-    "title": "Upskilling researchers in Machine Learning",
-    "section": "This talk’s Goal",
-    "text": "This talk’s Goal\n\nshare our experience\n\nlessons learned\nwhat went well, what didn’t, how we would do it differently\n\nemphasising on some best-pracitices\nencourage others to do similar things\n\nbecause the time is now\nyou need less resources than you might expect"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#this-talks-structure",
-    "href": "UpskillingResearchersInML.html#this-talks-structure",
-    "title": "Upskilling researchers in Machine Learning",
-    "section": "This talk’s Structure",
-    "text": "This talk’s Structure\n\nwe (CeR and NeSI) won’t talk about these topics one after the other\nwe picked some perspectives and will share them in parallel"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#how-the-ml-sessions-were-executed",
-    "href": "UpskillingResearchersInML.html#how-the-ml-sessions-were-executed",
-    "title": "Upskilling researchers in Machine Learning",
-    "section": "How the ML sessions were executed",
-    "text": "How the ML sessions were executed\n\nCeR and NeSI independently made the decision to base the workshops on existing material (The Carpentries) and (Scikit-learn Tutorial(https://github.com/jakevdp/sklearn_tutorial) by [Jake Vanderplas])\nThe underlying idea was to start with foundational ML aspects and to build up\ndifferent session times\n\nColumn left: show details of ML101 and ML201\nColumn right: show details of Carp Sessions\n\nMaybe a comparison of content covered"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#resoures-used",
-    "href": "UpskillingResearchersInML.html#resoures-used",
-    "title": "Upskilling researchers in Machine Learning",
-    "section": "Resoures used",
-    "text": "Resoures used\n\nColab\nJupyterHub?"
-  },
-  {
-    "objectID": "Plots.html",
-    "href": "Plots.html",
-    "title": "Quarto Basics",
-    "section": "",
-    "text": "Code\nimport plotly.express as px\nimport pandas as pd\nimport plotly.io as pio\nimport numpy as np\nimport plotly.graph_objects as go\nfrom plotly.subplots import make_subplots\nimport matplotlib.cm as cm\nimport plotly.subplots as sp\n\n\n\n\nCode\n# Custom colors\ncustom_colors = ['#00467F', '#009AC7', '#8D9091', '#A71930', '#7D0063', '#D2492A', '#55A51C',\n                 '#4F2D7F', '#005B82', '#00877C', '#0039A6', '#BA4482', '#006990']\n\n\n\n\nCode\npio.renderers.default = \"notebook\"\n# Read data from the CSV file\ndf = pd.read_csv('./InputDataR1.csv')\ndf_raw = df\ndfR2 = pd.read_csv('./InputDataR2.csv')\ndf2_raw = dfR2\ndf2 = df.drop([0, 1])\ndfR22 = dfR2.drop([0, 1])\n\noption_counts = df2['Q1'].value_counts()\noption_countsR2 = dfR22['Q1'].value_counts()\n# Create a DataFrame from the value_counts() result\n\noption_counts_df = pd.DataFrame({'Option': option_counts.index, 'R1': option_counts.values})\noption_counts_dfR2 = pd.DataFrame({'Option': option_countsR2.index, 'R2': option_countsR2.values})\noption_counts_df = option_counts_df.merge(option_counts_dfR2, on=\"Option\", how=\"outer\")\n\n\n\ntrace1 = go.Pie(\n     values=option_counts_df.R1, \n     labels=option_counts_df.Option,\n     domain=dict(x=[0, 0.5]),\n     name=\"Run #1\",\n     hole=0.4,\n     hoverinfo=\"label+percent+name\",\n     title=\"Run#1\",\n     marker_colors=custom_colors\n)\n\n\n\ntrace2 = go.Pie(\n     values=option_counts_df.R2, \n     labels=option_counts_df.Option,\n     domain=dict(x=[0.5, 1.0]),\n     name=\"Run #2\",\n     hole=0.4,\n     hoverinfo=\"label+percent+name\",\n     title=\"Run#2\",\n     marker_colors=custom_colors\n)\n\nlayout = go.Layout(\n        font=dict(\n            family=\"Verdana\",\n            size=18,\n        ),\n#      legend=dict(\n#         x=0.5,  # Center the legend horizontally\n#         y=-0.1,  # Position the legend just below the plot\n#         xanchor='center',  # Set the x anchor to center\n#         yanchor='top',  # Set the y anchor to the top\n#     )\n)\n#     title=\"Participants' Background\")\n\ndata = [trace1, trace2]\nfig = go.Figure(data=data, layout=layout)\nfig.show()\n\n\n\n                                                \n\n\n\n\nCode\noption_countsOSR1 = df2['Q2'].value_counts()\noption_countsOSR2 = dfR22['Q2'].value_counts()\n# Create a DataFrame from the value_counts() result\n\noption_counts_df = pd.DataFrame({'Option': option_countsOSR1.index, 'R1': option_countsOSR1.values})\noption_counts_dfR2 = pd.DataFrame({'Option': option_countsOSR2.index, 'R2': option_countsOSR2.values})\noption_counts_df = option_counts_df.merge(option_counts_dfR2, on=\"Option\", how=\"outer\")\n\n# Custom colors\ncustom_colors = ['#00467F', '#009AC7', '#8D9091', '#A71930', '#7D0063', '#D2492A', '#55A51C',\n                 '#4F2D7F', '#005B82', '#00877C', '#0039A6', '#BA4482', '#006990']\n\n\ntrace1 = go.Pie(\n     values=option_counts_df.R1, \n     labels=option_counts_df.Option,\n     domain=dict(x=[0.0, 0.45]),  # Adjust the x values\n     name=\"Run #1\",\n     hole=0.4,\n     hoverinfo=\"label+percent+name\",\n     title=\"Run#1\",\n     marker_colors=custom_colors\n)\n\n\n\ntrace2 = go.Pie(\n     values=option_counts_df.R2, \n     labels=option_counts_df.Option,\n     domain=dict(x=[0.55, 1.0]),  # Adjust the x values\n     name=\"Run #2\",\n     hole=0.4,\n     hoverinfo=\"label+percent+name\",\n     title=\"Run#2\",\n     marker_colors=custom_colors\n)\n\nlayout = go.Layout(\n#     boxgap=0.1,\n    font=dict(\n            family=\"Verdana\",\n            size=18,\n        ),\n\n)\n#     title=\"Participants' Background\")\ndata = [trace1, trace2]\nfig = go.Figure(data=data, layout=layout)\nconfig = {'responsive': False}\nfig.show()\n\n\n\n                                                \n\n\n\n\nCode\n# List of column names you want to plot\ncolumns_to_plot = ['Q3_1', 'Q3_2', 'Q3_3', 'Q3_4', 'Q3_5', 'Q3_6']\n\ndef plot_columns_from_dataframe(dataframe1, dataframe2, columns_to_plot):\n    # String to be stripped from each element\n    string_to_strip = \"Please rate your level of agreement with the following statements (0 = complete disagreement, 100 = complete agreement). - \"\n\n    for column in columns_to_plot:\n        # Check if the column contains string values before applying .str.replace()\n        if df_raw[column].dtype == 'object':\n            df_raw[column] = df_raw[column].str.replace(string_to_strip, '', case=False)\n\n    # Convert the columns to float, handling non-numeric values by replacing them with NaN\n    for column in columns_to_plot:\n        dataframe1[column] = pd.to_numeric(dataframe1[column], errors='coerce')\n\n    # Create subplots\n    fig = make_subplots(rows=1, cols=1, shared_yaxes=True)\n\n    # custom_colors = ['color1', 'color2', 'color3', 'color4', 'color5', 'color6']  # Define your custom colors\n\n    for it_number, column in enumerate(columns_to_plot):\n        median_value_df1 = dataframe1[column].median()\n        subplot_df1 = go.Box(\n            y=dataframe1[column],\n            boxpoints='all',\n            jitter=0.3,\n            pointpos=-1.8,\n            line=dict(color=custom_colors[it_number]),\n            marker=dict(color=custom_colors[it_number]),\n            name=df_raw.loc[0,column]\n        )\n\n        median_value_df2 = dataframe2[column].median()\n        subplot_df2 = go.Box(\n            y=dataframe2[column],\n            boxpoints='all',\n            jitter=0.3,\n            pointpos=-1.8,\n            line=dict(color=custom_colors[it_number]),\n            marker=dict(color=custom_colors[it_number]),\n            showlegend=False,\n            # in f notation prepend Run#2 to the name followed b the it_number variable\n            name=f\"Run#2 Q {it_number+1}\"\n        )\n\n        # Add subplots to the figure\n        fig.add_trace(subplot_df1, row=1, col=1)\n        fig.add_trace(subplot_df2, row=1, col=1)\n\n        # # Add median annotations\n        # fig.add_annotation(\n        #     x=it_number + 1,\n        #     y=median_value_df1,\n        #     text=f'Median: {median_value_df1:.2f}',\n        #     font=dict(size=14, color=\"black\"),\n        #     showarrow=True,\n        #     arrowhead=7,\n        #     ax=0,\n        #     ay=-20,\n        #     row=1,\n        #     col=1\n        # )\n\n        # fig.add_annotation(\n        #     x=it_number + 1,\n        #     y=median_value_df2,\n        #     text=f'Median: {median_value_df2:.2f}',\n        #     font=dict(size=14, color=\"black\"),\n        #     showarrow=True,\n        #     arrowhead=7,\n        #     ax=0,\n        #     ay=-20,\n        #     row=1,\n        #     col=2\n        # )\n\n    # Customize the layout\n    fig.update_layout(\n        title=\"Agreement with statements: 0 = complete disagreement, 100 = complete agreement\",\n        font=dict(\n            family=\"Verdana\",\n            size=18,\n        ),\n        # xaxis=dict(title=\"Columns\"),\n        # yaxis=dict(title=\"Values\")\n    )\n\n    # do not show the x axis labels\n    fig.update_xaxes(showticklabels=False)\n\n    # # Add a horizontal line to the boxplots\n    # average_values_df1 = dataframe1[columns_to_plot].mean()\n    # overall_avg_df1 = average_values_df1.mean()\n\n    # average_values_df2 = dataframe2[columns_to_plot].mean()\n    # overall_avg_df2 = average_values_df2.mean()\n\n    # fig.add_shape(\n    #     go.layout.Shape(\n    #         type=\"line\",\n    #         x0=0,\n    #         x1=len(columns_to_plot) + 1,\n    #         y0=overall_avg_df1,\n    #         y1=overall_avg_df1,\n    #         line=dict(color=\"red\", width=2),\n    #     ),\n    #     row=1,\n    #     col=1\n    # )\n\n    # fig.add_shape(\n    #     go.layout.Shape(\n    #         type=\"line\",\n    #         x0=0,\n    #         x1=len(columns_to_plot) + 1,\n    #         y0=overall_avg_df2,\n    #         y1=overall_avg_df2,\n    #         line=dict(color=\"red\", width=2),\n    #     ),\n    #     row=1,\n    #     col=2\n    # )\n\n    # fig.add_annotation(\n    #     x=len(columns_to_plot) + 1,\n    #     y=overall_avg_df1,\n    #     text=f'Overall avg: {overall_avg_df1:.2f}',\n    #     font=dict(size=14, color=\"red\"),\n    #     ax=0,\n    #     ay=20,\n    #     row=1,\n    #     col=1\n    # )\n\n    # fig.add_annotation(\n    #     x=len(columns_to_plot) + 1,\n    #     y=overall_avg_df2,\n    #     text=f'Overall avg: {overall_avg_df2:.2f}',\n    #     font=dict(size=14, color=\"red\"),\n    #     ax=0,\n    #     ay=20,\n    #     row=1,\n    #     col=2\n    # )\n\n    # Show the figure\n    fig.show()\n\n# Example usage:\n# Create or load your DataFrames and specify the list of columns to plot\n# df1 = pd.read_csv('your_dataframe1.csv')  # Or create your DataFrame\n# dataframe2 = pd.read_csv('your_dataframe2.csv')  # Or create your DataFrame\n# columns_to_plot = ['Q3_1', 'Q3_2', 'Q3_3', 'Q3_4', 'Q3_5', 'Q3_6']\n# plot_columns_from_dataframe(df1, dataframe2, columns_to_plot)\ncolumns_to_plot = ['Q3_1', 'Q3_2', 'Q3_3', 'Q3_4', 'Q3_5', 'Q3_6']\nplot_columns_from_dataframe(df2, dfR22, columns_to_plot)\n\n\n\n                                                \n\n\n\n\nCode\n# Create a DataFrame with the new name \"df_prom\"\ndf_prom = pd.DataFrame(dfR22.Q4)\n\n# Filter out NaN values (if needed)\ndf_prom = df_prom.dropna()\n\ndf_prom['Q4'] = df_prom['Q4'].astype(int)\n\n# df_prom = df_prom.sort_values(by=['Q4'])\n# df_prom\n# Sort the df_prom DataFrame by the 'Q4' column in ascending order\ndf_prom = df_prom.sort_values(by='Q4',ascending=True)\n# Calculate the value counts of 'Q4'\nvalue_counts = df_prom['Q4'].value_counts().reset_index()\nvalue_counts.columns = ['Q4', 'Count']\n\n# Sort the DataFrame by 'Q4' for proper x-axis ordering\nvalue_counts = value_counts.sort_values(by='Q4')\n\n# Create a bar chart using Plotly with the specified color\nfig = go.Figure(data=[go.Bar(\n    x=value_counts['Q4'],\n    y=value_counts['Count'],\n    marker=dict(color=custom_colors[0]),  # Set the color\n    # text=[value_counts['Count']],\n    textposition='outside',  # Place the value annotations outside the bars\n)])\n\n\n\n# Add annotations with the bar values above each bar\nfig.update_traces(text=value_counts['Count'], textposition='outside')\n\n# Add a subtitle-like text as an annotation\nfig.add_annotation(\n    text=\"0 = not likely at all ... 10 = extremely likely\",\n    xref=\"paper\", yref=\"paper\",  # Position relative to the chart\n    x=0.5, y=1.05,  # Adjust the position\n    showarrow=False,  # Hide arrow\n    font=dict(size=16)  # Customize font size\n)\n\n# Update layout for the overall figure\nfig.update_layout(\n    title='How likely would you be to recommend this workshop to a colleague',\n    xaxis=dict(\n        # title='',\n        # tickmode='array',\n        # tickvals=(0:10),\n        # ticktext=x_labels\n        tickvals=list(range(11)),  # Specify tick values from 0 to 10\n        ticktext=list(map(str, range(11))),  # Convert tick values to strings\n        tickmode='array',  # Use tickvals as specified\n        dtick=1  # Set the tick interval to 1\n    ),\n    # yaxis_title='Count',\n    # barmode='overlay',\n    # bargap=0.1,  # Adjust the bargap to your preferred spacing\n    font=dict(\n            family=\"Verdana\",\n            size=18,\n        ),\n)\n\n# Show the chart\nfig.show()\n\n\n\n                                                \n\n\n\n\nCode\n# Load data from CSV into the 'zoom' DataFrame\nzoom = pd.read_csv(\"ZoomStats.csv\")\n\n# Create a list of unique days\nunique_days = zoom['Day'].unique()\n\n# Create subplots for each day\nfig = go.Figure()\nconfig = {'responsive': False}\n\n# Create a bar for Run1 and Run2 for each unique day\nx_labels = []\nfor day in unique_days:\n    day_data = zoom[zoom['Day'] == day]\n    \n    fig.add_trace(go.Bar(\n        x=[f'Day {day} - Run1', f'Day {day} - Run2'],\n        y=[day_data['Run1'].values[0], day_data['Run2'].values[0]],\n        name=f'Day {day}',\n        text=[day_data['Run1'].values[0], day_data['Run2'].values[0]],\n        textposition='outside',  # Place the value annotations outside the bars\n        showlegend=False,  # Hide the legend\n        marker_color=[custom_colors[0], custom_colors[1]]\n    ))\n    \n    x_labels.extend([f'Day {day} - Run1', f'Day {day} - Run2'])\n\n# Update layout for the overall figure\nfig.update_layout(\n    title='Number of participants in Zoom meetings per day',\n    xaxis=dict(\n        # title='Day and Run',\n        tickmode='array',\n        tickvals=list(range(len(x_labels))),\n        ticktext=x_labels\n    ),\n    # yaxis=dict(title='Value'),\n    barmode='group',\n    # bargap=0.1,  # Adjust the bargap to your preferred spacing\n    font=dict(\n            family=\"Verdana\",\n            size=18,\n        ),\n)\n\n# Show the figure\nfig.show()"
-  },
-  {
-    "objectID": "ResBazPlanning.html#r",
-    "href": "ResBazPlanning.html#r",
-    "title": "ResBaz 2023 - Scheduling Assistance",
-    "section": "R",
-    "text": "R\n\nLet’s start with R.\nIt is very commonly used\nand it originated from research needs to undertake statistical analysis and to create graphics.\nNowadays, there are heaps of things that you can do with R and these are presented in the session\n“Introduction to R and R Studio”\n\nWhat you learned there will be expanded on in “Using R for statistical analysis” and even more in “Hands-on statistical analysis with R”"
-  },
-  {
-    "objectID": "ResBazPlanning.html#python",
-    "href": "ResBazPlanning.html#python",
-    "title": "ResBaz 2023 - Scheduling Assistance",
-    "section": "Python",
-    "text": "Python\n\nAnother popular programming language in the research Community is Python.\nPython is commonly employed for all kinds of research-tasks.\nTo get an overview, we reommend attending the taster session: “How Can Python Help Your Research?”.\n\nIf you have or already had developed a taste for Python, “Introduction to the Python Programming Language” gets you started with hands-on coding in Python\n\nIf you face challenges with handling/changing/manipulating not one but hundreds or more of files, “Python for Image Manipulation and Repeatable Research Pipelines” helps you in making Python do the work so you can free up some time to focus on research"
-  },
-  {
-    "objectID": "ResBazPlanning.html#cli",
-    "href": "ResBazPlanning.html#cli",
-    "title": "ResBaz 2023 - Scheduling Assistance",
-    "section": "CLI",
-    "text": "CLI\n\nEven though you can run many aspects of R and Python in a graphical user interface or gui, so independent of a command-line interface or CLI, many other software packages do have a cli version\nSome also refer to these as the terminal version.\n\nSometimes this might have even more functionality or\nyou can automate tedious tasks\nor its use contributes to a repeatable and hence reproduicble resareach workflow.\nThese things become more and more important."
-  },
-  {
-    "objectID": "ResBazPlanning.html#cli2",
-    "href": "ResBazPlanning.html#cli2",
-    "title": "ResBaz 2023 - Scheduling Assistance",
-    "section": "CLI2",
-    "text": "CLI2\n\nIn the session “introduction to command line” you will be familiarized with important commands but also the related mindset\nand syntax.\n\nA fancy way os daying how you have to type things out.\nOften upper or lower case, dashes and the sequence matter.\n\nAs a next step, you can apply these skills in the session “using the command line to find replace and manipulate data”\n\nThat session title gives a lot away\nand might save you hours of work"
-  },
-  {
-    "objectID": "ML-Recap.html#introduction-to-machine-learning-with-scikit-learn",
-    "href": "ML-Recap.html#introduction-to-machine-learning-with-scikit-learn",
-    "title": "ML-Carp Recap and Outlook",
-    "section": "Introduction to Machine Learning with Scikit Learn",
-    "text": "Introduction to Machine Learning with Scikit Learn\n\nNelis introduced us to the topic\nMike built on that\nRegression and Classification\nEnsemble methods, Clustering, Dimension reduction"
-  },
-  {
-    "objectID": "ML-Recap.html#introduction-to-deep-learning",
-    "href": "ML-Recap.html#introduction-to-deep-learning",
-    "title": "ML-Carp Recap and Outlook",
-    "section": "Introduction to Deep Learning",
-    "text": "Introduction to Deep Learning\n\nNidhi switched from generic ML to Deep Learning (DL)\nSome aspects (there are more:)\n\nML: is non-stoachstic; similar if not the same result\nDL: non-convex and complex\nDL: only estimated/non-deterministic results/every run can differ a bit\nDL: of uses neural networks, but also DBN, VAEs, etc.\nDL: tends to use way more resources (CPU/GPU)\nML: Can still solve a lot of real-world issues using limilted resources"
-  },
-  {
-    "objectID": "ML-Recap.html#workflows-for-heavier-computation",
-    "href": "ML-Recap.html#workflows-for-heavier-computation",
-    "title": "ML-Carp Recap and Outlook",
-    "section": "Workflows for heavier computation",
-    "text": "Workflows for heavier computation\n\nGoogle Colab vs. locally installed Jupyter Notebooks or Plain Vanilla Python\n\nDo all use Colab ‘in the real world’ all the time? No!\n\nVSCode\nPython locally installed\n\nVirtual Environment\npip install\n\nusing GPU/Nectar/…"
-  },
-  {
     "objectID": "LightningTalk.html#background",
     "href": "LightningTalk.html#background",
     "title": "Developing a Carpentries-style Machine Learning workshop",
     "section": "Background",
-    "text": "Background\n\n\nMachine Learning (ML) or Artificial Intelligence (AI) are without a doubt hot topics\nEmpowering reserachers to understand and use ML seems rewarding, but also challenging\nThe Carpentries  offer a proven teaching-style accounting for participants with limited IT experience\n\nCore aspects\n\nlive-coding\npositive attitude towards mistakes\nminimal prereuisites\nmaximising participant invovlement\n\n\nThe CeR (Centre for eResearch) at the University of Auckland acquired funding to further develop and run a series of workshops (also referred to as ML-Carp)\nTwo iterations (referred to as Run #1 and Run#2) took place so far. In March and September 2023."
+    "text": "Background\n\nMachine Learning (ML) or Artificial Intelligence (AI) are without a doubt hot topics\nEmpowering researchers to understand and use ML seems rewarding, but also challenging\nThe Carpentries  offer a proven teaching-style accounting for participants with limited IT experience\n\nCore aspects\n\nlive-coding\npositive attitude towards mistakes\nminimal prerequisites\nmaximising participant involvement\n\n\nThe CeR (Centre for eResearch) at the University of Auckland acquired funding to further develop and run a series of workshops (also referred to as ML-Carp)\nTwo iterations (referred to as Run #1 and Run#2) took place so far. In March and September 2023."
   },
   {
     "objectID": "LightningTalk.html#lesson-overview",
     "href": "LightningTalk.html#lesson-overview",
     "title": "Developing a Carpentries-style Machine Learning workshop",
     "section": "Lesson Overview",
-    "text": "Lesson Overview\n\n\n\n\nLesson Title\nStatus\nRun #1\nRun #2\n\n\n\n\n\nProgramming with Python\nReleased\nMon, Tue\n-\n\n\n\nIntroduction to Machine Learning with Scikit Learn\nAlpha\nWed, Thu\nMon, Tue\n\n\n\nIntroduction to Deep Learning\nBeta\nFri\nWed, Thu\n\n\n\n\n\n\n\nFour hour sessions over four consecutive afternoon\n\n\n\n\nDepending on Maturity, sessions were run with a small changes or substantially (re)developed.\n\n\n\n\nOne major change was Goolge Colab  being used instead of local Python installs."
+    "text": "Lesson Overview\n\n\n\nLesson Title\nStatus\nRun #1\nRun #2\n\n\n\n\n\nProgramming with Python\nReleased\nMon, Tue\n-\n\n\n\nIntroduction to Machine Learning with Scikit Learn\nAlpha\nWed, Thu\nMon, Tue\n\n\n\nIntroduction to Deep Learning\nBeta\nFri\nWed, Thu\n\n\n\n\n\n\n\n \n\n\n\n\n\n4h sessions over 4 consecutive afternoons\n\n\n\n\n\nDepending on Maturity, sessions were run with small changes or substantially (re)developed.\nOne major change was Goolge Colab  being used instead of local Python installs."
   },
   {
     "objectID": "LightningTalk.html#lesson-details",
@@ -298,6 +235,160 @@
     "href": "LightningTalk.html#participants-feelings---statements-and-adjustments",
     "title": "Developing a Carpentries-style Machine Learning workshop",
     "section": "Participants’ Feelings - Statements and Adjustments",
-    "text": "Participants’ Feelings - Statements and Adjustments\n\n\n\nobservation: Even at the very end of the sessions, questions, participantion and interest didn’t cease\n\n\n\n“Python lesson might be separated”\n\nRun #2: Python was removed from the curriculum\n\n“more breaks”\n\nRun #2: better adherence to schedule\n\n“stick to one coding interface”\n\nRun #2: only Colab, VSC etc. was linked to for post-workshop engagement\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nAll statements are positively phrased; overall the results confirm a poasitive appreciation."
+    "text": "Participants’ Feelings - Statements and Adjustments\n\nobservation: At very end of the Runs, questions/participation/interest didn’t cease!\n“Python lesson might be separated”\n\nRun #2: Python was removed from the curriculum\n\n“more breaks”\n\nRun #2: better adherence to schedule\n\n“stick to one coding interface”\n\nRun #2: only Colab, VSC etc. was linked to for post-workshop engagement\n\n\n\n\n\n\n\n\nNote\n\n\nAll statements are positive phrased; overall the results confirm a poasitive appreciation."
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#uoa-workshops",
+    "href": "UpskillingResearchersInML.html#uoa-workshops",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "UoA workshops",
+    "text": "UoA workshops\n\n\n\nAudience: The University of Auckland (UoA) researchers\nTwo runs\n\nRun #1: March 2023\nRun #2: September 2023\n\nWell-received\n\nfiltering by mandatory Expression of Interest (EoI)\nabout 100 applications for 40 spots"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#nesi-workshops",
+    "href": "UpskillingResearchersInML.html#nesi-workshops",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "NeSI workshops",
+    "text": "NeSI workshops\n\n\n First ML101 workshop at eResearch NZ 2021\n\n\nAudience: Aotearoa – NZ researchers\nML 101\n\nIntro to Machine Learning\nstarted in 2021\n7 workshops (in person, online)\n127 attendees in total (from 10 to 32)\n\nML 102\n\nIntro to Deep Learning (CNNs)\nstarted in 2022\n2 workshops (online)\n44 attendees in total (20 and 24)\n\nMixture of direct registration and EoIs"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#recommendations",
+    "href": "UpskillingResearchersInML.html#recommendations",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "Recommendations",
+    "text": "Recommendations\nThere will be a lot of interest so…\n\nuse an Expression of Interest for registration and filter,\n30 participants is a good number for an online training,\nexpect people to not show up (if free and online)."
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#uoa-workshops-1",
+    "href": "UpskillingResearchersInML.html#uoa-workshops-1",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "UoA workshops",
+    "text": "UoA workshops\n\n\n\nonline only event: Zoom.us\nBYOD (bring your own device)\nmajor deviation from The Carpentries: No local Python installs\nGoolge Colab ,a browser-based Jupyter Notebook using Google infrastructure (a virtual machine; a GPU can be added)\n\n\n\n\n\nGoogle Colab in a Browser"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#nesi-workshops-1",
+    "href": "UpskillingResearchersInML.html#nesi-workshops-1",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "NeSI workshops",
+    "text": "NeSI workshops\n\n\n\n JupyterLab session running on Jupyter-on-NeSI\n\n\nOnline and in person\n\n2 delivered in person (1 had wifi issues 😓)\n5 delivered online\n\nUse Jupyter-on-NeSI\n\nJupyterHub platform\nRequires a NeSI account\nML101: 2 cores & 4 GB of RAM\nML102: 4 cores & 8 GB of RAM\n\nUse Slurm-based job for GPU training (a little bit)\nTip: make sure the Platform team does not schedule upgrades that day 😬…"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#recommendations-1",
+    "href": "UpskillingResearchersInML.html#recommendations-1",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "Recommendations",
+    "text": "Recommendations\n\nMake it online\nLeverage online computational platforms (Google Colab, JupyterHub, Open OnDemand…)\nNo need for GPU to start (or small ones on Google Colab available)"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#uoa-workshops-2",
+    "href": "UpskillingResearchersInML.html#uoa-workshops-2",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "UoA workshops",
+    "text": "UoA workshops\n\n\nRun #1\n\n\n\nTime Budget\nActivity\n\n\n\n\ntwo afternoons (8h)\nPython\n\n\none afternoon (4h)\nML\n\n\ntwo afternoons (8h)\nDL\n\n\n\nRun #2 \n\n\n\nTime Budget\nActivity\n\n\n\n\ntwo afternoons (8h)\nML\n\n\ntwo afternoons (8h)\nDL\n\n\n\n\n\nall workshops took place in the same week\nno mixing and matching, signing up = coming to all sessions\nMajor adjustment for Run #2: Python as a prerequisite, not part of the series"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#nesi-workshops-2",
+    "href": "UpskillingResearchersInML.html#nesi-workshops-2",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "NeSI workshops",
+    "text": "NeSI workshops\n\n\n\nML 101\n\n6 hours with 3 breaks ☕\nat first in one day\nnow split over 2 mornings\n\nML 102\n\n3 hours with 2 breaks 🍵\n\nIndependent workshops\nBut organised “close” to each other\n\n\n ML101 runsheet, used to keep track of time"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#recommendations-2",
+    "href": "UpskillingResearchersInML.html#recommendations-2",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "Recommendations",
+    "text": "Recommendations\n\nSplit/shorter sessions (bearing in mind the scheduling challenges for researchers)\nStick to scheduled breaks\nFollow best practices for online audiences:\n\nget a Zoom DJ, some helpers, get multiple co-hosts\nkeep a QA document\nprepare your intro and outro\nmake attendees join from the same computer running the code\nWebinar: Tips & tricks for hosting a successful online event"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#uoa-workshops-3",
+    "href": "UpskillingResearchersInML.html#uoa-workshops-3",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "UoA workshops",
+    "text": "UoA workshops\n\n\n\nLesson Title\nStatus\nRun #1\nRun #2\n\n\n\n\n\nProgramming with Python\nReleased\nMon, Tue\n-\n\n\n\nIntroduction to Machine Learning with Scikit Learn\nAlpha\nWed\nMon, Tue\n\n\n\nIntroduction to Deep Learning\nBeta\nThu, Fri\nWed, Thu"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#nesi-workshops-3",
+    "href": "UpskillingResearchersInML.html#nesi-workshops-3",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "NeSI workshops",
+    "text": "NeSI workshops\n\n\n My rehearsal and source of inspiration 💓\n\nNeSI workshops\n\nML 101 – github.com/nesi/sklearn_tutorial\n\nScikit-learn Tutorial by Jake Vanderplas\nonline recordings exist  (very good to rehearse!)\nJupyter Notebook based\nvery few changes (updated package version)\n\nML 102 – github.com/nesi/ml102_workshop\n\nTensorFlow tutorials\nJupyter Notebook based\nadded an introduction\nadded section to submit a Slurm job"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#recommendations-3",
+    "href": "UpskillingResearchersInML.html#recommendations-3",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "Recommendations",
+    "text": "Recommendations\nCeR and NeSI independently decided to base the workshops on existing material.\n\nDon’t reinvent the wheel\nReuse/adapt content"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#section",
+    "href": "UpskillingResearchersInML.html#section",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "",
+    "text": "Machine Learning\n\nData preparation\nSupervised vs. unsupervised learning\n\nregression\nclassification\nclustering\ndimensionality reduction\n\nEnsemble models (random forests)\nValidation\n\ntrain/test/validation split\ncross-validation\nvalidation and learning curves\n\n\n\nDeep Learning\n\nModel architectures\n\nMulti-layer perceptron\nConvolutional neural network  (CNN | computer vision)\n\nModel training\n\noptimisers and mini-batch\noverfitting and early stopping\ndata augmentation\ndropout, batch normalisation, …\n\nTransfer learning"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#recommendations-4",
+    "href": "UpskillingResearchersInML.html#recommendations-4",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "Recommendations",
+    "text": "Recommendations\n\nRandom forest is a good first non-linear model to learn\n\nintuitive to understand how it works\ngood performances on tabular data\ndoesn’t require too much care in terms of data preparation\n\nResist the temptation of MLP (multi-layer perceptron) for an ML intro\n\nrequire more notions (architecture, training, data preprocessing, …)\nkeep it for Deep Learning introduction"
+  },
+  {
+    "objectID": "Plots.html",
+    "href": "Plots.html",
+    "title": "Quarto Basics",
+    "section": "",
+    "text": "Code\nimport plotly.express as px\nimport pandas as pd\npd.options.plotting.backend = \"plotly\"\nimport plotly.io as pio\nimport numpy as np\nimport plotly.graph_objects as go\nfrom plotly.subplots import make_subplots\nimport matplotlib.cm as cm\nimport plotly.subplots as sp\n\n\n\n\nCode\n# Custom colors\ncustom_colors = ['#00467F', '#009AC7', '#8D9091', '#A71930', '#7D0063', '#D2492A', '#55A51C',\n                 '#4F2D7F', '#005B82', '#00877C', '#0039A6', '#BA4482', '#006990']\n\n\n\n\nCode\npio.renderers.default = \"notebook\"\n# Read data from the CSV file\ndf = pd.read_csv('./InputDataR1.csv')\ndf_raw = df\ndfR2 = pd.read_csv('./InputDataR2.csv')\ndf2_raw = dfR2\ndf2 = df.drop([0, 1])\ndfR22 = dfR2.drop([0, 1])\n\n\n\noption_counts = df2['Q1'].value_counts()\noption_countsR2 = dfR22['Q1'].value_counts()\n\n# Create a DataFrame from the value_counts() result\noption_counts_df = pd.DataFrame({'Option': option_counts.index, 'R1': option_counts.values})\noption_counts_dfR2 = pd.DataFrame({'Option': option_countsR2.index, 'R2': option_countsR2.values})\noption_counts_df = option_counts_df.merge(option_counts_dfR2, on=\"Option\", how=\"outer\")\n\n# print(option_counts_df)\ntotal_r1 = option_counts_df.R1.sum()\ntotal_r2 = option_counts_df.R2.sum()\nattendance_ratio = total_r1/total_r2\n\ntrace1 = go.Pie(\n     values=option_counts_df.R1, \n     labels=option_counts_df.Option,\n     domain=dict(x=[0, 0.5*attendance_ratio]),\n     name=\"Run #1\",\n     hole=0.4,\n     hoverinfo=\"label+percent+name\",\n     title=f\"Run#1 &lt;br&gt; [{int(total_r1)}]\",\n     marker_colors=custom_colors\n)\n\n\n\ntrace2 = go.Pie(\n     values=option_counts_df.R2, \n     labels=option_counts_df.Option,\n     domain=dict(x=[0.5, 1.0]),\n     name=\"Run #2\",\n     hole=0.4,\n     hoverinfo=\"label+percent+name\",\n     title=f\"Run#2 &lt;br&gt; [{int(total_r2)}]\",\n     marker_colors=custom_colors\n)\n\nlayout = go.Layout(\n        font=dict(\n            family=\"Verdana\",\n            size=18,\n        ),\n#      legend=dict(\n#         x=0.5,  # Center the legend horizontally\n#         y=-0.1,  # Position the legend just below the plot\n#         xanchor='center',  # Set the x anchor to center\n#         yanchor='top',  # Set the y anchor to the top\n#     )\n)\n#     title=\"Participants' Background\")\n\ndata = [trace1, trace2]\nfig = go.Figure(data=data, layout=layout)\nfig.show()\n# Save the figure as an SVG file\npio.write_image(fig, './UpskillingResearchersInML_Assets/ParticipantsBackground.svg', width=1800, height=600, scale=1)  # Adjust the scale as needed)\n\n\n                                                \n\n\n\n\nCode\n# print(option_counts_df.R1/option_counts_df.R1.sum()*100)\n# assign this as a new column to the existing dataframe option_counts_df\noption_counts_df['percentR1'] = (option_counts_df['R1'] / option_counts_df['R1'].sum() * 100).fillna(0)\noption_counts_df['percentR2'] = (option_counts_df['R2'] / option_counts_df['R2'].sum() * 100).fillna(0)\n\nprint(option_counts_df)\n\n\n                               Option   R1   R2  percentR1  percentR2\n0    Biomedical and clinical sciences  6.0  3.0      37.50  16.666667\n1                         Engineering  4.0  8.0      25.00  44.444444\n2        Built environment and design  1.0  NaN       6.25   0.000000\n3                           Economics  1.0  NaN       6.25   0.000000\n4                   Chemical sciences  1.0  NaN       6.25   0.000000\n5               Mathematical sciences  1.0  1.0       6.25   5.555556\n6                 Biological sciences  1.0  1.0       6.25   5.555556\n7                           Education  1.0  NaN       6.25   0.000000\n8                     Health sciences  NaN  4.0       0.00  22.222222\n9  Information and computing sciences  NaN  1.0       0.00   5.555556\n\n\n\n\nCode\noption_countsOSR1 = df2['Q2'].value_counts()\noption_countsOSR2 = dfR22['Q2'].value_counts()\n# Create a DataFrame from the value_counts() result\n\noption_counts_df = pd.DataFrame({'Option': option_countsOSR1.index, 'R1': option_countsOSR1.values})\noption_counts_dfR2 = pd.DataFrame({'Option': option_countsOSR2.index, 'R2': option_countsOSR2.values})\noption_counts_df = option_counts_df.merge(option_counts_dfR2, on=\"Option\", how=\"outer\")\n\n\ntrace1 = go.Pie(\n     values=option_counts_df.R1, \n     labels=option_counts_df.Option,\n     domain=dict(x=[0.0, 0.45]),  # Adjust the x values\n     name=\"Run #1\",\n     hole=0.4,\n     hoverinfo=\"label+percent+name\",\n     title=f\"Run#1 &lt;br&gt; [{int(total_r1)}]\",\n     marker_colors=custom_colors\n)\n\n\n\ntrace2 = go.Pie(\n     values=option_counts_df.R2, \n     labels=option_counts_df.Option,\n     domain=dict(x=[0.55, 1.0]),  # Adjust the x values\n     name=\"Run #2\",\n     hole=0.4,\n     hoverinfo=\"label+percent+name\",\n     title=f\"Run#2 &lt;br&gt; [{int(total_r2)}]\",\n     marker_colors=custom_colors\n)\n\nlayout = go.Layout(\n#     boxgap=0.1,\n    font=dict(\n            family=\"Verdana\",\n            size=18,\n        ),\n\n)\n#     title=\"Participants' Background\")\ndata = [trace1, trace2]\nfig = go.Figure(data=data, layout=layout)\nconfig = {'responsive': False}\nfig.show()\n\n# Save the figure as an SVG file\npio.write_image(fig, './UpskillingResearchersInML_Assets/ParticipantsOS.svg', width=1800, height=600, scale=1)  # Adjust the scale as needed)\n\n\n                                                \n\n\n\n\nCode\n# List of column names you want to plot\ncolumns_to_plot = ['Q3_1', 'Q3_2', 'Q3_3', 'Q3_4', 'Q3_5', 'Q3_6']\n\ndef plot_columns_from_dataframe(dataframe1, dataframe2, columns_to_plot):\n    # String to be stripped from each element\n    string_to_strip = \"Please rate your level of agreement with the following statements (0 = complete disagreement, 100 = complete agreement). - \"\n\n    for column in columns_to_plot:\n        # Check if the column contains string values before applying .str.replace()\n        if df_raw[column].dtype == 'object':\n            df_raw[column] = df_raw[column].str.replace(string_to_strip, '', case=False)\n\n    # Convert the columns to float, handling non-numeric values by replacing them with NaN\n    for column in columns_to_plot:\n        dataframe1[column] = pd.to_numeric(dataframe1[column], errors='coerce')\n\n    # Create subplots\n    fig = make_subplots(rows=1, cols=1, shared_yaxes=True)\n\n    # custom_colors = ['color1', 'color2', 'color3', 'color4', 'color5', 'color6']  # Define your custom colors\n\n    for it_number, column in enumerate(columns_to_plot):\n        median_value_df1 = dataframe1[column].median()\n        subplot_df1 = go.Box(\n            y=dataframe1[column],\n            boxpoints='all',\n            jitter=0.3,\n            pointpos=-1.8,\n            line=dict(color=custom_colors[it_number]),\n            marker=dict(color=custom_colors[it_number]),\n            name=df_raw.loc[0,column]\n        )\n\n        median_value_df2 = dataframe2[column].median()\n        subplot_df2 = go.Box(\n            y=dataframe2[column],\n            boxpoints='all',\n            jitter=0.3,\n            pointpos=-1.8,\n            line=dict(color=custom_colors[it_number]),\n            marker=dict(color=custom_colors[it_number]),\n            showlegend=False,\n            # in f notation prepend Run#2 to the name followed b the it_number variable\n            name=f\"Run#2 Q {it_number+1}\"\n        )\n\n        # Add subplots to the figure\n        fig.add_trace(subplot_df1, row=1, col=1)\n        fig.add_trace(subplot_df2, row=1, col=1)\n\n        # # Add median annotations\n        # fig.add_annotation(\n        #     x=it_number + 1,\n        #     y=median_value_df1,\n        #     text=f'Median: {median_value_df1:.2f}',\n        #     font=dict(size=14, color=\"black\"),\n        #     showarrow=True,\n        #     arrowhead=7,\n        #     ax=0,\n        #     ay=-20,\n        #     row=1,\n        #     col=1\n        # )\n\n        # fig.add_annotation(\n        #     x=it_number + 1,\n        #     y=median_value_df2,\n        #     text=f'Median: {median_value_df2:.2f}',\n        #     font=dict(size=14, color=\"black\"),\n        #     showarrow=True,\n        #     arrowhead=7,\n        #     ax=0,\n        #     ay=-20,\n        #     row=1,\n        #     col=2\n        # )\n\n    # Customize the layout\n    fig.update_layout(\n        title=\"Agreement with statements: 0 = complete disagreement, 100 = complete agreement, Run#1 left, Run#2 right\",\n        font=dict(\n            family=\"Verdana\",\n            size=18,\n        ),\n        # xaxis=dict(title=\"Columns\"),\n        # yaxis=dict(title=\"Values\")\n    )\n\n    # do not show the x axis labels\n    fig.update_xaxes(showticklabels=False)\n\n    # Add a subtitle-like text as an annotation\n    fig.add_annotation(\n        text=\"median across all data for Run#1: 85.5, Run #2: 86.25\",\n        xref=\"paper\", yref=\"paper\",  # Position relative to the chart\n        x=0.5, y=1.05,  # Adjust the position\n        showarrow=False,  # Hide arrow\n        font=dict(size=16)  # Customize font size\n    )\n\n    # # Add a horizontal line to the boxplots\n    # average_values_df1 = dataframe1[columns_to_plot].mean()\n    # overall_avg_df1 = average_values_df1.mean()\n\n    # average_values_df2 = dataframe2[columns_to_plot].mean()\n    # overall_avg_df2 = average_values_df2.mean()\n\n    # fig.add_shape(\n    #     go.layout.Shape(\n    #         type=\"line\",\n    #         x0=0,\n    #         x1=len(columns_to_plot) + 1,\n    #         y0=overall_avg_df1,\n    #         y1=overall_avg_df1,\n    #         line=dict(color=\"red\", width=2),\n    #     ),\n    #     row=1,\n    #     col=1\n    # )\n\n    # fig.add_shape(\n    #     go.layout.Shape(\n    #         type=\"line\",\n    #         x0=0,\n    #         x1=len(columns_to_plot) + 1,\n    #         y0=overall_avg_df2,\n    #         y1=overall_avg_df2,\n    #         line=dict(color=\"red\", width=2),\n    #     ),\n    #     row=1,\n    #     col=2\n    # )\n\n    # fig.add_annotation(\n    #     x=len(columns_to_plot) + 1,\n    #     y=overall_avg_df1,\n    #     text=f'Overall avg: {overall_avg_df1:.2f}',\n    #     font=dict(size=14, color=\"red\"),\n    #     ax=0,\n    #     ay=20,\n    #     row=1,\n    #     col=1\n    # )\n\n    # fig.add_annotation(\n    #     x=len(columns_to_plot) + 1,\n    #     y=overall_avg_df2,\n    #     text=f'Overall avg: {overall_avg_df2:.2f}',\n    #     font=dict(size=14, color=\"red\"),\n    #     ax=0,\n    #     ay=20,\n    #     row=1,\n    #     col=2\n    # )\n\n    # Show the figure\n    fig.show()\n    # Save the figure as an SVG file\n    pio.write_image(fig, './UpskillingResearchersInML_Assets/ParticipantsAgreement.svg', width=1800, height=600, scale=1)  # Adjust the scale as needed)\n\n# Example usage:\n# Create or load your DataFrames and specify the list of columns to plot\n# df1 = pd.read_csv('your_dataframe1.csv')  # Or create your DataFrame\n# dataframe2 = pd.read_csv('your_dataframe2.csv')  # Or create your DataFrame\n# columns_to_plot = ['Q3_1', 'Q3_2', 'Q3_3', 'Q3_4', 'Q3_5', 'Q3_6']\n# plot_columns_from_dataframe(df1, dataframe2, columns_to_plot)\ncolumns_to_plot = ['Q3_1', 'Q3_2', 'Q3_3', 'Q3_4', 'Q3_5', 'Q3_6']\nplot_columns_from_dataframe(df2, dfR22, columns_to_plot)\n\n\n\n                                                \n\n\n\n\nCode\n# Calculate the median for each column\nmedians = df2[columns_to_plot].median()\n\n# Calculate the metric as the median of medians\noverall_median = medians.median()\n\nprint(overall_median)\n\n# Calculate the median for each column\nmedians = dfR22[columns_to_plot].median()\n\n# Calculate the metric as the median of medians\noverall_median = medians.median()\n\nprint(overall_median)\n\n\n\n85.5\n86.25\n\n\n\n\nCode\n# Load data from CSV into the 'zoom' DataFrame\nzoom = pd.read_csv(\"ZoomStats.csv\")\n\n# Create a list of unique days\nunique_days = zoom['Day'].unique()\n\n\n\n# Create subplots for each day\nfig = go.Figure()\n# config = {'responsive': False}\n\n\n# Create a bar for Run1 and Run2 for each unique day\nx_labels = []\nfor day in unique_days:\n    day_data = zoom[zoom['Day'] == day]\n    \n    fig.add_trace(go.Bar(\n        x=[f'Day {day} - Run1', f'Day {day} - Run2'],\n        y=[day_data['Run1'].values[0], day_data['Run2'].values[0]],\n        name=f'Day {day}',\n        text=[day_data['Run1'].values[0], day_data['Run2'].values[0]],\n        textposition='outside',  # Place the value annotations outside the bars\n        showlegend=False,  # Hide the legend\n        marker_color=[custom_colors[0], custom_colors[1]]\n    ))\n    \n    x_labels.extend([f'Day {day} - Run1', f'Day {day} - Run2'])\n\n# Update layout for the overall figure\nfig.update_layout(\n    title='Number of participants in Zoom meetings per day',\n    xaxis=dict(\n        # title='Day and Run',\n        tickmode='array',\n        tickvals=list(range(len(x_labels))),\n        ticktext=x_labels\n    ),\n    # yaxis=dict(title='Value'),\n    barmode='group',\n    # bargap=0.1,  # Adjust the bargap to your preferred spacing\n    font=dict(\n            family=\"Verdana\",\n            size=18,\n        ),\n)\n\n\n\nhighest_value = max(zoom[['Run1', 'Run2']].values.flatten())\n# print(highest_value)\n\n\nfig.update_yaxes(range=[0, highest_value+4])  # Set the initial y-axis range\n\n# Add a subtitle-like text as an annotation\nfig.add_annotation(\n    text=\"deduplicated, not including instructors or helpers\",\n    xref=\"paper\", yref=\"paper\",  # Position relative to the chart\n    x=0.5, y=1.05,  # Adjust the position\n    showarrow=False,  # Hide arrow\n    font=dict(size=16)  # Customize font size\n)\n\n\n# Show the figure\nfig.show()\n\n# Save the figure as an SVG file\npio.write_image(fig, './UpskillingResearchersInML_Assets/ZoomParticipants.svg')\n\n\n                                                \n\n\n\n\nCode\ndf_promR1 = df2['Q4']\ndf_promR1\ndf_promR1.dropna(inplace=True)\ndf_promR1.astype(int)\ndf_promR2 = dfR22['Q4']\ndf_promR2\ndf_promR2.dropna(inplace=True)\ndf_promR2.astype(int)\n\npromote = pd.concat([df_promR1.astype(int), df_promR2.astype(int)], axis=1)\n\n# # Rename the columns if needed (optional)\npromote.columns = ['Q4_R1', 'Q4_R2']\npromote\n\n# flatten the dataframe 'promote' \n# promote = promote.stack().reset_index()\n\noption_counts_R1 = promote['Q4_R1'].value_counts()\noption_counts_R2 = promote['Q4_R2'].value_counts()\n\npromote2 = pd.concat([option_counts_R1.astype(int), option_counts_R2.astype(int)], axis=1)\npromote2.columns = ['Q4_R1', 'Q4_R2']\npromote2\n\n# data_type = type(promote2['Q4_R1'].iloc[0])\n# print(data_type)\n\n# promote2.plot(kind='bar')\n\n# Create subplots for each day\nfig = go.Figure()\n# config = {'responsive': False}\n\n\n# Create a bar for Run1 and Run2 for each unique day\n\nfig.add_trace(go.Bar(\n    x=promote2.index,\n    y=promote2['Q4_R1'],\n    name=\"Run #1\",\n    text=promote2['Q4_R1'].values,\n    textposition='outside',  # Place the value annotations outside the bars\n    # showlegend=False,  # Hide the legend\n    marker_color=custom_colors[0]\n)\n)\n\nfig.add_trace(go.Bar(\n    x=promote2.index,\n    y=promote2['Q4_R2'],\n    name=\"Run #2\",\n    text=promote2['Q4_R2'].values,\n    textposition='outside',  # Place the value annotations outside the bars\n    # showlegend=False,  # Hide the legend\n    marker_color=custom_colors[1]\n)\n)\n\n\n# Update layout for the overall figure\nfig.update_layout(\n    title='How likely would you be to recommend this workshop to a colleague?',\n\n    barmode='group',\n    bargap=0.1,  # Adjust the bargap to your preferred spacing\n    font=dict(\n            family=\"Verdana\",\n            size=18,\n        ),\n)\n\n\n\n# Add a subtitle-like text as an annotation\nfig.add_annotation(\n    text=\"0 = not likely at all ... 10 = extremely likely\",\n    xref=\"paper\", yref=\"paper\",  # Position relative to the chart\n    x=0.5, y=-0.15,  # Adjust the position\n    showarrow=False,  # Hide arrow\n    font=dict(size=16)  # Customize font size\n)\n\n# Add a subtitle-like text as an annotation\nfig.add_annotation(\n    text=\"deduplicated, not including instructors or helpers\",\n    xref=\"paper\", yref=\"paper\",  # Position relative to the chart\n    x=0.5, y=1.05,  # Adjust the position\n    showarrow=False,  # Hide arrow\n    font=dict(size=16)  # Customize font size\n)\n\nfig.update_xaxes(range=[0, 11])  # Set the initial x-axis range\nfig.update_yaxes(range=[0, 10])  # Set the initial y-axis range\n\n# Update x-axis ticks to display integers from 0 to 10\nfig.update_xaxes(\n    tickmode='array',\n    tickvals=list(range(11)),  # Set tick values from 0 to 10\n    ticktext=list(map(str, range(11)))  # Set tick labels as strings of integers from 0 to 10\n)\n\n# # Show the figure\nfig.show()\npio.write_image(fig, './UpskillingResearchersInML_Assets/ParticipantsRecommend.svg', width=1800, height=600, scale=1)  # Adjust the scale as needed)\n\n\n\n\n\n                                                \n\n\n\n\nCode\n# Load data from CSV into the 'zoom' DataFrame\nzoom = pd.read_csv(\"ZoomStats.csv\")\nzoom\n\n\n# Assuming you have a DataFrame or data source named 'zoom'\nfig = go.Figure()\n\nfig.add_trace(go.Scatter(x=zoom['Day'], y=zoom['Run1'], mode='lines+markers', name='Run#1', line=dict(width=2, color=custom_colors[0]), marker=dict(size=8, color=custom_colors[0])))\nfig.add_trace(go.Scatter(x=zoom['Day'], y=zoom['Run2'], mode='lines+markers', name='Run#2', line=dict(width=2, color=custom_colors[1]), marker=dict(size=8, color=custom_colors[1])))\n\n\ndef format_data_label(value):\n    if np.isnan(value) or value == \"\":\n        return \"\"\n    else:\n        return f\"{value:.0f}\"\n\nfig.update_layout(title='Attendees per Zoom session',\n                  xaxis_title='Day',\n                #   yaxis_title='Value'\n                  )\n\n# Create a text column for data values with custom formatting\ntext_values_run1 = [format_data_label(val) for val in zoom['Run1']]\ntext_values_run2 = [format_data_label(val) for val in zoom['Run2']]\n\n# Add data labels to each trace using add_trace\nfig.add_trace(go.Scatter(x=zoom['Day'], y=zoom['Run1'], mode='text', text=text_values_run1, textposition='top center', showlegend=False))\nfig.add_trace(go.Scatter(x=zoom['Day'], y=zoom['Run2'], mode='text', text=text_values_run2, textposition='bottom center', showlegend=False))\n\n# Set the y-axis scale to [0, 37]\nfig.update_yaxes(range=[0.1, 5.1])\nfig.update_yaxes(range=[0, 37])\n\n# Set x-axis ticks to integers\nfig.update_xaxes(tickmode='linear', dtick=1)\n\n\n\n\nfig.update_layout(\n        font=dict(\n            family=\"Verdana\",\n            size=18,\n        ),)\n\n# Add a subtitle-like text as an annotation\nfig.add_annotation(\n    text=\"deduplicated, not including instructors or helpers\",\n    xref=\"paper\", yref=\"paper\",  # Position relative to the chart\n    x=0.5, y=1.05,  # Adjust the position\n    showarrow=False,  # Hide arrow\n    font=dict(size=16)  # Customize font size\n)\n\n# Set hoverformat to display data labels without decimal places\nfig.update_traces(hoverinfo=\"y+text\", hoverlabel=dict(namelength=0), hovertemplate=\"%{y:.0f}\")\n\n\nfig.show()\n\n# Save the figure as an SVG file\npio.write_image(fig, './UpskillingResearchersInML_Assets/ZoomParticipantsLine.svg')"
+  },
+  {
+    "objectID": "ML-Recap.html#introduction-to-machine-learning-with-scikit-learn",
+    "href": "ML-Recap.html#introduction-to-machine-learning-with-scikit-learn",
+    "title": "ML-Carp Recap and Outlook",
+    "section": "Introduction to Machine Learning with Scikit Learn",
+    "text": "Introduction to Machine Learning with Scikit Learn\n\nNelis introduced us to the topic\nMike built on that\nRegression and Classification\nEnsemble methods, Clustering, Dimension reduction"
+  },
+  {
+    "objectID": "ML-Recap.html#introduction-to-deep-learning",
+    "href": "ML-Recap.html#introduction-to-deep-learning",
+    "title": "ML-Carp Recap and Outlook",
+    "section": "Introduction to Deep Learning",
+    "text": "Introduction to Deep Learning\n\nNidhi switched from generic ML to Deep Learning (DL)\nSome aspects (there are more:)\n\nML: is non-stoachstic; similar if not the same result\nDL: non-convex and complex\nDL: only estimated/non-deterministic results/every run can differ a bit\nDL: of uses neural networks, but also DBN, VAEs, etc.\nDL: tends to use way more resources (CPU/GPU)\nML: Can still solve a lot of real-world issues using limilted resources"
+  },
+  {
+    "objectID": "ML-Recap.html#workflows-for-heavier-computation",
+    "href": "ML-Recap.html#workflows-for-heavier-computation",
+    "title": "ML-Carp Recap and Outlook",
+    "section": "Workflows for heavier computation",
+    "text": "Workflows for heavier computation\n\nGoogle Colab vs. locally installed Jupyter Notebooks or Plain Vanilla Python\n\nDo all use Colab ‘in the real world’ all the time? No!\n\nVSCode\nPython locally installed\n\nVirtual Environment\npip install\n\nusing GPU/Nectar/…"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#this-session-vs.-related",
+    "href": "DataWorkflows2024.html#this-session-vs.-related",
+    "title": "Working with data in 2024",
+    "section": "This session vs. related",
+    "text": "This session vs. related\n\nThis session is the introduction. Let’s call it Level 1️⃣\n\nWe will mostly talk\nNick is the expert who taught Jens many things over the past years, we’ll replicate some of the back and forth\nWe will provide you with an overview\nyou are asked to think about examples you’d like see used in the upcoming sessions\n\nYou can decide if you just want to listen or if you want to follow along\n\nIf you want to get your hands dirty, hold your horses 🐴\ndon’t miss out now\nthe next sessions will be all about hands-on experience with the tools 🛠️\n\nThere is homework 💼\n\nsee later slides"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#homework",
+    "href": "DataWorkflows2024.html#homework",
+    "title": "Working with data in 2024",
+    "section": "Homework 💼",
+    "text": "Homework 💼\n\nInstall software \nGet a dataset (git pull/GitHub Desktop)\nrun this one line, to see what if it works."
+  },
+  {
+    "objectID": "DataWorkflows2024.html#the-support-via-slack",
+    "href": "DataWorkflows2024.html#the-support-via-slack",
+    "title": "Working with data in 2024",
+    "section": "The support via Slack",
+    "text": "The support via Slack\n\nWe have a Slack channel\nWe will be available for questions\nThis is a premiere, so let’s see how many quesitons we can answer"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#the-next-session-or-level-2",
+    "href": "DataWorkflows2024.html#the-next-session-or-level-2",
+    "title": "Working with data in 2024",
+    "section": "The next session or Level 2️⃣",
+    "text": "The next session or Level 2️⃣\n\nHere we will go through several steps\nWe will use a real-world example\nIn case you, as a group, haven’t agreed on a dataset of highest relevance, to be used, we will provide one"
   }
 ]

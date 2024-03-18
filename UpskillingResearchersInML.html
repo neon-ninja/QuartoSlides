@@ -11,10 +11,10 @@
 <script src="site_libs/quarto-contrib/reveal-header-1.0.0/add_header.js" defer="true"></script>
 <link href="site_libs/quarto-contrib/reveal-header-1.0.0/add_header.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/grid-htext-1.0.0/grid_htext.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.4.551">
 
   <meta name="author" content="Maxime Rio, Jens Brinkmann">
-  <title>Upskilling researchers in Machine Learning</title>
+  <title>Upskilling Researchers in Machine Learning</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -159,7 +159,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -328,8 +329,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="NeSIAndUoA.jpg" data-background-position="95% 76%" data-background-size="20%" class="quarto-title-block center">
-  <h1 class="title">Upskilling researchers in Machine Learning</h1>
-  <p class="subtitle">Lightning talk ⚡️</p>
+  <h1 class="title">Upskilling Researchers in Machine Learning</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -344,92 +344,508 @@ Maxime Rio, Jens Brinkmann
 
   <p class="date">Tuesday, October 17, 2023</p>
 </section>
-<section id="todo" class="title-slide slide level1 center">
-<h1>todo</h1>
+<section class="slide level2">
+
+<!-- based on [this](https://conference.eresearch.edu.au/guidelines-presenter/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=website): *Oral Presentations (15 minutes plus 5 minutes for questions and changeover): Short conversation starters which provide enough information to encourage the audience to engage and seek further information.* -->
+</section>
+<section id="who-are-we" class="title-slide slide level1 center">
+<h1>Who are we?</h1>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p><strong>Maxime Rio</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./UpskillingResearchersInML_Assets/flying_max.jpg" class="quarto-figure quarto-figure-center" style="width:40.0%"></p>
+</figure>
+</div>
 <ul>
-<li>put links for lightning talk and BoF</li>
-<li>put links to NeSI and CeR</li>
+<li><em>Data Science Engineer @ NeSI</em></li>
+<li><em>Data Scientist @ NIWA</em></li>
+<li>Help researchers optimise and scale-up <br> their code</li>
+<li>Develop ML pipelines and models</li>
+<li>Organise ML and data science <strong>training</strong></li>
+</ul>
+</div><div class="column" style="width:55%;">
+<p><strong>Jens Brinkmann</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./UpskillingResearchersInML_Assets/Jens_2022.jpg" class="quarto-figure quarto-figure-center" style="width:30.0%"></p>
+</figure>
+</div>
+<ul>
+<li><em>Senior eResearch Engagement Specialist @ UoA</em></li>
+<li>Mechanical Engineer with a background in Photography/Videography</li>
+<li>Support researchers with their computational needs and training around that</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="about-this-talk" class="title-slide slide level1 center">
+<h1>About this talk</h1>
+<ul>
+<li>We want to tell you about our <strong>experience</strong> with Machine Learning (ML) workshops.</li>
+<li>We want to share some <strong>recommendations</strong>.</li>
+<li><em>You can do it!</em></li>
+</ul>
+<!-- MAKE SURE SPACE IS HERE -->
+<ul>
+<li>The <a href="https://conference.eresearch.edu.au/developing-a-carpentries-style-machine-learning-workshop/">Lightning Talk earlier today</a> was mainly about answering <em>what</em> we did and providing metrics.</li>
+<li><a href="https://conference.eresearch.edu.au/upskilling-researchers-in-machine-learning/">This current talk</a> is focused on the <strong>delivery</strong>.</li>
+<li><a href="https://conference.eresearch.edu.au/ai-skill-training-pathway-bridging-gaps-and-fostering-inclusivity/">BoF</a> (right after this talk) will be a <em>broader discussion</em></li>
 </ul>
 </section>
 
-<section>
-<section id="overview" class="title-slide slide level1 center">
-<h1>Overview</h1>
-<div>
-<p>some intro</p>
+<section id="a-shared-goal" class="title-slide slide level1 center">
+<h1>A shared goal</h1>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Introduce researchers to Machine Learning and Deep Learning</li>
+<li>Start with <strong>foundational</strong> ML aspects and build up from there</li>
+<li>Research-field agnostic</li>
+<li><strong>Hands-on</strong> approach (teaching by doing)
+<ul>
+<li><strong>no</strong> show and tell of existing commercial solutions</li>
+<li><strong>no</strong> theoretical lectures</li>
+<li><strong>no</strong> deep dive into the maths behind ML</li>
+</ul></li>
+<li>Not an exhaustive course but make attendees confident to try things by themselves</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./UpskillingResearchersInML_Assets/BingAIDalle3.jpeg" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
+</figure>
+</div>
+<p><em>Figure 1: <a href="https://www.bing.com/images/create/a-cool-photo-showing-machine-learning/6525c46fdd2b4dabb631b07a2a527ba6?id=BeZ%2bVfneQKjueVSP0cGXoQ%3d%3d&amp;view=detailv2&amp;idpp=genimg&amp;idpclose=1&amp;FORM=SYDBIC&amp;ssp=1&amp;setlang=en-NZ&amp;safesearch=moderate">AI Created Photo (DallE3, Bing)</a>.</em> <!-- had to be an AI generated image, we can adjust --></p>
+</div>
 </div>
 </section>
-<section id="this-talks-focus" class="slide level2">
-<h2>This talk’s focus</h2>
-<ul>
-<li>Lightning Talk earlier today was mainly about answering ‘what’ we did and metrics</li>
-<li>This talk is focused on the delivery
-<ul>
-<li>two perspectives: CeR and NeSI</li>
-</ul></li>
-<li>BoF (right after this talk) will be a broader discussion of a similar topic</li>
-</ul>
+
+<section>
+<section id="workshops-overview" class="title-slide slide level1 center">
+<h1>Workshops overview</h1>
+<!-- goal: give some credibility to our recommendations and advise about recruitment process -->
 </section>
-<section id="this-talks-goal" class="slide level2">
-<h2>This talk’s Goal</h2>
+<section id="uoa-workshops" class="slide level2">
+<h2>UoA workshops</h2>
+<div class="columns">
+<div class="column">
 <ul>
-<li>share our experience
+<li>Audience: The University of Auckland (UoA) researchers</li>
+<li>Two runs
 <ul>
-<li>lessons learned</li>
-<li>what went well, what didn’t, how we would do it differently</li>
+<li>Run #1: March 2023</li>
+<li>Run #2: September 2023</li>
 </ul></li>
-<li>emphasising on some best-pracitices</li>
-<li>encourage others to do similar things
+<li>Well-received
 <ul>
-<li>because <em>the time is now</em></li>
-<li>you need less resources than you might expect</li>
+<li>filtering by mandatory Expression of Interest (EoI)</li>
+<li>about 100 applications for 40 spots</li>
 </ul></li>
 </ul>
+</div><div class="column">
+<p><img data-src="./UpskillingResearchersInML_Assets/ZoomParticipantsLine.svg"></p>
+</div>
+</div>
 </section>
-<section id="this-talks-structure" class="slide level2">
-<h2>This talk’s Structure</h2>
+<section id="nesi-workshops" class="slide level2">
+<h2>NeSI workshops</h2>
+<div class="columns">
+<div class="column">
+<p><img data-src="./UpskillingResearchersInML_Assets/ml101_1.jpg"> <em>First ML101 workshop at eResearch NZ 2021</em></p>
+</div><div class="column">
 <ul>
-<li>we (CeR and NeSI) won’t talk about these topics one after the other</li>
-<li>we picked some perspectives and will share them in parallel</li>
-</ul>
-</section>
-<section id="how-the-ml-sessions-were-executed" class="slide level2">
-<h2>How the ML sessions were executed</h2>
+<li>Audience: Aotearoa – NZ researchers</li>
+<li>ML 101
 <ul>
-<li>CeR and NeSI independently made the decision to base the workshops on existing material (The Carpentries) and (<a href="https://github.com/jakevdp">Scikit-learn Tutorial(https://github.com/jakevdp/sklearn_tutorial) by [Jake Vanderplas]</a>)</li>
-<li>The underlying idea was to start with foundational ML aspects and to build up</li>
-<li>different session times
-<ul>
-<li>Column left: show details of ML101 and ML201</li>
-<li>Column right: show details of Carp Sessions</li>
+<li>Intro to Machine Learning</li>
+<li>started in 2021</li>
+<li>7 workshops (in person, online)</li>
+<li>127 attendees in total (from 10 to 32)</li>
 </ul></li>
-<li>Maybe a comparison of content covered</li>
-</ul>
-</section>
-<section id="resoures-used" class="slide level2">
-<h2>Resoures used</h2>
+<li>ML 102
 <ul>
-<li>Colab</li>
-<li>JupyterHub?</li>
+<li>Intro to Deep Learning (CNNs)</li>
+<li>started in 2022</li>
+<li>2 workshops (online)</li>
+<li>44 attendees in total (20 and 24)</li>
+</ul></li>
+<li>Mixture of direct registration and EoIs</li>
+</ul>
+</div>
+</div>
+<!-- numbers (check with Nisha & Matt for ML102)
+ML101 2021 eRNZ ~10 
+ML101 2021 Greta 19
+ML101 2021 CRIs 32
+ML101 2021 Uni 22
+ML101 2022 Pradeesh 11
+ML101 2023 May 18
+ML101 2023 August 15
+ML102 2022 June 20
+ML102 2023 July 24
+-->
+</section>
+<section id="recommendations" class="slide level2 center">
+<h2>Recommendations</h2>
+<p>There will be <strong>a lot</strong> of interest so…</p>
+<ul>
+<li>use an Expression of Interest for registration and filter,</li>
+<li>30 participants is a good number for an online training,</li>
+<li>expect people to not show up (if free and online).</li>
 </ul>
 </section></section>
-<section id="recommendations" class="title-slide slide level1 center">
-<h1>Recommendations</h1>
+<section>
+<section id="platforms" class="title-slide slide level1 center">
+<h1>Platform(s)</h1>
+
+</section>
+<section id="uoa-workshops-1" class="slide level2">
+<h2>UoA workshops</h2>
+<div class="columns">
+<div class="column">
 <ul>
-<li>use existing material</li>
-<li>don’t be afraid to use Colab, etc. you don’t need fancy GPUs, even though you can have some</li>
-<li>decision if Python is prerequisite or not?!</li>
+<li>online only event: <a href="https://zoom.us/">Zoom.us</a></li>
+<li>BYOD (<em>bring your own device</em>)</li>
+<li>major deviation from <a href="https://carpentries.org/index.html">The Carpentries</a>: No local Python installs</li>
+<li><a href="https://colab.research.google.com/">Goolge Colab</a> <img data-src="./Google_Colaboratory_SVG_Logo.svg" style="width:3.0%" alt="Colab">,a browser-based Jupyter Notebook using Google infrastructure (a virtual machine; a GPU can be added)</li>
+</ul>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./UpskillingResearchersInML_Assets/colab2.jpg"></p>
+<figcaption><em>Google Colab in a Browser</em></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="nesi-workshops-1" class="slide level2">
+<h2>NeSI workshops</h2>
+<div class="columns">
+<div class="column">
+<!-- TODO use a better capture on a larger screen -->
+<p><img data-src="./UpskillingResearchersInML_Assets/penguins.png"> <em>JupyterLab session running on Jupyter-on-NeSI</em></p>
+</div><div class="column">
+<ul>
+<li>Online and in person
+<ul>
+<li>2 delivered in person (1 had wifi issues 😓)</li>
+<li>5 delivered online</li>
+</ul></li>
+<li>Use Jupyter-on-NeSI
+<ul>
+<li>JupyterHub platform</li>
+<li>Requires a NeSI account</li>
+<li>ML101: 2 cores &amp; 4 GB of RAM</li>
+<li>ML102: 4 cores &amp; 8 GB of RAM</li>
+</ul></li>
+<li>Use Slurm-based job for GPU training (a little bit)</li>
+<li>Tip: make sure the Platform team does not schedule upgrades that day 😬…</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="recommendations-1" class="slide level2 center">
+<h2>Recommendations</h2>
+<ul>
+<li>Make it online</li>
+<li>Leverage online computational platforms (Google Colab, JupyterHub, Open OnDemand…)</li>
+<li>No need for GPU to start (or small ones on Google Colab available)</li>
+</ul>
+</section></section>
+<section>
+<section id="schedule" class="title-slide slide level1 center">
+<h1>Schedule</h1>
+<!-- so this is purely about the hours and the split of content over these hours -->
+</section>
+<section id="uoa-workshops-2" class="slide level2">
+<h2>UoA workshops</h2>
+<div class="columns">
+<div class="column">
+<p><strong>Run #1</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Time Budget</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>two afternoons (8h)</td>
+<td>Python</td>
+</tr>
+<tr class="even">
+<td>one afternoon (4h)</td>
+<td>ML</td>
+</tr>
+<tr class="odd">
+<td>two afternoons (8h)</td>
+<td>DL</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Run #2 </strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Time Budget</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>two afternoons (8h)</td>
+<td>ML</td>
+</tr>
+<tr class="even">
+<td>two afternoons (8h)</td>
+<td>DL</td>
+</tr>
+</tbody>
+</table>
+</div><div class="column">
+<ul>
+<li>all workshops took place in the <strong>same week</strong></li>
+<li>no <em>mixing and matching</em>, signing up = coming to <strong>all sessions</strong></li>
+<li>Major adjustment for Run #2: <strong>Python</strong> as a <strong>prerequisite</strong>, not part of the series</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="nesi-workshops-2" class="slide level2">
+<h2>NeSI workshops</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li>ML 101
+<ul>
+<li>6 hours with 3 breaks ☕</li>
+<li>at first in one day</li>
+<li>now split over 2 mornings</li>
+</ul></li>
+<li>ML 102
+<ul>
+<li>3 hours with 2 breaks 🍵</li>
+</ul></li>
+<li>Independent workshops</li>
+<li>But organised “close” to each other</li>
+</ul>
+</div><div class="column">
+<p><img data-src="./UpskillingResearchersInML_Assets/ml101_runsheet.png"> <em>ML101 runsheet, used to keep track of time</em></p>
+</div>
+</div>
+</section>
+<section id="recommendations-2" class="slide level2 center">
+<h2>Recommendations</h2>
+<ul>
+<li>Split/shorter sessions (bearing in mind the scheduling challenges for researchers)</li>
+<li>Stick to scheduled breaks</li>
+<li>Follow best practices for online audiences:
+<ul>
+<li>get a Zoom DJ, some helpers, get multiple co-hosts</li>
+<li>keep a QA document</li>
+<li>prepare your intro and outro</li>
+<li>make attendees join from the same computer running the code</li>
+<li><a href="https://youtu.be/XTeCHUZ2H_w?si=OD4GDRNSV460zK7O">Webinar: Tips &amp; tricks for hosting a successful online event</a></li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="material" class="title-slide slide level1 center">
+<h1>Material</h1>
+
+</section>
+<section id="uoa-workshops-3" class="slide level2">
+<h2>UoA workshops</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Lesson Title</th>
+<th>Status</th>
+<th>Run #1</th>
+<th>Run #2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Programming with Python</td>
+<td><a href="https://swcarpentry.github.io/python-novice-inflammation/">Released</a></td>
+<td>Mon, Tue</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Introduction to Machine Learning with Scikit Learn</td>
+<td><a href="https://mike-ivs.github.io/machine-learning-novice-sklearn/02-regression/index.html">Alpha</a></td>
+<td>Wed</td>
+<td>Mon, Tue</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Introduction to Deep Learning</td>
+<td><a href="https://carpentries-incubator.github.io/deep-learning-intro/aio.html">Beta</a></td>
+<td>Thu, Fri</td>
+<td>Wed, Thu</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-layout-panel" data-layout="[[-1], [1], [-1]]">
+<div class="quarto-layout-row">
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="UpskillingResearchersInML_Assets/Carps.jpg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="nesi-workshops-3" class="slide level2">
+<h2>NeSI workshops</h2>
+<div class="columns">
+<div class="column">
+<p><img data-src="./UpskillingResearchersInML_Assets/jake.png"> <em>My rehearsal and source of inspiration 💓</em></p>
+</div><div class="column">
+<p><strong>NeSI workshops</strong></p>
+<ul>
+<li>ML 101 – <a href="https://github.com/nesi/sklearn_tutorial">github.com/nesi/sklearn_tutorial</a>
+<ul>
+<li><a href="https://github.com/jakevdp/sklearn_tutorial">Scikit-learn Tutorial</a> by <a href="https://github.com/jakevdp">Jake Vanderplas</a></li>
+<li>online recordings exist <br> (very good to rehearse!)</li>
+<li>Jupyter Notebook based</li>
+<li>very few changes (updated package version)</li>
+</ul></li>
+<li>ML 102 – <a href="https://github.com/nesi/ml102_workshop">github.com/nesi/ml102_workshop</a>
+<ul>
+<li>TensorFlow tutorials</li>
+<li>Jupyter Notebook based</li>
+<li>added an introduction</li>
+<li>added section to submit a Slurm job</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="recommendations-3" class="slide level2 center">
+<h2>Recommendations</h2>
+<p>CeR and NeSI independently decided to base the workshops on <strong>existing material</strong>.</p>
+<ul>
+<li>Don’t reinvent the wheel</li>
+<li>Reuse/adapt content</li>
+</ul>
+<!-- should we mention notebooks? -->
+</section></section>
+<section>
+<section id="content" class="title-slide slide level1 center">
+<h1>Content</h1>
+<!-- this differs from the previous perspective as it is more about the abstract topics covered
+     IS THIS PREVIOUS STATEMENT WHAT YOU HAD IN MIND? yes :) -->
+</section>
+<section id="section" class="slide level2 center">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Machine Learning</strong></p>
+<ul>
+<li><em>Data preparation</em></li>
+<li>Supervised vs.&nbsp;unsupervised learning
+<ul>
+<li>regression</li>
+<li>classification</li>
+<li>clustering</li>
+<li>dimensionality reduction</li>
+</ul></li>
+<li>Ensemble models (random forests)</li>
+<li>Validation
+<ul>
+<li>train/test/validation split</li>
+<li>cross-validation</li>
+<li>validation and learning curves</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><strong>Deep Learning</strong></p>
+<ul>
+<li>Model architectures
+<ul>
+<li>Multi-layer perceptron</li>
+<li>Convolutional neural network <br> (CNN | computer vision)</li>
+</ul></li>
+<li>Model training
+<ul>
+<li>optimisers and mini-batch</li>
+<li>overfitting and early stopping</li>
+<li>data augmentation</li>
+<li>dropout, batch normalisation, …</li>
+</ul></li>
+<li>Transfer learning</li>
+</ul>
+<!-- we should include the DeepLearning topic here, too? Or was the point for you to show: This was covered by both of us?
+     we should add this one, good point
+-->
+</div>
+</div>
+</section>
+<section id="recommendations-4" class="slide level2 center">
+<h2>Recommendations</h2>
+<ul>
+<li><strong>Random forest</strong> is a <strong>good</strong> first non-linear model to learn
+<ul>
+<li>intuitive to understand how it works</li>
+<li>good performances on tabular data</li>
+<li>doesn’t require too much care in terms of data preparation</li>
+</ul></li>
+<li>Resist the temptation of <strong>MLP (multi-layer perceptron)</strong> for an ML intro
+<ul>
+<li>require more notions (architecture, training, data preprocessing, …)</li>
+<li>keep it for Deep Learning introduction</li>
+</ul></li>
+</ul>
+</section></section>
+<section id="summary" class="title-slide slide level1 center">
+<h1>Summary</h1>
+<ul>
+<li>Use Expression-of-Interest for registrations</li>
+<li>Make it online</li>
+<li>Use an online compute platform
+<ul>
+<li>(<em>Google Colab</em>, <em>JupyterHub</em> or <em>Open OnDemand</em> at your institution)</li>
+</ul></li>
+<li>You don’t need fancy GPUs, even though you can have some</li>
+<li>Re-use and adapt existing material</li>
+<li>Use shorter sessions and stick to breaks</li>
+<li>Keep MLP for the Deep Learning section, start with Random Forests</li>
 </ul>
 </section>
 
 <section id="how-to-get-in-touch" class="title-slide slide level1 center">
 <h1>How to get in touch</h1>
-<ul>
-<li>email abc</li>
-</ul>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="./UpskillingResearchersInML_Assets/kereru-taieri-mouth-1920-2.webp"> <em>Kererū / New Zealand pigeon, not use(ful) for mails</em> 😅 <em><a href="https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/nz-pigeon-kereru/">Image Credit: Department of Conservation</a></em></p>
+</div><div class="column" style="width:40%;">
+<p><strong>Maxime Rio</strong> <br> 📨 <a href="mailto:maxime.rio@nesi.org.nz">maxime.rio@nesi.org.nz</a></p>
+<p><strong>Jens Brinkmann</strong> <br> 📨 <a href="mailto:j.brinkmann@auckland.ac.nz">j.brinkmann@auckland.ac.nz</a></p>
+</div>
+</div>
+<!-- maybe a QR code or two? -->
 
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 <div class="reveal-header">
 <div class="header-logo" data-hide-from-titleslide="true">
@@ -439,7 +855,7 @@ Maxime Rio, Jens Brinkmann
 <p> </p>
 </div>
 <div class="header-text" data-hide-from-titleslide="true">
-<p>Upskilling researchers in Machine Learning</p>
+<p>Upskilling Researchers in Machine Learning</p>
 </div>
 <div class="sb-title">
 <p> </p>
@@ -474,7 +890,6 @@ Maxime Rio, Jens Brinkmann
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -736,10 +1151,27 @@ Maxime Rio, Jens Brinkmann
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp("https:\/\/neon-ninja\.github\.io\/QuartoSlides\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -749,8 +1181,17 @@ Maxime Rio, Jens Brinkmann
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -764,7 +1205,11 @@ Maxime Rio, Jens Brinkmann
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
