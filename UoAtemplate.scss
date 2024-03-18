@@ -388,19 +388,27 @@ body {
  * Custom mermaid
  *********************************************/
 
-.reveal .mermaid {
-  bg-color: #fff;
-  edge-color: #d410ad;
+svg.mermaid-js {
+  max-width: 100% !important;
+  font-size: 6px !important;
+  --mermaid-node-bg-color: #fff;
+  --mermaid-node-fg-color: #d410ad;
+  --mermaid-edge-color: #d410ad;
+  .node circle,
+  .node ellipse,
+  .node path,
+  .node polygon,
+  .node rect {
+    fill: var(--mermaid-node-bg-color) !important;
+    stroke: var(--mermaid-node-fg-color) !important;
+  }
+  .nodeLabel {
+    color: var(--mermaid-node-fg-color) !important;
+  }
+  .flowchart-link {
+    stroke: var(--mermaid-edge-color) !important;
+  }
+  marker {
+    fill: var(--mermaid-edge-color) !important;
+  }
 }
-// this 'translation' doesn't work https://quarto.org/docs/authoring/diagrams.html#customizing-mermaid
-// $mermaid-bg-color: $body-bg;
-// $mermaid-edge-color: $secondary;
-// $mermaid-node-fg-color: $body-color;
-// $mermaid-fg-color: $body-color;
-// $mermaid-fg-color--lighter: lighten($body-color, 10%);
-// $mermaid-fg-color--lightest: lighten($body-color, 20%);
-// $mermaid-font-family: $font-family-sans-serif;
-// $mermaid-label-bg-color: $body-bg;
-// $mermaid-label-fg-color: $primary;
-// $mermaid-node-bg-color: rgba($primary, 0.1);
-// $mermaid-node-fg-color: $primary;

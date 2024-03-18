@@ -77,7 +77,7 @@ flowchart LR
   A["Session :one:"] --> B{Decision}
   B --> C[just observe]
   B --> D[get involved]
-  C --> E[get an overivew and hear buzzwords]
+  C --> E[get an overview and hear buzzwords]
   D --> F[get hands-on experience]
 ```
 
