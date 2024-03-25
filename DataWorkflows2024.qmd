@@ -52,7 +52,10 @@ format:
     mermaid:
       theme: dark
       fig-responsive: false  
-    
+# include-in-header: 
+#   text: |
+#     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 editor:
   render-on-save: true
   # execute:
@@ -63,7 +66,7 @@ editor:
 
 
 
-# What this session is about and how it relates
+# What this session is about and how it relates?
 - an introduction
 - there are realted sessions
 - there is homework :briefcase: 
@@ -74,12 +77,25 @@ editor:
 %%| fig-width: 15
 %%| fig-height: 5
 flowchart LR
-  A["Session :one:"] --> B{Decision}
+  A[fa:fa-phone] --> B{Decision}
   B --> C[just observe]
   B --> D[get involved]
-  C --> E[get an overview and hear buzzwords]
+  C --> E[get an overivew and hear buzzwords]
   D --> F[get hands-on experience]
 ```
+
+# test
+
+Initialize with any icon {{< fa thumbs-up >}}
+
+
+```{mermaid}
+%%| fig-width: 15
+%%| fig-height: 5
+flowchart LR
+    D(fa:fa-phone)-->C[fa:fa-house]
+```
+
 
 ## This session vs. related
 - This session is the introduction. Let's call it **Level** :one:
@@ -93,12 +109,13 @@ flowchart LR
   - the next sessions will be all about hands-on experience with the tools :hammer_and_wrench:
 - There is homework :briefcase: 
   - see later slides
-  
-<!-- TODO PUT SOME ICONS (VSC, ... GIT, ... here) -->
+
+
+<!-- TODO #6 PUT SOME ICONS (VSC, ... GIT, ... here) -->
 
 ## Homework :briefcase: 
 - Install software
-<!-- put 3 tabs win,osx,linux -->
+<!-- TODO #7 put 3 tabs win,osx,linux -->
 - Get a dataset (git pull/GitHub Desktop)
 - run this one line, to see what if it works. 
 
@@ -124,3 +141,56 @@ flowchart LR
 
 
 
+## Useful links
+- [how to create GitHub Issues right in VSC](https://code.visualstudio.com/blogs/2020/05/06/github-issues-integration)
+
+# ABC
+This extension allows you to use font-awesome icons in your Quarto HTML and PDF documents.
+It provides an `{{{< fa >}}}` shortcode:
+
+- Mandatory `<icon-name>`:
+  ``` markdown
+  {{{< fa <icon-name> >}}}
+  ```
+
+- Optional `<group>`, `<size=...>`, and `<title=...>`:
+  ``` markdown
+  {{{< fa <group> <icon-name> <size=...> <title=...> >}}}
+  ```
+
+  For example:
+
+| Shortcode                                          | Icon                                      |
+| -------------------------------------------------- | ----------------------------------------- |
+| `{{{< fa thumbs-up >}}}`                           | {{< fa thumbs-up >}}                      |
+| `{{{< fa folder >}}}`                              | {{< fa folder >}}                         |
+| `{{{< fa chess-pawn >}}}`                          | {{< fa chess-pawn >}}                     |
+| `{{{< fa brands bluetooth >}}}`                    | {{< fa brands bluetooth >}}               |
+| `{{{< fa brands twitter size=2xl >}}}` (HTML only) | {{< fa brands twitter size=2xl >}}        |
+| `{{{< fa brands github size=5x >}}}` (HTML only)   | {{< fa brands github size=5x >}}          |
+| `{{{< fa battery-half size=Huge >}}}`              | {{< fa battery-half size=Huge >}}         |
+| `{{{< fa envelope title="An envelope" >}}}`        | {{< fa envelope title="An envelope" >}}   |
+
+Note that the icon sets are currently not perfectly interchangeable across formats:
+
+
+ 
+
+## First Slide
+
+::: hidden
+
+{{< fa thumbs-up >}}
+
+:::
+
+
+```{mermaid}
+flowchart LR
+    D(fa:fa-phone)-->C[fa:fa-house]
+```
+
+```{mermaid}
+flowchart LR
+    D(fa:fa-phone)-->C[fa:fa-earth-americas]
+```

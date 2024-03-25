@@ -390,17 +390,17 @@ body {
 
 svg.mermaid-js {
   max-width: 100% !important;
-  font-size: 6px !important;
+  font-size: 10px !important;
   --mermaid-node-bg-color: #fff;
-  --mermaid-node-fg-color: #d410ad;
-  --mermaid-edge-color: #d410ad;
+  --mermaid-node-fg-color: #009AC7;
+  --mermaid-edge-color: #00467F;
   .node circle,
   .node ellipse,
   .node path,
   .node polygon,
   .node rect {
     fill: var(--mermaid-node-bg-color) !important;
-    stroke: var(--mermaid-node-fg-color) !important;
+    // stroke: var(--mermaid-node-bg-color) !important;
   }
   .nodeLabel {
     color: var(--mermaid-node-fg-color) !important;
@@ -411,4 +411,9 @@ svg.mermaid-js {
   marker {
     fill: var(--mermaid-edge-color) !important;
   }
+  text {
+    fill: var(--mermaid-edge-color) !important;
+    text-align: center;
+  }
+
 }
