@@ -61,9 +61,10 @@ editor:
   # execute:
   #   echo: false
 
+revealjs-plugins:
+  - attribution
+
 --- 
-
-
 
 
 # What this session is about and how it relates?
@@ -84,17 +85,6 @@ flowchart LR
   D --> F[get hands-on experience]
 ```
 
-# test
-
-Initialize with any icon {{< fa thumbs-up >}}
-
-
-```{mermaid}
-%%| fig-width: 15
-%%| fig-height: 5
-flowchart LR
-    D(fa:fa-phone)-->C[fa:fa-house]
-```
 
 
 ## This session vs. related
@@ -144,53 +134,123 @@ flowchart LR
 ## Useful links
 - [how to create GitHub Issues right in VSC](https://code.visualstudio.com/blogs/2020/05/06/github-issues-integration)
 
-# ABC
-This extension allows you to use font-awesome icons in your Quarto HTML and PDF documents.
-It provides an `{{{< fa >}}}` shortcode:
+# Overview
 
-- Mandatory `<icon-name>`:
-  ``` markdown
-  {{{< fa <icon-name> >}}}
-  ```
+The stack
 
-- Optional `<group>`, `<size=...>`, and `<title=...>`:
-  ``` markdown
-  {{{< fa <group> <icon-name> <size=...> <title=...> >}}}
-  ```
-
-  For example:
-
-| Shortcode                                          | Icon                                      |
-| -------------------------------------------------- | ----------------------------------------- |
-| `{{{< fa thumbs-up >}}}`                           | {{< fa thumbs-up >}}                      |
-| `{{{< fa folder >}}}`                              | {{< fa folder >}}                         |
-| `{{{< fa chess-pawn >}}}`                          | {{< fa chess-pawn >}}                     |
-| `{{{< fa brands bluetooth >}}}`                    | {{< fa brands bluetooth >}}               |
-| `{{{< fa brands twitter size=2xl >}}}` (HTML only) | {{< fa brands twitter size=2xl >}}        |
-| `{{{< fa brands github size=5x >}}}` (HTML only)   | {{< fa brands github size=5x >}}          |
-| `{{{< fa battery-half size=Huge >}}}`              | {{< fa battery-half size=Huge >}}         |
-| `{{{< fa envelope title="An envelope" >}}}`        | {{< fa envelope title="An envelope" >}}   |
-
-Note that the icon sets are currently not perfectly interchangeable across formats:
+- Operating Systems ({{< fa brands apple >}}, {{< fa brands windows >}}, {{< fa brands linux >}})
+- {{< fa brands python >}} Python 
+  - ![](/Data2024Assets/jupyter.svg){ height="1em" loading=lazy} Jupyter
+- ![](/Data2024Assets/visual-studio-code.svg){ height="1em" loading=lazy} Visual Studio Code
+- Git {{< fa brands git >}} and GitHub {{< fa brands github >}}
+  - GHA ([GitHubActions](https://github.com/features/actions)) {{< fa circle-play >}}
+<!-- TODO #9 -->
 
 
- 
 
-## First Slide
+## Operating Systems
 
-::: hidden
+- Windows
+  - Windows Subsystem for Linux [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) 
+- MacOS
+  - install [Python via HomeBrew](https://docs.brew.sh/Homebrew-and-Python)
+- Linux
+  - Ubuntu
+  - Fedora
+  - Debian
+  - Arch
+  - ...
 
-{{< fa thumbs-up >}}
+## Programming Language: Python
+:::: {.columns}
+::: {.column width=60%}
 
+- Python is 
+  - a high-level/abstract and general-purpose programming language
+  - an interpreted language (not compiled)
+- Python is dynamically typed (no need to declare variables)
+- Python is easy to 
+  -  *read, maintain, write, debug, extend, integrate with other languages, deploy, scale, share, collaborate, teach*
 :::
 
+::: {.column width=40%}
+  ![](Data2024Assets/CvsPythonMeme.JPG)
+:::
+::::
 
-```{mermaid}
-flowchart LR
-    D(fa:fa-phone)-->C[fa:fa-house]
-```
+## Programming Language: Python - continued
+::: {.callout-tip}
+## Personal opinion
 
-```{mermaid}
-flowchart LR
-    D(fa:fa-phone)-->C[fa:fa-earth-americas]
-```
+- a common statement is that Python is slow
+  - in reality, you can run (encapsulated) other languages
+- being a **relatively abstract languge** makes it suitable for many research projects (no need to reinvent the wheel)
+- The **community** is great! 
+  - **most popular**/[most searched](https://www.statista.com/chart/16567/popular-programming-languages/) for on Google 
+  - there are tons of **great libraries** that can be used 
+  - because Python is so popular, **ChatGPT and other Machine Learning (ML) powered support tools** can write pretty decent code (date of writing this = April 2024).
+- some report issues with **libraries** and changes to them
+    - there are many ways of dependency management (`requirements.txt` or [Poetry](https://python-poetry.org/)) version-controlling your code and making sure it is reproducible
+:::
+
+## IDE - VSC (TLA)
+
+
+
+
+
+::: {.columns}
+::: {.column width=50%}
+An IDE is an Integrated Development Environment.
+(a TLA is a Three Letter Acronym)
+You can do everything we will talk today in a simple text editor, using your operating system's file explorer, a command-line terminal, but an IDE makes your life easier. 
+- [Visual Studio Code (VSC)](https://code.visualstudio.com/)
+![](/Data2024Assets/visual-studio-code.svg){ height="1em" loading=lazy} 
+  - VSCodium ![](/Data2024Assets/VSCodium.png){ height="1em" loading=lazy} 
+    - (open-source version that isn't collection telemetry data)
+- PyCharm  ![](/Data2024Assets/PyCharm_Icon%20(1).svg){ height="1em" loading=lazy} and others specialised for certain programming languages
+:::
+
+::: {.column width=50%}
+
+![](/Data2024Assets/VSCOverview.png){ height="100%" loading=lazy}
+[more information on the official website]([link](https://code.visualstudio.com/docs/getstarted/userinterface))
+:::
+::::
+
+::: {.attribution}
+Photo courtesy of [Visual Studio Code](https://code.visualstudio.com/docs/getstarted/userinterface)
+:::
+
+## How to navigate in VSC
+
+- if you are familiar with the layout, it is easy
+- if you are a novice, it might overwhelm you
+  - Jens: I have been there and I got lost
+- think of it as a 
+  - file explorer (usually on the left)
+  - terminal (usually at the bottom)
+  - one or many editors (usually in the middle)
+    - at times they have preview windows, too
+- there are many plugins; we will use:
+  -  GitHub
+     - GitHub CoPilot 
+  - Python
+    - we will create a virutal environment
+  - we will show you (only show you) how to connect to a remote server (that might be another physical machine/like your computer at home or a cloud service, like the research infrastructure at the University of Auckland (UoA), [Nectar](https://research-hub.auckland.ac.nz/research-software-and-computing/advanced-compute/nectar-research-cloud) of [AWS](https://aws.amazon.com/))
+
+## Git and GitHub and GitHub Actions
+
+- Git is a version control system
+  - sparing you the technical details, and sharing a pragmatic view: This is (part of) what's going on *under the hood* of GitHub
+  - we recommend using Git in our [RDM Workshops](https://research-hub.auckland.ac.nz/guide-to-managing-research-data/rd-support-and-training/managing-research-data-workshops)
+- GitHub is a platform that hosts Git repositories
+  - to be blunt: This is how you interact with Git (there are alternatives/[GitLab](https://about.gitlab.com/), [BitBucket](https://bitbucket.org/product?&aceid=&adposition=&adgroup=146041740191&campaign=18815940148&creative=632894031333&device=c&keyword=bitbucket&matchtype=e&network=g&placement=&ds_kids=p74116809522&ds_e=GOOGLE&ds_eid=700000001551985&ds_e1=GOOGLE&gad_source=1&gclid=CjwKCAjw5ImwBhBtEiwAFHDZxx9EXw2lhK5gJQTVGjT44QGKC-UpJxjHi4_K7_sj5KkQjgTp03l8jRoCFOoQAvD_BwE&gclsrc=aw.ds), ...)
+  - it is also 
+    - a social network for developers
+    - a place where you can find code, share code, collaborate on code, and get feedback on code
+- You can have public repositories (fancy way of saying *project folders*) in the general free plan, at UoA (and potentially other academic institutions) you can have free private repositories, too
+TODO #10
+- GitHub Action (GHA)
+  - this is a way to automate things 
+  - in theory, you can do everything you can do on your computer, on GitHub; so you could use your smartphone to write code that is then executed on a server in the cloud
