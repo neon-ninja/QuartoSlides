@@ -10,7 +10,9 @@
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/quarto-contrib/reveal-header-1.0.0/add_header.js" defer="true"></script>
 <link href="site_libs/quarto-contrib/reveal-header-1.0.0/add_header.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/grid-htext-1.0.0/grid_htext.css" rel="stylesheet"><meta charset="utf-8">
+<link href="site_libs/quarto-contrib/grid-htext-1.0.0/grid_htext.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.551">
 
   <meta name="author" content="Nick Young, Jens Brinkmann">
@@ -32,6 +34,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -349,9 +416,8 @@ Nick Young, Jens Brinkmann
 
   <p class="date">July, 2024</p>
 </section>
-<section>
 <section id="what-this-session-is-about-and-how-it-relates" class="title-slide slide level1 center">
-<h1>What this session is about and how it relates</h1>
+<h1>What this session is about and how it relates?</h1>
 <ul>
 <li>an introduction</li>
 <li>there are realted sessions</li>
@@ -365,11 +431,30 @@ Nick Young, Jens Brinkmann
 <p></p><figure class=""><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR
-  A["Session :one:"] --&gt; B{Decision}
+  A[fa:fa-phone] --&gt; B{Decision}
   B --&gt; C[just observe]
   B --&gt; D[get involved]
-  C --&gt; E[get an overview and hear buzzwords]
+  C --&gt; E[get an overivew and hear buzzwords]
   D --&gt; F[get hands-on experience]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<section id="test" class="title-slide slide level1 center">
+<h1>test</h1>
+<p>Initialize with any icon <i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i></p>
+<div class="cell" data-reveal="true" data-fig-width="15" data-fig-height="5" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    D(fa:fa-phone)--&gt;C[fa:fa-house]
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -398,12 +483,12 @@ Nick Young, Jens Brinkmann
 <li>see later slides</li>
 </ul></li>
 </ul>
-<!-- TODO PUT SOME ICONS (VSC, ... GIT, ... here) -->
+<!-- TODO #6 PUT SOME ICONS (VSC, ... GIT, ... here) -->
 </section>
 <section id="homework" class="slide level2">
 <h2>Homework <span class="emoji" data-emoji="briefcase">💼</span></h2>
 <ul>
-<li>Install software <!-- put 3 tabs win,osx,linux --></li>
+<li>Install software <!-- TODO #7 put 3 tabs win,osx,linux --></li>
 <li>Get a dataset (git pull/GitHub Desktop)</li>
 <li>run this one line, to see what if it works.</li>
 </ul>
@@ -424,6 +509,7 @@ Nick Young, Jens Brinkmann
 <li>In case you, as a group, haven’t agreed on a dataset of highest relevance, to be used, we will provide one</li>
 </ul>
 </section></section>
+<section>
 <section id="the-software-stack-that-we-will-use" class="title-slide slide level1 center">
 <h1>The software ‘stack’ that we will use</h1>
 <ul>
@@ -434,6 +520,103 @@ Nick Young, Jens Brinkmann
 <li><a href="https://github.com/">GitHub</a></li>
 <li><a href="https://geopandas.org/en/stable/">Geopandas</a>, <a href="https://python-visualization.github.io/folium/latest/">Folium</a></li>
 </ul>
+</section>
+<section id="useful-links" class="slide level2">
+<h2>Useful links</h2>
+<ul>
+<li><a href="https://code.visualstudio.com/blogs/2020/05/06/github-issues-integration">how to create GitHub Issues right in VSC</a></li>
+</ul>
+</section></section>
+<section>
+<section id="abc" class="title-slide slide level1 center">
+<h1>ABC</h1>
+<p>This extension allows you to use font-awesome icons in your Quarto HTML and PDF documents. It provides an <code>{{&lt; fa &gt;}}</code> shortcode:</p>
+<ul>
+<li><p>Mandatory <code>&lt;icon-name&gt;</code>:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a></a>{{&lt; fa &lt;icon-name&gt; &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Optional <code>&lt;group&gt;</code>, <code>&lt;size=...&gt;</code>, and <code>&lt;title=...&gt;</code>:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a></a>{{&lt; fa &lt;group&gt; &lt;icon-name&gt; &lt;size=...&gt; &lt;title=...&gt; &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>For example:</p></li>
+</ul>
+<table>
+<colgroup>
+<col style="width: 54%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Shortcode</th>
+<th>Icon</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>{{&lt; fa thumbs-up &gt;}}</code></td>
+<td><p><i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i></p></td>
+</tr>
+<tr class="even">
+<td><code>{{&lt; fa folder &gt;}}</code></td>
+<td><p><i class="fa-solid fa-folder" aria-label="folder"></i></p></td>
+</tr>
+<tr class="odd">
+<td><code>{{&lt; fa chess-pawn &gt;}}</code></td>
+<td><p><i class="fa-solid fa-chess-pawn" aria-label="chess-pawn"></i></p></td>
+</tr>
+<tr class="even">
+<td><code>{{&lt; fa brands bluetooth &gt;}}</code></td>
+<td><p><i class="fa-brands fa-bluetooth" aria-label="bluetooth"></i></p></td>
+</tr>
+<tr class="odd">
+<td><code>{{&lt; fa brands twitter size=2xl &gt;}}</code> (HTML only)</td>
+<td><p><i class="fa-brands fa-twitter fa-2xl" aria-label="twitter"></i></p></td>
+</tr>
+<tr class="even">
+<td><code>{{&lt; fa brands github size=5x &gt;}}</code> (HTML only)</td>
+<td><p><i class="fa-brands fa-github fa-5x" aria-label="github"></i></p></td>
+</tr>
+<tr class="odd">
+<td><code>{{&lt; fa battery-half size=Huge &gt;}}</code></td>
+<td><p><i class="fa-solid fa-battery-half fa-Huge" aria-label="battery-half"></i></p></td>
+</tr>
+<tr class="even">
+<td><code>{{&lt; fa envelope title="An envelope" &gt;}}</code></td>
+<td><p><i class="fa-solid fa-envelope" title="An envelope" aria-label="envelope"></i></p></td>
+</tr>
+</tbody>
+</table>
+<p>Note that the icon sets are currently not perfectly interchangeable across formats:</p>
+</section>
+<section id="first-slide" class="slide level2">
+<h2>First Slide</h2>
+<div class="hidden">
+<p><i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i></p>
+</div>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    D(fa:fa-phone)--&gt;C[fa:fa-house]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    D(fa:fa-phone)--&gt;C[fa:fa-earth-americas]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
@@ -454,7 +637,7 @@ Nick Young, Jens Brinkmann
 <p> </p>
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 

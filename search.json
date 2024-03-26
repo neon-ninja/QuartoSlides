@@ -390,5 +390,19 @@
     "title": "Working with data in 2024",
     "section": "The next session or Level 2️⃣",
     "text": "The next session or Level 2️⃣\n\nHere we will go through several steps\nWe will use a real-world example\nIn case you, as a group, haven’t agreed on a dataset of highest relevance, to be used, we will provide one"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#useful-links",
+    "href": "DataWorkflows2024.html#useful-links",
+    "title": "Working with data in 2024",
+    "section": "Useful links",
+    "text": "Useful links\n\nhow to create GitHub Issues right in VSC"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#first-slide",
+    "href": "DataWorkflows2024.html#first-slide",
+    "title": "Working with data in 2024",
+    "section": "First Slide",
+    "text": "First Slide\n\n\n\n\n\n\n\n\nflowchart LR\n    D(fa:fa-phone)--&gt;C[fa:fa-house]\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n    D(fa:fa-phone)--&gt;C[fa:fa-earth-americas]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\nState of the Art Workflows for working with data in 2024"
   }
 ]
