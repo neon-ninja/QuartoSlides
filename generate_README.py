@@ -41,7 +41,7 @@ markdown_links.sort(key=lambda x: x[0], reverse=True)
 
 markdown_output = f"# QuartoSlideDecks\nRepo to host several presentations (in anti-chronological order)\n\n > [!NOTE] \n 
 > These slides are created using [Quarto revealJS](https://quarto.org/docs/presentations/revealjs/) \n > [!IMPORTANT] \n 
-> if you plan on reusing this template, please make sure to install relevant Quarto extensions
+> if you plan on reusing this template, please make sure to install relevant Quarto extensions"
 markdown_output += "| Title | Date |\n| --- | --- |\n"
 
 for date, title, markdown_link in markdown_links:
