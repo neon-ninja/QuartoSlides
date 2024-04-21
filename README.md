@@ -1,5 +1,10 @@
 # QuartoSlideDecks
-Repo to host several presentations (in anti-chronological order)
+
+> [!NOTE]
+> Repo to host several presentations (in anti-chronological order)
+
+> [!IMPORTANT]
+> The slides are created with [Quarto revealJS](https://quarto.org/docs/presentations/revealjs/)
 
 | Title | Date |
 | --- | --- |
