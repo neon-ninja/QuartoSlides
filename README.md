@@ -2,10 +2,8 @@
 Repo to host several presentations (in anti-chronological order)
 
  > [!NOTE] 
- 
 > These slides are created using [Quarto revealJS](https://quarto.org/docs/presentations/revealjs/) 
- > [!IMPORTANT] 
- 
+> [!IMPORTANT] 
 > if you plan on reusing this template, please make sure to install relevant Quarto extensions| Title | Date |
 | --- | --- |
 | [Working with data in 2024](https://jensbri.github.io/QuartoSlides/DataWorkflows2024#/title-slide) | 2024-07-08 |
