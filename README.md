@@ -1,10 +1,13 @@
 # QuartoSlideDecks
-Repo to host several presentations (in anti-chronological order)
 
- > [!NOTE] 
+Repo to host several presentations (in anti-chronological order)
+> [!NOTE] 
 > These slides are created using [Quarto revealJS](https://quarto.org/docs/presentations/revealjs/) 
-> [!IMPORTANT] 
-> if you plan on reusing this template, please make sure to install relevant Quarto extensions| Title | Date |
+
+> [!IMPORTANT]
+> if you plan on reusing this template, please make sure to install relevant Quarto extensions
+
+| Title | Date |
 | --- | --- |
 | [Working with data in 2024](https://jensbri.github.io/QuartoSlides/DataWorkflows2024#/title-slide) | 2024-07-08 |
 | [Developing a Carpentries-style Machine Learning workshop](https://jensbri.github.io/QuartoSlides/LightningTalk#/title-slide) | 2023-10-17 |
