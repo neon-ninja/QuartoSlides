@@ -13,6 +13,9 @@ format:
     # tbl-cap-location: bottom
     # number-sections: true
     theme: UoAtemplate.scss
+    highlight-style: atom-one
+    code-overflow: wrap
+    # highlight-style: monokai
     # css: ./logo.css
     # disableLayout: true
     navigation-mode: vertical
@@ -84,8 +87,24 @@ flowchart LR
   C --> E[get an overivew and hear buzzwords]
   D --> F[get hands-on experience]
 ```
+# placeholder
+```{mermaid}
+%%| fig-width: 15
+%%| fig-height: 5
+flowchart LR
+  %% A[Fahrenheit $$\frac{5}{9}$$] --> B[Celsius]
+  %% A[Fahrenheit] -->|"temp-32 * 5/9"| B[Celsius]
+  B --> |"temp-273.15"| C[Kelvin]
+  A --> C
+```
 
-
+```{mermaid}
+ graph LR
+      A["$$x^2$$"] -->|"$$\sqrt{x+3}$$"| B("$$\frac{1}{2}$$")
+      A -->|"$$\overbrace{a+b+c}^{\text{note}}$$"| C("$$\pi r^2$$")
+      B --> D("$$x = \begin{cases} a &\text{if } b \\ c &\text{if } d \end{cases}$$")
+      C --> E("$$x(t)=c_1\begin{bmatrix}-\cos{t}+\sin{t}\\ 2\cos{t} \end{bmatrix}e^{2t}$$")
+```
 
 ## This session vs. related
 - This session is the introduction. Let's call it **Level** :one:
@@ -133,6 +152,7 @@ flowchart LR
 
 ## Useful links
 - [how to create GitHub Issues right in VSC](https://code.visualstudio.com/blogs/2020/05/06/github-issues-integration)
+- [what do software verison numbers refer to](https://www.freecodecamp.org/news/understanding-open-source-software-lifecycles/)
 
 # Overview
 
@@ -195,10 +215,6 @@ The stack
 
 ## IDE - VSC (TLA)
 
-
-
-
-
 ::: {.columns}
 ::: {.column width=50%}
 An IDE is an Integrated Development Environment.
@@ -250,7 +266,39 @@ Photo courtesy of [Visual Studio Code](https://code.visualstudio.com/docs/getsta
     - a social network for developers
     - a place where you can find code, share code, collaborate on code, and get feedback on code
 - You can have public repositories (fancy way of saying *project folders*) in the general free plan, at UoA (and potentially other academic institutions) you can have free private repositories, too
-TODO #10
+<!-- TODO #10 -->
 - GitHub Action (GHA)
   - this is a way to automate things 
   - in theory, you can do everything you can do on your computer, on GitHub; so you could use your smartphone to write code that is then executed on a server in the cloud
+
+<!-- TODO: #11 put some hello world example here -->
+
+## Geopandas and Folium
+
+- Geopandas is a library that allows you to work with geospatial data
+- Folium is a library that allows you to create interactive maps
+- 
+
+
+<!-- TODO: #12 have a look at the GitCarp lession -->
+
+```python
+# Read the HTML content from the iframe source``
+# iframe_url = "https://carbon.now.sh/?bg=rgba%28255%2C255%2C255%2C1%29&t=panda-syntax&wt=none&l=python&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false"
+iframe_url = "https://carbon.now.sh/?bg=rgba%28255%2C255%2C255%2C1%29&t=panda-syntax&wt=none&l=python&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false" # <1>
+response = requests.get(iframe_url) # <2>
+# print(response)
+iframe_html = response.content
+# print(iframe_html)
+# Parse the iframe content using Beautiful Soup# <3>
+# print(soup)
+extracted_content = soup.body.prettify()  # Customize this based on your needs
+print(extracted_content)
+# save this as a html file
+with open('carbon.html', 'w') as file:
+    file.write(extracted_content)
+```
+
+1. help here
+2. there you go
+3. something elese
