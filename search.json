@@ -1,5 +1,250 @@
 [
   {
+    "objectID": "DataWorkflows2024.html#this-session-vs.-related",
+    "href": "DataWorkflows2024.html#this-session-vs.-related",
+    "title": "Working with data in 2024",
+    "section": "This session vs. related",
+    "text": "This session vs. related\n\nThis session is the introduction. Let’s call it Level 1️⃣\n\nWe will mostly talk\nNick is the expert who taught Jens many things over the past years, we’ll replicate some of the back and forth\nWe will provide you with an overview\nyou are asked to think about examples you’d like see used in the upcoming sessions\n\nYou can decide if you just want to listen or if you want to follow along\n\nIf you want to get your hands dirty, hold your horses 🐴\ndon’t miss out now\nthe next sessions will be all about hands-on experience with the tools 🛠️\n\nThere is homework 💼\n\nsee later slides"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#homework",
+    "href": "DataWorkflows2024.html#homework",
+    "title": "Working with data in 2024",
+    "section": "Homework 💼",
+    "text": "Homework 💼\n\nInstall software \nGet a dataset (git pull/GitHub Desktop)\nrun this one line, to see what if it works."
+  },
+  {
+    "objectID": "DataWorkflows2024.html#the-support-via-slack",
+    "href": "DataWorkflows2024.html#the-support-via-slack",
+    "title": "Working with data in 2024",
+    "section": "The support via Slack",
+    "text": "The support via Slack\n\nWe have a Slack channel\nWe will be available for questions\nThis is a premiere, so let’s see how many quesitons we can answer"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#the-next-session-or-level-2",
+    "href": "DataWorkflows2024.html#the-next-session-or-level-2",
+    "title": "Working with data in 2024",
+    "section": "The next session or Level 2️⃣",
+    "text": "The next session or Level 2️⃣\n\nHere we will go through several steps\nWe will use a real-world example\nIn case you, as a group, haven’t agreed on a dataset of highest relevance, to be used, we will provide one"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#useful-links",
+    "href": "DataWorkflows2024.html#useful-links",
+    "title": "Working with data in 2024",
+    "section": "Useful links",
+    "text": "Useful links\n\nhow to create GitHub Issues right in VSC\nwhat do software verison numbers refer to"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#operating-systems",
+    "href": "DataWorkflows2024.html#operating-systems",
+    "title": "Working with data in 2024",
+    "section": "Operating Systems",
+    "text": "Operating Systems\n\nWindows\n\nWindows Subsystem for Linux WSL\n\nMacOS\n\ninstall Python via HomeBrew\n\nLinux\n\nUbuntu\nFedora\nDebian\nArch\n…"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#programming-language-python",
+    "href": "DataWorkflows2024.html#programming-language-python",
+    "title": "Working with data in 2024",
+    "section": "Programming Language: Python",
+    "text": "Programming Language: Python\n\n\n\nPython is\n\na high-level/abstract and general-purpose programming language\nan interpreted language (not compiled)\n\nPython is dynamically typed (no need to declare variables)\nPython is easy to\n\nread, maintain, write, debug, extend, integrate with other languages, deploy, scale, share, collaborate, teach"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#programming-language-python---continued",
+    "href": "DataWorkflows2024.html#programming-language-python---continued",
+    "title": "Working with data in 2024",
+    "section": "Programming Language: Python - continued",
+    "text": "Programming Language: Python - continued\n\n\n\n\n\n\nPersonal opinion\n\n\n\na common statement is that Python is slow\n\nin reality, you can run (encapsulated) other languages\n\nbeing a relatively abstract languge makes it suitable for many research projects (no need to reinvent the wheel)\nThe community is great!\n\nmost popular/most searched for on Google\nthere are tons of great libraries that can be used\nbecause Python is so popular, ChatGPT and other Machine Learning (ML) powered support tools can write pretty decent code (date of writing this = April 2024).\n\nsome report issues with libraries and changes to them\n\nthere are many ways of dependency management (requirements.txt or Poetry) version-controlling your code and making sure it is reproducible"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#ide---vsc-tla",
+    "href": "DataWorkflows2024.html#ide---vsc-tla",
+    "title": "Working with data in 2024",
+    "section": "IDE - VSC (TLA)",
+    "text": "IDE - VSC (TLA)\n\n\nAn IDE is an Integrated Development Environment. (a TLA is a Three Letter Acronym) You can do everything we will talk today in a simple text editor, using your operating system’s file explorer, a command-line terminal, but an IDE makes your life easier. - Visual Studio Code (VSC)  - VSCodium  - (open-source version that isn’t collection telemetry data) - PyCharm  and others specialised for certain programming languages\n\n more information on the official website\n\n\n\nPhoto courtesy of Visual Studio Code"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#how-to-navigate-in-vsc",
+    "href": "DataWorkflows2024.html#how-to-navigate-in-vsc",
+    "title": "Working with data in 2024",
+    "section": "How to navigate in VSC",
+    "text": "How to navigate in VSC\n\nif you are familiar with the layout, it is easy\nif you are a novice, it might overwhelm you\n\nJens: I have been there and I got lost\n\nthink of it as a\n\nfile explorer (usually on the left)\nterminal (usually at the bottom)\none or many editors (usually in the middle)\n\nat times they have preview windows, too\n\n\nthere are many plugins; we will use:\n\nGitHub\n\nGitHub CoPilot\n\nPython\n\nwe will create a virutal environment\n\nwe will show you (only show you) how to connect to a remote server (that might be another physical machine/like your computer at home or a cloud service, like the research infrastructure at the University of Auckland (UoA), Nectar of AWS)"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#git-and-github-and-github-actions",
+    "href": "DataWorkflows2024.html#git-and-github-and-github-actions",
+    "title": "Working with data in 2024",
+    "section": "Git and GitHub and GitHub Actions",
+    "text": "Git and GitHub and GitHub Actions\n\nGit is a version control system\n\nsparing you the technical details, and sharing a pragmatic view: This is (part of) what’s going on under the hood of GitHub\nwe recommend using Git in our RDM Workshops\n\nGitHub is a platform that hosts Git repositories\n\nto be blunt: This is how you interact with Git (there are alternatives/GitLab, BitBucket, …)\nit is also\n\na social network for developers\na place where you can find code, share code, collaborate on code, and get feedback on code\n\n\nYou can have public repositories (fancy way of saying project folders) in the general free plan, at UoA (and potentially other academic institutions) you can have free private repositories, too \nGitHub Action (GHA)\n\nthis is a way to automate things\nin theory, you can do everything you can do on your computer, on GitHub; so you could use your smartphone to write code that is then executed on a server in the cloud"
+  },
+  {
+    "objectID": "DataWorkflows2024.html#geopandas-and-folium",
+    "href": "DataWorkflows2024.html#geopandas-and-folium",
+    "title": "Working with data in 2024",
+    "section": "Geopandas and Folium",
+    "text": "Geopandas and Folium\n\nGeopandas is a library that allows you to work with geospatial data\nFolium is a library that allows you to create interactive maps\n\n\n\n# Read the HTML content from the iframe source``\n# iframe_url = \"https://carbon.now.sh/?bg=rgba%28255%2C255%2C255%2C1%29&t=panda-syntax&wt=none&l=python&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false\"\n1iframe_url = \"https://carbon.now.sh/?bg=rgba%28255%2C255%2C255%2C1%29&t=panda-syntax&wt=none&l=python&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false\"\n2response = requests.get(iframe_url)\n# print(response)\niframe_html = response.content\n# print(iframe_html)\n3# Parse the iframe content using Beautiful Soup\n# print(soup)\nextracted_content = soup.body.prettify()  # Customize this based on your needs\nprint(extracted_content)\n# save this as a html file\nwith open('carbon.html', 'w') as file:\n    file.write(extracted_content)\n\n1\n\nhelp here\n\n2\n\nthere you go\n\n3\n\nsomething elese\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\nState of the Art Workflows for working with data in 2024"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#uoa-workshops",
+    "href": "UpskillingResearchersInML.html#uoa-workshops",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "UoA workshops",
+    "text": "UoA workshops\n\n\n\nAudience: The University of Auckland (UoA) researchers\nTwo runs\n\nRun #1: March 2023\nRun #2: September 2023\n\nWell-received\n\nfiltering by mandatory Expression of Interest (EoI)\nabout 100 applications for 40 spots"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#nesi-workshops",
+    "href": "UpskillingResearchersInML.html#nesi-workshops",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "NeSI workshops",
+    "text": "NeSI workshops\n\n\n First ML101 workshop at eResearch NZ 2021\n\n\nAudience: Aotearoa – NZ researchers\nML 101\n\nIntro to Machine Learning\nstarted in 2021\n7 workshops (in person, online)\n127 attendees in total (from 10 to 32)\n\nML 102\n\nIntro to Deep Learning (CNNs)\nstarted in 2022\n2 workshops (online)\n44 attendees in total (20 and 24)\n\nMixture of direct registration and EoIs"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#recommendations",
+    "href": "UpskillingResearchersInML.html#recommendations",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "Recommendations",
+    "text": "Recommendations\nThere will be a lot of interest so…\n\nuse an Expression of Interest for registration and filter,\n30 participants is a good number for an online training,\nexpect people to not show up (if free and online)."
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#uoa-workshops-1",
+    "href": "UpskillingResearchersInML.html#uoa-workshops-1",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "UoA workshops",
+    "text": "UoA workshops\n\n\n\nonline only event: Zoom.us\nBYOD (bring your own device)\nmajor deviation from The Carpentries: No local Python installs\nGoolge Colab ,a browser-based Jupyter Notebook using Google infrastructure (a virtual machine; a GPU can be added)\n\n\n\n\n\nGoogle Colab in a Browser"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#nesi-workshops-1",
+    "href": "UpskillingResearchersInML.html#nesi-workshops-1",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "NeSI workshops",
+    "text": "NeSI workshops\n\n\n\n JupyterLab session running on Jupyter-on-NeSI\n\n\nOnline and in person\n\n2 delivered in person (1 had wifi issues 😓)\n5 delivered online\n\nUse Jupyter-on-NeSI\n\nJupyterHub platform\nRequires a NeSI account\nML101: 2 cores & 4 GB of RAM\nML102: 4 cores & 8 GB of RAM\n\nUse Slurm-based job for GPU training (a little bit)\nTip: make sure the Platform team does not schedule upgrades that day 😬…"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#recommendations-1",
+    "href": "UpskillingResearchersInML.html#recommendations-1",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "Recommendations",
+    "text": "Recommendations\n\nMake it online\nLeverage online computational platforms (Google Colab, JupyterHub, Open OnDemand…)\nNo need for GPU to start (or small ones on Google Colab available)"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#uoa-workshops-2",
+    "href": "UpskillingResearchersInML.html#uoa-workshops-2",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "UoA workshops",
+    "text": "UoA workshops\n\n\nRun #1\n\n\n\nTime Budget\nActivity\n\n\n\n\ntwo afternoons (8h)\nPython\n\n\none afternoon (4h)\nML\n\n\ntwo afternoons (8h)\nDL\n\n\n\nRun #2 \n\n\n\nTime Budget\nActivity\n\n\n\n\ntwo afternoons (8h)\nML\n\n\ntwo afternoons (8h)\nDL\n\n\n\n\n\nall workshops took place in the same week\nno mixing and matching, signing up = coming to all sessions\nMajor adjustment for Run #2: Python as a prerequisite, not part of the series"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#nesi-workshops-2",
+    "href": "UpskillingResearchersInML.html#nesi-workshops-2",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "NeSI workshops",
+    "text": "NeSI workshops\n\n\n\nML 101\n\n6 hours with 3 breaks ☕\nat first in one day\nnow split over 2 mornings\n\nML 102\n\n3 hours with 2 breaks 🍵\n\nIndependent workshops\nBut organised “close” to each other\n\n\n ML101 runsheet, used to keep track of time"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#recommendations-2",
+    "href": "UpskillingResearchersInML.html#recommendations-2",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "Recommendations",
+    "text": "Recommendations\n\nSplit/shorter sessions (bearing in mind the scheduling challenges for researchers)\nStick to scheduled breaks\nFollow best practices for online audiences:\n\nget a Zoom DJ, some helpers, get multiple co-hosts\nkeep a QA document\nprepare your intro and outro\nmake attendees join from the same computer running the code\nWebinar: Tips & tricks for hosting a successful online event"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#uoa-workshops-3",
+    "href": "UpskillingResearchersInML.html#uoa-workshops-3",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "UoA workshops",
+    "text": "UoA workshops\n\n\n\nLesson Title\nStatus\nRun #1\nRun #2\n\n\n\n\n\nProgramming with Python\nReleased\nMon, Tue\n-\n\n\n\nIntroduction to Machine Learning with Scikit Learn\nAlpha\nWed\nMon, Tue\n\n\n\nIntroduction to Deep Learning\nBeta\nThu, Fri\nWed, Thu"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#nesi-workshops-3",
+    "href": "UpskillingResearchersInML.html#nesi-workshops-3",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "NeSI workshops",
+    "text": "NeSI workshops\n\n\n My rehearsal and source of inspiration 💓\n\nNeSI workshops\n\nML 101 – github.com/nesi/sklearn_tutorial\n\nScikit-learn Tutorial by Jake Vanderplas\nonline recordings exist  (very good to rehearse!)\nJupyter Notebook based\nvery few changes (updated package version)\n\nML 102 – github.com/nesi/ml102_workshop\n\nTensorFlow tutorials\nJupyter Notebook based\nadded an introduction\nadded section to submit a Slurm job"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#recommendations-3",
+    "href": "UpskillingResearchersInML.html#recommendations-3",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "Recommendations",
+    "text": "Recommendations\nCeR and NeSI independently decided to base the workshops on existing material.\n\nDon’t reinvent the wheel\nReuse/adapt content"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#section",
+    "href": "UpskillingResearchersInML.html#section",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "",
+    "text": "Machine Learning\n\nData preparation\nSupervised vs. unsupervised learning\n\nregression\nclassification\nclustering\ndimensionality reduction\n\nEnsemble models (random forests)\nValidation\n\ntrain/test/validation split\ncross-validation\nvalidation and learning curves\n\n\n\nDeep Learning\n\nModel architectures\n\nMulti-layer perceptron\nConvolutional neural network  (CNN | computer vision)\n\nModel training\n\noptimisers and mini-batch\noverfitting and early stopping\ndata augmentation\ndropout, batch normalisation, …\n\nTransfer learning"
+  },
+  {
+    "objectID": "UpskillingResearchersInML.html#recommendations-4",
+    "href": "UpskillingResearchersInML.html#recommendations-4",
+    "title": "Upskilling Researchers in Machine Learning",
+    "section": "Recommendations",
+    "text": "Recommendations\n\nRandom forest is a good first non-linear model to learn\n\nintuitive to understand how it works\ngood performances on tabular data\ndoesn’t require too much care in terms of data preparation\n\nResist the temptation of MLP (multi-layer perceptron) for an ML intro\n\nrequire more notions (architecture, training, data preprocessing, …)\nkeep it for Deep Learning introduction"
+  },
+  {
+    "objectID": "LightningTalk.html#background",
+    "href": "LightningTalk.html#background",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Background",
+    "text": "Background\n\nMachine Learning (ML) or Artificial Intelligence (AI) are without a doubt hot topics\nEmpowering researchers to understand and use ML seems rewarding, but also challenging\nThe Carpentries  offer a proven teaching-style accounting for participants with limited IT experience\n\nCore aspects\n\nlive-coding\npositive attitude towards mistakes\nminimal prerequisites\nmaximising participant involvement\n\n\nThe CeR (Centre for eResearch) at the University of Auckland acquired funding to further develop and run a series of workshops (also referred to as ML-Carp)\nTwo iterations (referred to as Run #1 and Run#2) took place so far. In March and September 2023."
+  },
+  {
+    "objectID": "LightningTalk.html#lesson-overview",
+    "href": "LightningTalk.html#lesson-overview",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Lesson Overview",
+    "text": "Lesson Overview\n\n\n\nLesson Title\nStatus\nRun #1\nRun #2\n\n\n\n\n\nProgramming with Python\nReleased\nMon, Tue\n-\n\n\n\nIntroduction to Machine Learning with Scikit Learn\nAlpha\nWed, Thu\nMon, Tue\n\n\n\nIntroduction to Deep Learning\nBeta\nFri\nWed, Thu\n\n\n\n\n\n\n\n \n\n\n\n\n\n4h sessions over 4 consecutive afternoons\n\n\n\n\n\nDepending on Maturity, sessions were run with small changes or substantially (re)developed.\nOne major change was Goolge Colab  being used instead of local Python installs."
+  },
+  {
+    "objectID": "LightningTalk.html#lesson-details",
+    "href": "LightningTalk.html#lesson-details",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Lesson Details",
+    "text": "Lesson Details\n\n\n\nProgramming with Python\nIntroduction to Machine Learning with Scikit Learn and Python\nIntroduction to deep learning\n\n\n\n\nPython Fundamentals\nIntroduction\nIntroduction\n\n\nAnalyzing Patient Data\nSupervised methods - Regression\nClassification by a neural network using Keras\n\n\nVisualizing Tabular Data\nSupervised methods - Classification\nMonitor the training process\n\n\nStoring Multiple Values in Lists\nEnsemble methods\nAdvanced layer types\n\n\nRepeating Actions with Loops\nUnsupervised methods - Clustering\nOutlook\n\n\nAnalyzing Data from Multiple Files\nUnsupervised methods - Dimensionality reduction\n\n\n\nMaking Choices\nNeural Networks\n\n\n\nCreating Functions\nEthics and the Implications of Machine Learning\n\n\n\nErrors and Exceptions\nFind out more\n\n\n\nDefensive Programming\n\n\n\n\nDebugging\n\n\n\n\nCommand-Line Programs"
+  },
+  {
+    "objectID": "LightningTalk.html#participants-background",
+    "href": "LightningTalk.html#participants-background",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Participants’ Background",
+    "text": "Participants’ Background"
+  },
+  {
+    "objectID": "LightningTalk.html#participants-os",
+    "href": "LightningTalk.html#participants-os",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Participants’ OS",
+    "text": "Participants’ OS"
+  },
+  {
+    "objectID": "LightningTalk.html#participants-feelings---metrics",
+    "href": "LightningTalk.html#participants-feelings---metrics",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Participants’ Feelings - Metrics",
+    "text": "Participants’ Feelings - Metrics"
+  },
+  {
+    "objectID": "LightningTalk.html#zoom-attendance",
+    "href": "LightningTalk.html#zoom-attendance",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Zoom attendance",
+    "text": "Zoom attendance"
+  },
+  {
+    "objectID": "LightningTalk.html#participants-promotiondemotion",
+    "href": "LightningTalk.html#participants-promotiondemotion",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Participants Promotion/Demotion",
+    "text": "Participants Promotion/Demotion"
+  },
+  {
+    "objectID": "LightningTalk.html#participants-feelings---statements-and-adjustments",
+    "href": "LightningTalk.html#participants-feelings---statements-and-adjustments",
+    "title": "Developing a Carpentries-style Machine Learning workshop",
+    "section": "Participants’ Feelings - Statements and Adjustments",
+    "text": "Participants’ Feelings - Statements and Adjustments\n\nobservation: At very end of the Runs, questions/participation/interest didn’t cease!\n“Python lesson might be separated”\n\nRun #2: Python was removed from the curriculum\n\n“more breaks”\n\nRun #2: better adherence to schedule\n\n“stick to one coding interface”\n\nRun #2: only Colab, VSC etc. was linked to for post-workshop engagement\n\n\n\n\n\n\n\n\nNote\n\n\nAll statements are positive phrased; overall the results confirm a poasitive appreciation."
+  },
+  {
     "objectID": "ResBazPlanning.html#r",
     "href": "ResBazPlanning.html#r",
     "title": "ResBaz 2023 - Scheduling Assistance",
@@ -175,167 +420,6 @@
     "text": "Tables\n\n\n\nA simple table in \\(\\LaTeX\\) syntax:\n\n\\begin{table}[]\n\\caption{My Example Table}\n\\label{tab:my-table}\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline\ncountry     & 1999   & 2000   &  &  \\\\ \\hline\nAfghanistan & 745    & 2666   &  &  \\\\ \\hline\nBrazil      & 37737  & 80488  &  &  \\\\ \\hline\nChina       & 212258 & 213766 &  &  \\\\ \\hline\n\\end{tabular}\n\\end{table}\n\n\nAlternatively using markdown syntax:\n\n| country     | 1999   | 2000   |   |   |\n|-------------|--------|--------|---|---|\n| Afghanistan | 745    | 2666   |   |   |\n| Brazil      | 37737  | 80488  |   |   |\n| China       | 212258 | 213766 |   |   |\n\n\n\nTo be honest:\n\nBoth are a pain to format by hand\nYou shouldn’t work with your data in these. These are for publishing only.\nSome see spreadsheet software (MSExcel, Google Sheets, etc.) just suited for data entry, Python, R, OpenRefine, etc. are better alternatives whose learning curve isn’t as steep as you might expect and relevant sessions are also provided at this year’s ResBaz (see pointers)"
   },
   {
-    "objectID": "LightningTalk.html#background",
-    "href": "LightningTalk.html#background",
-    "title": "Developing a Carpentries-style Machine Learning workshop",
-    "section": "Background",
-    "text": "Background\n\nMachine Learning (ML) or Artificial Intelligence (AI) are without a doubt hot topics\nEmpowering researchers to understand and use ML seems rewarding, but also challenging\nThe Carpentries  offer a proven teaching-style accounting for participants with limited IT experience\n\nCore aspects\n\nlive-coding\npositive attitude towards mistakes\nminimal prerequisites\nmaximising participant involvement\n\n\nThe CeR (Centre for eResearch) at the University of Auckland acquired funding to further develop and run a series of workshops (also referred to as ML-Carp)\nTwo iterations (referred to as Run #1 and Run#2) took place so far. In March and September 2023."
-  },
-  {
-    "objectID": "LightningTalk.html#lesson-overview",
-    "href": "LightningTalk.html#lesson-overview",
-    "title": "Developing a Carpentries-style Machine Learning workshop",
-    "section": "Lesson Overview",
-    "text": "Lesson Overview\n\n\n\nLesson Title\nStatus\nRun #1\nRun #2\n\n\n\n\n\nProgramming with Python\nReleased\nMon, Tue\n-\n\n\n\nIntroduction to Machine Learning with Scikit Learn\nAlpha\nWed, Thu\nMon, Tue\n\n\n\nIntroduction to Deep Learning\nBeta\nFri\nWed, Thu\n\n\n\n\n\n\n\n \n\n\n\n\n\n4h sessions over 4 consecutive afternoons\n\n\n\n\n\nDepending on Maturity, sessions were run with small changes or substantially (re)developed.\nOne major change was Goolge Colab  being used instead of local Python installs."
-  },
-  {
-    "objectID": "LightningTalk.html#lesson-details",
-    "href": "LightningTalk.html#lesson-details",
-    "title": "Developing a Carpentries-style Machine Learning workshop",
-    "section": "Lesson Details",
-    "text": "Lesson Details\n\n\n\nProgramming with Python\nIntroduction to Machine Learning with Scikit Learn and Python\nIntroduction to deep learning\n\n\n\n\nPython Fundamentals\nIntroduction\nIntroduction\n\n\nAnalyzing Patient Data\nSupervised methods - Regression\nClassification by a neural network using Keras\n\n\nVisualizing Tabular Data\nSupervised methods - Classification\nMonitor the training process\n\n\nStoring Multiple Values in Lists\nEnsemble methods\nAdvanced layer types\n\n\nRepeating Actions with Loops\nUnsupervised methods - Clustering\nOutlook\n\n\nAnalyzing Data from Multiple Files\nUnsupervised methods - Dimensionality reduction\n\n\n\nMaking Choices\nNeural Networks\n\n\n\nCreating Functions\nEthics and the Implications of Machine Learning\n\n\n\nErrors and Exceptions\nFind out more\n\n\n\nDefensive Programming\n\n\n\n\nDebugging\n\n\n\n\nCommand-Line Programs"
-  },
-  {
-    "objectID": "LightningTalk.html#participants-background",
-    "href": "LightningTalk.html#participants-background",
-    "title": "Developing a Carpentries-style Machine Learning workshop",
-    "section": "Participants’ Background",
-    "text": "Participants’ Background"
-  },
-  {
-    "objectID": "LightningTalk.html#participants-os",
-    "href": "LightningTalk.html#participants-os",
-    "title": "Developing a Carpentries-style Machine Learning workshop",
-    "section": "Participants’ OS",
-    "text": "Participants’ OS"
-  },
-  {
-    "objectID": "LightningTalk.html#participants-feelings---metrics",
-    "href": "LightningTalk.html#participants-feelings---metrics",
-    "title": "Developing a Carpentries-style Machine Learning workshop",
-    "section": "Participants’ Feelings - Metrics",
-    "text": "Participants’ Feelings - Metrics"
-  },
-  {
-    "objectID": "LightningTalk.html#zoom-attendance",
-    "href": "LightningTalk.html#zoom-attendance",
-    "title": "Developing a Carpentries-style Machine Learning workshop",
-    "section": "Zoom attendance",
-    "text": "Zoom attendance"
-  },
-  {
-    "objectID": "LightningTalk.html#participants-promotiondemotion",
-    "href": "LightningTalk.html#participants-promotiondemotion",
-    "title": "Developing a Carpentries-style Machine Learning workshop",
-    "section": "Participants Promotion/Demotion",
-    "text": "Participants Promotion/Demotion"
-  },
-  {
-    "objectID": "LightningTalk.html#participants-feelings---statements-and-adjustments",
-    "href": "LightningTalk.html#participants-feelings---statements-and-adjustments",
-    "title": "Developing a Carpentries-style Machine Learning workshop",
-    "section": "Participants’ Feelings - Statements and Adjustments",
-    "text": "Participants’ Feelings - Statements and Adjustments\n\nobservation: At very end of the Runs, questions/participation/interest didn’t cease!\n“Python lesson might be separated”\n\nRun #2: Python was removed from the curriculum\n\n“more breaks”\n\nRun #2: better adherence to schedule\n\n“stick to one coding interface”\n\nRun #2: only Colab, VSC etc. was linked to for post-workshop engagement\n\n\n\n\n\n\n\n\nNote\n\n\nAll statements are positive phrased; overall the results confirm a poasitive appreciation."
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#uoa-workshops",
-    "href": "UpskillingResearchersInML.html#uoa-workshops",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "UoA workshops",
-    "text": "UoA workshops\n\n\n\nAudience: The University of Auckland (UoA) researchers\nTwo runs\n\nRun #1: March 2023\nRun #2: September 2023\n\nWell-received\n\nfiltering by mandatory Expression of Interest (EoI)\nabout 100 applications for 40 spots"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#nesi-workshops",
-    "href": "UpskillingResearchersInML.html#nesi-workshops",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "NeSI workshops",
-    "text": "NeSI workshops\n\n\n First ML101 workshop at eResearch NZ 2021\n\n\nAudience: Aotearoa – NZ researchers\nML 101\n\nIntro to Machine Learning\nstarted in 2021\n7 workshops (in person, online)\n127 attendees in total (from 10 to 32)\n\nML 102\n\nIntro to Deep Learning (CNNs)\nstarted in 2022\n2 workshops (online)\n44 attendees in total (20 and 24)\n\nMixture of direct registration and EoIs"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#recommendations",
-    "href": "UpskillingResearchersInML.html#recommendations",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "Recommendations",
-    "text": "Recommendations\nThere will be a lot of interest so…\n\nuse an Expression of Interest for registration and filter,\n30 participants is a good number for an online training,\nexpect people to not show up (if free and online)."
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#uoa-workshops-1",
-    "href": "UpskillingResearchersInML.html#uoa-workshops-1",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "UoA workshops",
-    "text": "UoA workshops\n\n\n\nonline only event: Zoom.us\nBYOD (bring your own device)\nmajor deviation from The Carpentries: No local Python installs\nGoolge Colab ,a browser-based Jupyter Notebook using Google infrastructure (a virtual machine; a GPU can be added)\n\n\n\n\n\nGoogle Colab in a Browser"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#nesi-workshops-1",
-    "href": "UpskillingResearchersInML.html#nesi-workshops-1",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "NeSI workshops",
-    "text": "NeSI workshops\n\n\n\n JupyterLab session running on Jupyter-on-NeSI\n\n\nOnline and in person\n\n2 delivered in person (1 had wifi issues 😓)\n5 delivered online\n\nUse Jupyter-on-NeSI\n\nJupyterHub platform\nRequires a NeSI account\nML101: 2 cores & 4 GB of RAM\nML102: 4 cores & 8 GB of RAM\n\nUse Slurm-based job for GPU training (a little bit)\nTip: make sure the Platform team does not schedule upgrades that day 😬…"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#recommendations-1",
-    "href": "UpskillingResearchersInML.html#recommendations-1",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "Recommendations",
-    "text": "Recommendations\n\nMake it online\nLeverage online computational platforms (Google Colab, JupyterHub, Open OnDemand…)\nNo need for GPU to start (or small ones on Google Colab available)"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#uoa-workshops-2",
-    "href": "UpskillingResearchersInML.html#uoa-workshops-2",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "UoA workshops",
-    "text": "UoA workshops\n\n\nRun #1\n\n\n\nTime Budget\nActivity\n\n\n\n\ntwo afternoons (8h)\nPython\n\n\none afternoon (4h)\nML\n\n\ntwo afternoons (8h)\nDL\n\n\n\nRun #2 \n\n\n\nTime Budget\nActivity\n\n\n\n\ntwo afternoons (8h)\nML\n\n\ntwo afternoons (8h)\nDL\n\n\n\n\n\nall workshops took place in the same week\nno mixing and matching, signing up = coming to all sessions\nMajor adjustment for Run #2: Python as a prerequisite, not part of the series"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#nesi-workshops-2",
-    "href": "UpskillingResearchersInML.html#nesi-workshops-2",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "NeSI workshops",
-    "text": "NeSI workshops\n\n\n\nML 101\n\n6 hours with 3 breaks ☕\nat first in one day\nnow split over 2 mornings\n\nML 102\n\n3 hours with 2 breaks 🍵\n\nIndependent workshops\nBut organised “close” to each other\n\n\n ML101 runsheet, used to keep track of time"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#recommendations-2",
-    "href": "UpskillingResearchersInML.html#recommendations-2",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "Recommendations",
-    "text": "Recommendations\n\nSplit/shorter sessions (bearing in mind the scheduling challenges for researchers)\nStick to scheduled breaks\nFollow best practices for online audiences:\n\nget a Zoom DJ, some helpers, get multiple co-hosts\nkeep a QA document\nprepare your intro and outro\nmake attendees join from the same computer running the code\nWebinar: Tips & tricks for hosting a successful online event"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#uoa-workshops-3",
-    "href": "UpskillingResearchersInML.html#uoa-workshops-3",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "UoA workshops",
-    "text": "UoA workshops\n\n\n\nLesson Title\nStatus\nRun #1\nRun #2\n\n\n\n\n\nProgramming with Python\nReleased\nMon, Tue\n-\n\n\n\nIntroduction to Machine Learning with Scikit Learn\nAlpha\nWed\nMon, Tue\n\n\n\nIntroduction to Deep Learning\nBeta\nThu, Fri\nWed, Thu"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#nesi-workshops-3",
-    "href": "UpskillingResearchersInML.html#nesi-workshops-3",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "NeSI workshops",
-    "text": "NeSI workshops\n\n\n My rehearsal and source of inspiration 💓\n\nNeSI workshops\n\nML 101 – github.com/nesi/sklearn_tutorial\n\nScikit-learn Tutorial by Jake Vanderplas\nonline recordings exist  (very good to rehearse!)\nJupyter Notebook based\nvery few changes (updated package version)\n\nML 102 – github.com/nesi/ml102_workshop\n\nTensorFlow tutorials\nJupyter Notebook based\nadded an introduction\nadded section to submit a Slurm job"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#recommendations-3",
-    "href": "UpskillingResearchersInML.html#recommendations-3",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "Recommendations",
-    "text": "Recommendations\nCeR and NeSI independently decided to base the workshops on existing material.\n\nDon’t reinvent the wheel\nReuse/adapt content"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#section",
-    "href": "UpskillingResearchersInML.html#section",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "",
-    "text": "Machine Learning\n\nData preparation\nSupervised vs. unsupervised learning\n\nregression\nclassification\nclustering\ndimensionality reduction\n\nEnsemble models (random forests)\nValidation\n\ntrain/test/validation split\ncross-validation\nvalidation and learning curves\n\n\n\nDeep Learning\n\nModel architectures\n\nMulti-layer perceptron\nConvolutional neural network  (CNN | computer vision)\n\nModel training\n\noptimisers and mini-batch\noverfitting and early stopping\ndata augmentation\ndropout, batch normalisation, …\n\nTransfer learning"
-  },
-  {
-    "objectID": "UpskillingResearchersInML.html#recommendations-4",
-    "href": "UpskillingResearchersInML.html#recommendations-4",
-    "title": "Upskilling Researchers in Machine Learning",
-    "section": "Recommendations",
-    "text": "Recommendations\n\nRandom forest is a good first non-linear model to learn\n\nintuitive to understand how it works\ngood performances on tabular data\ndoesn’t require too much care in terms of data preparation\n\nResist the temptation of MLP (multi-layer perceptron) for an ML intro\n\nrequire more notions (architecture, training, data preprocessing, …)\nkeep it for Deep Learning introduction"
-  },
-  {
     "objectID": "Plots.html",
     "href": "Plots.html",
     "title": "Quarto Basics",
@@ -362,47 +446,5 @@
     "title": "ML-Carp Recap and Outlook",
     "section": "Workflows for heavier computation",
     "text": "Workflows for heavier computation\n\nGoogle Colab vs. locally installed Jupyter Notebooks or Plain Vanilla Python\n\nDo all use Colab ‘in the real world’ all the time? No!\n\nVSCode\nPython locally installed\n\nVirtual Environment\npip install\n\nusing GPU/Nectar/…"
-  },
-  {
-    "objectID": "DataWorkflows2024.html#this-session-vs.-related",
-    "href": "DataWorkflows2024.html#this-session-vs.-related",
-    "title": "Working with data in 2024",
-    "section": "This session vs. related",
-    "text": "This session vs. related\n\nThis session is the introduction. Let’s call it Level 1️⃣\n\nWe will mostly talk\nNick is the expert who taught Jens many things over the past years, we’ll replicate some of the back and forth\nWe will provide you with an overview\nyou are asked to think about examples you’d like see used in the upcoming sessions\n\nYou can decide if you just want to listen or if you want to follow along\n\nIf you want to get your hands dirty, hold your horses 🐴\ndon’t miss out now\nthe next sessions will be all about hands-on experience with the tools 🛠️\n\nThere is homework 💼\n\nsee later slides"
-  },
-  {
-    "objectID": "DataWorkflows2024.html#homework",
-    "href": "DataWorkflows2024.html#homework",
-    "title": "Working with data in 2024",
-    "section": "Homework 💼",
-    "text": "Homework 💼\n\nInstall software \nGet a dataset (git pull/GitHub Desktop)\nrun this one line, to see what if it works."
-  },
-  {
-    "objectID": "DataWorkflows2024.html#the-support-via-slack",
-    "href": "DataWorkflows2024.html#the-support-via-slack",
-    "title": "Working with data in 2024",
-    "section": "The support via Slack",
-    "text": "The support via Slack\n\nWe have a Slack channel\nWe will be available for questions\nThis is a premiere, so let’s see how many quesitons we can answer"
-  },
-  {
-    "objectID": "DataWorkflows2024.html#the-next-session-or-level-2",
-    "href": "DataWorkflows2024.html#the-next-session-or-level-2",
-    "title": "Working with data in 2024",
-    "section": "The next session or Level 2️⃣",
-    "text": "The next session or Level 2️⃣\n\nHere we will go through several steps\nWe will use a real-world example\nIn case you, as a group, haven’t agreed on a dataset of highest relevance, to be used, we will provide one"
-  },
-  {
-    "objectID": "DataWorkflows2024.html#useful-links",
-    "href": "DataWorkflows2024.html#useful-links",
-    "title": "Working with data in 2024",
-    "section": "Useful links",
-    "text": "Useful links\n\nhow to create GitHub Issues right in VSC"
-  },
-  {
-    "objectID": "DataWorkflows2024.html#first-slide",
-    "href": "DataWorkflows2024.html#first-slide",
-    "title": "Working with data in 2024",
-    "section": "First Slide",
-    "text": "First Slide\n\n\n\n\n\n\n\n\nflowchart LR\n    D(fa:fa-phone)--&gt;C[fa:fa-house]\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n    D(fa:fa-phone)--&gt;C[fa:fa-earth-americas]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\nState of the Art Workflows for working with data in 2024"
   }
 ]

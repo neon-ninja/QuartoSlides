@@ -13,7 +13,7 @@
 <link href="site_libs/quarto-contrib/grid-htext-1.0.0/grid_htext.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.551">
+  <meta name="generator" content="quarto-1.4.553">
 
   <meta name="author" content="Nick Young, Jens Brinkmann">
   <title>Working with data in 2024</title>
@@ -61,49 +61,50 @@
         -khtml-user-select: none; -moz-user-select: none;
         -ms-user-select: none; user-select: none;
         padding: 0 4px; width: 4em;
-        color: #aaaaaa;
       }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    pre.numberSource { margin-left: 3em;  padding-left: 4px; }
     div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
+      { color: #383a42;  }
     @media screen {
     pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
     }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+    code span { color: #383a42; } /* Normal */
+    code span.al { color: #95da4c; background-color: #4d1f24; font-weight: bold; } /* Alert */
+    code span.an { color: #50a14f; } /* Annotation */
+    code span.at { color: #a626a4; } /* Attribute */
+    code span.bn { color: #986801; } /* BaseN */
+    code span.bu { color: #a626a4; } /* BuiltIn */
+    code span.cf { color: #a626a4; } /* ControlFlow */
+    code span.ch { color: #50a14f; } /* Char */
+    code span.cn { color: #986801; } /* Constant */
+    code span.co { color: #a0a1a7; font-style: italic; } /* Comment */
+    code span.cv { color: #e45649; font-style: italic; } /* CommentVar */
+    code span.do { color: #e45649; } /* Documentation */
+    code span.dt { color: #a626a4; } /* DataType */
+    code span.dv { color: #986801; } /* DecVal */
+    code span.er { color: #f44747; text-decoration: underline; } /* Error */
+    code span.ex { color: #4078f2; font-weight: bold; } /* Extension */
+    code span.fl { color: #986801; } /* Float */
+    code span.fu { color: #4078f2; } /* Function */
+    code span.im { color: #50a14f; } /* Import */
+    code span.in { color: #c45b00; } /* Information */
+    code span.kw { color: #a626a4; } /* Keyword */
+    code span.op { color: #a626a4; } /* Operator */
+    code span.ot { color: #27ae60; } /* Other */
+    code span.pp { color: #a626a4; } /* Preprocessor */
+    code span.re { color: #2980b9; background-color: #153042; } /* RegionMarker */
+    code span.sc { color: #0184bc; } /* SpecialChar */
+    code span.ss { color: #da4453; } /* SpecialString */
+    code span.st { color: #50a14f; } /* String */
+    code span.va { color: #e45649; } /* Variable */
+    code span.vs { color: #da4453; } /* VerbatimString */
+    code span.wa { color: #da4453; } /* Warning */
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-attribution/attribution.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -445,16 +446,34 @@ Nick Young, Jens Brinkmann
 </section>
 
 <section>
-<section id="test" class="title-slide slide level1 center">
-<h1>test</h1>
-<p>Initialize with any icon <i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i></p>
+<section id="placeholder" class="title-slide slide level1 center">
+<h1>placeholder</h1>
 <div class="cell" data-reveal="true" data-fig-width="15" data-fig-height="5" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR
-    D(fa:fa-phone)--&gt;C[fa:fa-house]
+  %% A[Fahrenheit $$\frac{5}{9}$$] --&gt; B[Celsius]
+  %% A[Fahrenheit] --&gt;|"temp-32 * 5/9"| B[Celsius]
+  B --&gt; |"temp-273.15"| C[Kelvin]
+  A --&gt; C
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js"> graph LR
+      A["$$x^2$$"] --&gt;|"$$\sqrt{x+3}$$"| B("$$\frac{1}{2}$$")
+      A --&gt;|"$$\overbrace{a+b+c}^{\text{note}}$$"| C("$$\pi r^2$$")
+      B --&gt; D("$$x = \begin{cases} a &amp;\text{if } b \\ c &amp;\text{if } d \end{cases}$$")
+      C --&gt; E("$$x(t)=c_1\begin{bmatrix}-\cos{t}+\sin{t}\\ 2\cos{t} \end{bmatrix}e^{2t}$$")
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -525,98 +544,206 @@ Nick Young, Jens Brinkmann
 <h2>Useful links</h2>
 <ul>
 <li><a href="https://code.visualstudio.com/blogs/2020/05/06/github-issues-integration">how to create GitHub Issues right in VSC</a></li>
+<li><a href="https://www.freecodecamp.org/news/understanding-open-source-software-lifecycles/">what do software verison numbers refer to</a></li>
 </ul>
 </section></section>
 <section>
-<section id="abc" class="title-slide slide level1 center">
-<h1>ABC</h1>
-<p>This extension allows you to use font-awesome icons in your Quarto HTML and PDF documents. It provides an <code>{{&lt; fa &gt;}}</code> shortcode:</p>
+<section id="overview" class="title-slide slide level1 center">
+<h1>Overview</h1>
+<p>The stack</p>
 <ul>
-<li><p>Mandatory <code>&lt;icon-name&gt;</code>:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a></a>{{&lt; fa &lt;icon-name&gt; &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>Optional <code>&lt;group&gt;</code>, <code>&lt;size=...&gt;</code>, and <code>&lt;title=...&gt;</code>:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a></a>{{&lt; fa &lt;group&gt; &lt;icon-name&gt; &lt;size=...&gt; &lt;title=...&gt; &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>For example:</p></li>
+<li>Operating Systems (<i class="fa-brands fa-apple" aria-label="apple"></i>, <i class="fa-brands fa-windows" aria-label="windows"></i>, <i class="fa-brands fa-linux" aria-label="linux"></i>)</li>
+<li><i class="fa-brands fa-python" aria-label="python"></i> Python
+<ul>
+<li><img data-src="./Data2024Assets/jupyter.svg" style="height:1em" loading="lazy"> Jupyter</li>
+</ul></li>
+<li><img data-src="./Data2024Assets/visual-studio-code.svg" style="height:1em" loading="lazy"> Visual Studio Code</li>
+<li>Git <i class="fa-brands fa-git" aria-label="git"></i> and GitHub <i class="fa-brands fa-github" aria-label="github"></i>
+<ul>
+<li>GHA (<a href="https://github.com/features/actions">GitHubActions</a>) <i class="fa-solid fa-circle-play" aria-label="circle-play"></i> <!-- TODO #9 --></li>
+</ul></li>
 </ul>
-<table>
-<colgroup>
-<col style="width: 54%">
-<col style="width: 45%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Shortcode</th>
-<th>Icon</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>{{&lt; fa thumbs-up &gt;}}</code></td>
-<td><p><i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i></p></td>
-</tr>
-<tr class="even">
-<td><code>{{&lt; fa folder &gt;}}</code></td>
-<td><p><i class="fa-solid fa-folder" aria-label="folder"></i></p></td>
-</tr>
-<tr class="odd">
-<td><code>{{&lt; fa chess-pawn &gt;}}</code></td>
-<td><p><i class="fa-solid fa-chess-pawn" aria-label="chess-pawn"></i></p></td>
-</tr>
-<tr class="even">
-<td><code>{{&lt; fa brands bluetooth &gt;}}</code></td>
-<td><p><i class="fa-brands fa-bluetooth" aria-label="bluetooth"></i></p></td>
-</tr>
-<tr class="odd">
-<td><code>{{&lt; fa brands twitter size=2xl &gt;}}</code> (HTML only)</td>
-<td><p><i class="fa-brands fa-twitter fa-2xl" aria-label="twitter"></i></p></td>
-</tr>
-<tr class="even">
-<td><code>{{&lt; fa brands github size=5x &gt;}}</code> (HTML only)</td>
-<td><p><i class="fa-brands fa-github fa-5x" aria-label="github"></i></p></td>
-</tr>
-<tr class="odd">
-<td><code>{{&lt; fa battery-half size=Huge &gt;}}</code></td>
-<td><p><i class="fa-solid fa-battery-half fa-Huge" aria-label="battery-half"></i></p></td>
-</tr>
-<tr class="even">
-<td><code>{{&lt; fa envelope title="An envelope" &gt;}}</code></td>
-<td><p><i class="fa-solid fa-envelope" title="An envelope" aria-label="envelope"></i></p></td>
-</tr>
-</tbody>
-</table>
-<p>Note that the icon sets are currently not perfectly interchangeable across formats:</p>
 </section>
-<section id="first-slide" class="slide level2">
-<h2>First Slide</h2>
-<div class="hidden">
-<p><i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i></p>
+<section id="operating-systems" class="slide level2">
+<h2>Operating Systems</h2>
+<ul>
+<li>Windows
+<ul>
+<li>Windows Subsystem for Linux <a href="https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux">WSL</a></li>
+</ul></li>
+<li>MacOS
+<ul>
+<li>install <a href="https://docs.brew.sh/Homebrew-and-Python">Python via HomeBrew</a></li>
+</ul></li>
+<li>Linux
+<ul>
+<li>Ubuntu</li>
+<li>Fedora</li>
+<li>Debian</li>
+<li>Arch</li>
+<li>…</li>
+</ul></li>
+</ul>
+</section>
+<section id="programming-language-python" class="slide level2">
+<h2>Programming Language: Python</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li>Python is
+<ul>
+<li>a high-level/abstract and general-purpose programming language</li>
+<li>an interpreted language (not compiled)</li>
+</ul></li>
+<li>Python is dynamically typed (no need to declare variables)</li>
+<li>Python is easy to
+<ul>
+<li><em>read, maintain, write, debug, extend, integrate with other languages, deploy, scale, share, collaborate, teach</em></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="Data2024Assets/CvsPythonMeme.JPG"></p>
 </div>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-    D(fa:fa-phone)--&gt;C[fa:fa-house]
-</pre>
 </div>
-<p></p></figure><p></p>
+</section>
+<section id="programming-language-python---continued" class="slide level2">
+<h2>Programming Language: Python - continued</h2>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Personal opinion</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>a common statement is that Python is slow
+<ul>
+<li>in reality, you can run (encapsulated) other languages</li>
+</ul></li>
+<li>being a <strong>relatively abstract languge</strong> makes it suitable for many research projects (no need to reinvent the wheel)</li>
+<li>The <strong>community</strong> is great!
+<ul>
+<li><strong>most popular</strong>/<a href="https://www.statista.com/chart/16567/popular-programming-languages/">most searched</a> for on Google</li>
+<li>there are tons of <strong>great libraries</strong> that can be used</li>
+<li>because Python is so popular, <strong>ChatGPT and other Machine Learning (ML) powered support tools</strong> can write pretty decent code (date of writing this = April 2024).</li>
+</ul></li>
+<li>some report issues with <strong>libraries</strong> and changes to them
+<ul>
+<li>there are many ways of dependency management (<code>requirements.txt</code> or <a href="https://python-poetry.org/">Poetry</a>) version-controlling your code and making sure it is reproducible</li>
+</ul></li>
+</ul>
 </div>
 </div>
 </div>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-    D(fa:fa-phone)--&gt;C[fa:fa-earth-americas]
-</pre>
-</div>
-<p></p></figure><p></p>
+</section>
+<section id="ide---vsc-tla" class="slide level2">
+<h2>IDE - VSC (TLA)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>An IDE is an Integrated Development Environment. (a TLA is a Three Letter Acronym) You can do everything we will talk today in a simple text editor, using your operating system’s file explorer, a command-line terminal, but an IDE makes your life easier. - <a href="https://code.visualstudio.com/">Visual Studio Code (VSC)</a> <img data-src="./Data2024Assets/visual-studio-code.svg" style="height:1em" loading="lazy"> - VSCodium <img data-src="./Data2024Assets/VSCodium.png" style="height:1em" loading="lazy"> - (open-source version that isn’t collection telemetry data) - PyCharm <img data-src="./Data2024Assets/PyCharm_Icon (1).svg" style="height:1em" loading="lazy"> and others specialised for certain programming languages</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="./Data2024Assets/VSCOverview.png" style="height:100.0%" loading="lazy"> <a href="[link](https://code.visualstudio.com/docs/getstarted/userinterface)">more information on the official website</a></p>
 </div>
 </div>
+<div class="attribution">
+<p>Photo courtesy of <a href="https://code.visualstudio.com/docs/getstarted/userinterface">Visual Studio Code</a></p>
 </div>
+</section>
+<section id="how-to-navigate-in-vsc" class="slide level2">
+<h2>How to navigate in VSC</h2>
+<ul>
+<li>if you are familiar with the layout, it is easy</li>
+<li>if you are a novice, it might overwhelm you
+<ul>
+<li>Jens: I have been there and I got lost</li>
+</ul></li>
+<li>think of it as a
+<ul>
+<li>file explorer (usually on the left)</li>
+<li>terminal (usually at the bottom)</li>
+<li>one or many editors (usually in the middle)
+<ul>
+<li>at times they have preview windows, too</li>
+</ul></li>
+</ul></li>
+<li>there are many plugins; we will use:
+<ul>
+<li>GitHub
+<ul>
+<li>GitHub CoPilot</li>
+</ul></li>
+<li>Python
+<ul>
+<li>we will create a virutal environment</li>
+</ul></li>
+<li>we will show you (only show you) how to connect to a remote server (that might be another physical machine/like your computer at home or a cloud service, like the research infrastructure at the University of Auckland (UoA), <a href="https://research-hub.auckland.ac.nz/research-software-and-computing/advanced-compute/nectar-research-cloud">Nectar</a> of <a href="https://aws.amazon.com/">AWS</a>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="git-and-github-and-github-actions" class="slide level2">
+<h2>Git and GitHub and GitHub Actions</h2>
+<ul>
+<li>Git is a version control system
+<ul>
+<li>sparing you the technical details, and sharing a pragmatic view: This is (part of) what’s going on <em>under the hood</em> of GitHub</li>
+<li>we recommend using Git in our <a href="https://research-hub.auckland.ac.nz/guide-to-managing-research-data/rd-support-and-training/managing-research-data-workshops">RDM Workshops</a></li>
+</ul></li>
+<li>GitHub is a platform that hosts Git repositories
+<ul>
+<li>to be blunt: This is how you interact with Git (there are alternatives/<a href="https://about.gitlab.com/">GitLab</a>, <a href="https://bitbucket.org/product?&amp;aceid=&amp;adposition=&amp;adgroup=146041740191&amp;campaign=18815940148&amp;creative=632894031333&amp;device=c&amp;keyword=bitbucket&amp;matchtype=e&amp;network=g&amp;placement=&amp;ds_kids=p74116809522&amp;ds_e=GOOGLE&amp;ds_eid=700000001551985&amp;ds_e1=GOOGLE&amp;gad_source=1&amp;gclid=CjwKCAjw5ImwBhBtEiwAFHDZxx9EXw2lhK5gJQTVGjT44QGKC-UpJxjHi4_K7_sj5KkQjgTp03l8jRoCFOoQAvD_BwE&amp;gclsrc=aw.ds">BitBucket</a>, …)</li>
+<li>it is also
+<ul>
+<li>a social network for developers</li>
+<li>a place where you can find code, share code, collaborate on code, and get feedback on code</li>
+</ul></li>
+</ul></li>
+<li>You can have public repositories (fancy way of saying <em>project folders</em>) in the general free plan, at UoA (and potentially other academic institutions) you can have free private repositories, too <!-- TODO #10 --></li>
+<li>GitHub Action (GHA)
+<ul>
+<li>this is a way to automate things</li>
+<li>in theory, you can do everything you can do on your computer, on GitHub; so you could use your smartphone to write code that is then executed on a server in the cloud</li>
+</ul></li>
+</ul>
+<!-- TODO: #11 put some hello world example here -->
+</section>
+<section id="geopandas-and-folium" class="slide level2">
+<h2>Geopandas and Folium</h2>
+<ul>
+<li>Geopandas is a library that allows you to work with geospatial data</li>
+<li>Folium is a library that allows you to create interactive maps</li>
+<li></li>
+</ul>
+<!-- TODO: #12 have a look at the GitCarp lession -->
+<div class="sourceCode" id="annotated-cell-1"><pre class="sourceCode numberSource python code-annotation-code number-lines code-with-copy code-annotated"><code class="sourceCode python"><span id="annotated-cell-1-1"><a href="#annotated-cell-1-1"></a><span class="co"># Read the HTML content from the iframe source``</span></span>
+<span id="annotated-cell-1-2"><a href="#annotated-cell-1-2"></a><span class="co"># iframe_url = "https://carbon.now.sh/?bg=rgba%28255%2C255%2C255%2C1%29&amp;t=panda-syntax&amp;wt=none&amp;l=python&amp;width=680&amp;ds=false&amp;dsyoff=20px&amp;dsblur=68px&amp;wc=true&amp;wa=true&amp;pv=0px&amp;ph=0px&amp;ln=false&amp;fl=1&amp;fm=Hack&amp;fs=13px&amp;lh=133%25&amp;si=false&amp;es=2x&amp;wm=false"</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-1-3" class="code-annotation-target"><a href="#annotated-cell-1-3"></a>iframe_url <span class="op">=</span> <span class="st">"https://carbon.now.sh/?bg=rgba</span><span class="sc">%28255%</span><span class="st">2C255%2C255%2C1%29&amp;t=panda-syntax&amp;wt=none&amp;l=python&amp;width=680&amp;ds=false&amp;dsyoff=20px&amp;dsblur=68px&amp;wc=true&amp;wa=true&amp;pv=0px&amp;ph=0px&amp;ln=false&amp;fl=1&amp;fm=Hack&amp;fs=13px&amp;lh=133%25&amp;si=false&amp;es=2x&amp;wm=false"</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-1-4" class="code-annotation-target"><a href="#annotated-cell-1-4"></a>response <span class="op">=</span> requests.get(iframe_url)</span>
+<span id="annotated-cell-1-5"><a href="#annotated-cell-1-5"></a><span class="co"># print(response)</span></span>
+<span id="annotated-cell-1-6"><a href="#annotated-cell-1-6"></a>iframe_html <span class="op">=</span> response.content</span>
+<span id="annotated-cell-1-7"><a href="#annotated-cell-1-7"></a><span class="co"># print(iframe_html)</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-1-8" class="code-annotation-target"><a href="#annotated-cell-1-8"></a><span class="co"># Parse the iframe content using Beautiful Soup</span></span>
+<span id="annotated-cell-1-9"><a href="#annotated-cell-1-9"></a><span class="co"># print(soup)</span></span>
+<span id="annotated-cell-1-10"><a href="#annotated-cell-1-10"></a>extracted_content <span class="op">=</span> soup.body.prettify()  <span class="co"># Customize this based on your needs</span></span>
+<span id="annotated-cell-1-11"><a href="#annotated-cell-1-11"></a><span class="bu">print</span>(extracted_content)</span>
+<span id="annotated-cell-1-12"><a href="#annotated-cell-1-12"></a><span class="co"># save this as a html file</span></span>
+<span id="annotated-cell-1-13"><a href="#annotated-cell-1-13"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">'carbon.html'</span>, <span class="st">'w'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
+<span id="annotated-cell-1-14"><a href="#annotated-cell-1-14"></a>    <span class="bu">file</span>.write(extracted_content)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="3" data-code-annotation="1">help here</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="4" data-code-annotation="2">there you go</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="8" data-code-annotation="3">something elese</span>
+</dd>
+</dl>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
@@ -648,6 +775,7 @@ Nick Young, Jens Brinkmann
   <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-attribution/attribution.js"></script>
   <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -839,7 +967,7 @@ Nick Young, Jens Brinkmann
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealAttribution, QuartoSupport,
 
           RevealMath,
           RevealNotes,
