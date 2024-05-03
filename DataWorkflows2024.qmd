@@ -88,22 +88,20 @@ flowchart LR
   D --> F[get hands-on experience]
 ```
 # placeholder
+
+<!-- Bump mermaid from 10.2.0 to 10.9.0 for katex math support -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js" integrity="sha512-gx05X612uoaolzJ5Ee/786b3th+qzAm90TOvRwZJwnE8yr0sHQG8eLxdR0/Hbqc2IFh2mWHzzXk79g3atNSwsQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 ```{mermaid}
 %%| fig-width: 15
 %%| fig-height: 5
-flowchart LR
-  %% A[Fahrenheit $$\frac{5}{9}$$] --> B[Celsius]
-  %% A[Fahrenheit] -->|"temp-32 * 5/9"| B[Celsius]
-  B --> |"temp-273.15"| C[Kelvin]
-  A --> C
-```
+graph LR
+  A[Fahrenheit] -->|a<br>b| B[Celsius]
+  A[Fahrenheit] -."$$ (temp-32) \cdot \frac{5}{9}$$".-> B[Celsius]
+%% -.blah blah.->
+  B --> |"$$ (temp-273.15)$$"| C[Kelvin]
+  A --> |abc<br>def<br>ghi| C
 
-```{mermaid}
- graph LR
-      A["$$x^2$$"] -->|"$$\sqrt{x+3}$$"| B("$$\frac{1}{2}$$")
-      A -->|"$$\overbrace{a+b+c}^{\text{note}}$$"| C("$$\pi r^2$$")
-      B --> D("$$x = \begin{cases} a &\text{if } b \\ c &\text{if } d \end{cases}$$")
-      C --> E("$$x(t)=c_1\begin{bmatrix}-\cos{t}+\sin{t}\\ 2\cos{t} \end{bmatrix}e^{2t}$$")
 ```
 
 ## This session vs. related

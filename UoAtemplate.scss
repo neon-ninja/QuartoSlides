@@ -390,7 +390,7 @@ body {
 
 svg.mermaid-js {
   max-width: 100% !important;
-  font-size: 40% !important;
+  font-size: .5rem !important;
   --mermaid-node-bg-color: #fff;
   --mermaid-node-fg-color: #009AC7;
   --mermaid-edge-color: #00467F;
@@ -415,5 +415,7 @@ svg.mermaid-js {
     fill: var(--mermaid-edge-color) !important;
     text-align: center;
   }
-
+  math {
+    background: white
+  }
 }
