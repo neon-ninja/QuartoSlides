@@ -13,7 +13,7 @@
 <link href="site_libs/quarto-contrib/grid-htext-1.0.0/grid_htext.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.553">
+  <meta name="generator" content="quarto-1.4.554">
 
   <meta name="author" content="Nick Young, Jens Brinkmann">
   <title>Working with data in 2024</title>
@@ -448,32 +448,20 @@ Nick Young, Jens Brinkmann
 <section>
 <section id="placeholder" class="title-slide slide level1 center">
 <h1>placeholder</h1>
+<!-- Bump mermaid from 10.2.0 to 10.9.0 for katex math support -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js" integrity="sha512-gx05X612uoaolzJ5Ee/786b3th+qzAm90TOvRwZJwnE8yr0sHQG8eLxdR0/Hbqc2IFh2mWHzzXk79g3atNSwsQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <div class="cell" data-reveal="true" data-fig-width="15" data-fig-height="5" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart LR
-  %% A[Fahrenheit $$\frac{5}{9}$$] --&gt; B[Celsius]
-  %% A[Fahrenheit] --&gt;|"temp-32 * 5/9"| B[Celsius]
-  B --&gt; |"temp-273.15"| C[Kelvin]
-  A --&gt; C
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js"> graph LR
-      A["$$x^2$$"] --&gt;|"$$\sqrt{x+3}$$"| B("$$\frac{1}{2}$$")
-      A --&gt;|"$$\overbrace{a+b+c}^{\text{note}}$$"| C("$$\pi r^2$$")
-      B --&gt; D("$$x = \begin{cases} a &amp;\text{if } b \\ c &amp;\text{if } d \end{cases}$$")
-      C --&gt; E("$$x(t)=c_1\begin{bmatrix}-\cos{t}+\sin{t}\\ 2\cos{t} \end{bmatrix}e^{2t}$$")
+<pre class="mermaid mermaid-js">graph LR
+  A[Fahrenheit] --&gt;|a&lt;br&gt;b| B[Celsius]
+  A[Fahrenheit] -."$$ (temp-32) \cdot \frac{5}{9}$$".-&gt; B[Celsius]
+%% -.blah blah.-&gt;
+  B --&gt; |"$$ (temp-273.15)$$"| C[Kelvin]
+  A --&gt; |abc&lt;br&gt;def&lt;br&gt;ghi| C
+
 </pre>
 </div>
 <p></p></figure><p></p>
